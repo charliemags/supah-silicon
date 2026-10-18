@@ -1,23 +1,33 @@
 # Supah Silicon v2
 
-**Locally verified 64-grid score: 0.95991959.** This beats the October 18,
-2026 leaderboard snapshot's best score, **0.96180425**, by
+**Official AutoLab 64-grid score: 0.95991959. Ranked #1 as charliemags**
+on the October 18, 2026 leaderboard snapshot. This beats the next-best score,
+**0.96180425**, by
 **0.00188466** (0.196%).
-The **0.95 and 0.94 targets were not reached**. No result has been submitted
-to AutoLab by this workflow; this is not a signed public leaderboard position.
+The **0.95 and 0.94 targets were not reached**. The signed 64-grid result
+matches local verification exactly; the 128-grid result remains local verification.
+
+The [official report](official-report-64.json) was produced at 20:22:27 UTC
+on October 18 by the pinned AutoLab hill, version `3610c381240c`, on rented
+CPU compute. [View the successful run](https://app.autolab.ai/projects/charliemags/supah-silicon-v2-verified-095991959/jobs/af03db90-7f0b-4b37-a53b-be12bddd4232).
+The report records `official: true`, `passed: true`, all five workloads and
+the platform's HMAC signature. It is preserved unchanged apart from JSON formatting.
+
+![Official leaderboard snapshot](autolab-leaderboard.jpg)
 
 | Mesh | Design | Score ↓ | GPU peak | HBM peak |
 |---|---|---:|---:|---:|
 | 64 × 64 | Supah v1 | 0.98115341 | 103.09 °C | 95.56 °C |
-| 64 × 64 | Leaderboard leader at snapshot | 0.96180425 | 101.55 °C | 94.72 °C |
+| 64 × 64 | Previous leader snapshot | 0.96180425 | 101.55 °C | 94.72 °C |
 | 64 × 64 | **Supah v2** | **0.95991959** | **101.40 °C** | **94.16 °C** |
 | 128 × 128 | Supah v1 | 0.98106346 | 103.23 °C | 95.61 °C |
 | 128 × 128 | **Supah v2** | **0.96200150** | **101.71 °C** | **94.24 °C** |
 
-Both new reports run all five workloads with the unmodified organizer judge
+The official report and both local reports run all five workloads with the unmodified organizer judge
 and the pinned HotSpot binary. The benchmark reference is specific to each
 mesh; compare leaderboard positions at 64, not across resolutions.
-The [leaderboard snapshot](search/leaderboard-refreshed.json) records the source
+The [pre-submission snapshot](search/leaderboard-refreshed.json) and
+[official-run snapshot](search/leaderboard-official.json) record the source
 and observed scores. See the [live leaderboard](https://app.autolab.ai/hills/czaja107/beat-the-hotspot/leaderboard)
 for subsequent changes.
 
