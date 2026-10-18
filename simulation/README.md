@@ -1,6 +1,16 @@
-# Supah-Silicon 1.0
+# Supah Silicon simulation
 
-Supah-Silicon 1.0 is a four-GPU, four-HBM AI accelerator with 3.6 TB/s between its chips. It uses the same silicon and power as everyone else's layout, and runs cooler because we placed every chip by where its heat goes.
+The current portable search and verification workflow is described in
+[Supah design workflow](docs/07-supah-design-workflow.md). The earlier
+Supah-Silicon experiments below are retained as design history.
+
+**Current design: [Supah Silicon v1](layouts/supah-v1/README.md).** Locally
+verified 128-grid score: **0.981063**; GPU **103.23 °C**, HBM **95.61 °C**.
+Against p2 at the same mesh, the GPU peak falls 0.64 °C and the HBM peak rises
+0.52 °C. The design directory includes the complete search and verification
+record, a floorplan and modeled package-power export for Track 1.
+
+The original Supah-Silicon 1.0 experiment models four GPU dies and four HBM stacks with 3.6 TB/s of aggregate specified link bandwidth. Die power maps are fixed; positions and routes affect thermal coupling and modeled interconnect power. The link sum is not measured application throughput.
 
 Built at Sundai @ MIT, Track 2 ("Design the coolest chiplet layout"), October 18, 2026.
 
@@ -12,12 +22,12 @@ Built at Sundai @ MIT, Track 2 ("Design the coolest chiplet layout"), October 18
 | Memory | 4 HBM stacks, 10.5 × 10.2 mm each |
 | Interposer | 52 × 42 mm silicon |
 | Links | 4 × 600 GB/s (each GPU to its own HBM) + 4 × 300 GB/s (each GPU to a neighbor's HBM) = 3.6 TB/s |
-| Bandwidth per GPU | 900 GB/s |
-| Power | 313–399 W depending on workload |
+| Specified links per GPU | 600 + 300 GB/s; aggregate link capacity |
+| Power | See each verification report's `total_w`, including modeled PHY and wire power |
 
 The challenge fixes the dies, their power maps, the links and the cooler. What we design is where each piece of silicon sits.
 
-## Results so far (official scorer, 64 × 64 grid)
+## Earlier results (official scorer, 64 × 64 grid)
 
 Score is the worse of the GPU and HBM peak temperature rises, relative to the organizer's reference layout. Lower is better; 1.0 is the reference.
 
@@ -26,7 +36,7 @@ Score is the worse of the GPU and HBM peak temperature rises, relative to the or
 | Reference | 1.000 | 104.59 °C | 97.68 °C | Organizer's seeded layout |
 | `layouts/v0` | 1.003 | 104.66 °C | 97.90 °C | Everything moved into the well-cooled area. Worse: dies ended up closer together. |
 | `layouts/p1` | 0.9987 | 104.49 °C | 96.12 °C | First search (coarse-grid estimates) |
-| `layouts/p2` | **0.9873** | **103.58 °C** | **95.17 °C** | Best so far: second search, exact GPU check |
+| `layouts/p2` | **0.9873** | **103.58 °C** | **95.17 °C** | Second search, exact GPU check |
 | `layouts/r1` | not submitted | 108.01 °C | — | Hot spots turned to face the middle. Much worse; the middle collects heat from all four GPUs. |
 
 What the physics rewards, so far:
@@ -67,7 +77,7 @@ Which die goes on top decides almost everything. Silicon fill around the stacks 
 2. Point the tools at it: `export CRYO_HILL=/path/to/chiplet-thermal-simulator`.
 3. Score a layout: `python3 $CRYO_HILL/verify_high_accuracy.py layouts/p1/submission.json --hotspot $CRYO_HILL/vendor/HotSpot/hotspot --grid 64`.
 
-HotSpot is a pinned Linux x86-64 binary, so run on Linux or WSL.
+HotSpot is a pinned Linux x86-64 binary. Run `./simulation/run` from the repository root for Apple Silicon support through Docker; see the portable workflow linked above.
 
 ## Credits and sources
 

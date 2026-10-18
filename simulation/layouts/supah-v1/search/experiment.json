@@ -1,0 +1,27 @@
+{
+  "start": "simulation/layouts/p2/submission.json",
+  "output": "simulation/experiments/supah-v1-run",
+  "evals": 50,
+  "max_proposals": 20000,
+  "grid": 64,
+  "seed": 17,
+  "workers": 3,
+  "finalists": 3,
+  "screen": [
+    "skewed_compute",
+    "memory_stream"
+  ],
+  "step": 0.35,
+  "temperature": 0.002,
+  "focus": [
+    "G0",
+    "H0",
+    "H3"
+  ],
+  "kind": "exploration; not an official score",
+  "hotspot_sha256": "e8ca9de7853cbe06c805ead2d3d84c403d1583bf02b21d2f20fdee1a8f4ed934",
+  "inputs_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  }
+}

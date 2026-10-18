@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "status": "synthetic package simulation; not a measured Supah appliance",
+  "source_grid": 128,
+  "source_provenance": {
+    "verification": "local unmodified organizer judge; not a signed leaderboard submission",
+    "submission_sha256": "ab55e27d151917abbf79678184898ac5f2fd1996b4c7a81d5ff299530505b60d",
+    "files_sha256": {
+      "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+      "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9",
+      "verify_high_accuracy.py": "c0bc63e60f378907b1406985d2dd12b0da65140f31c094999334dbc3c44d27dc",
+      "geometry.py": "62fa0dcada07cda67aff889ce1770f63c8acc16c0aadffeb3315be205d957565",
+      "interconnect.py": "a11f105588890c765981fe18f0e560c63c1c5d1c7272a10528636f7572f547ff",
+      "run_simulations.py": "86fce0bad7262111aad272d3ebb484d89252b2974495f9d87be7db6ab10c4899"
+    }
+  },
+  "hotspot_sha256": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb",
+  "benchmark_score": 0.98106346,
+  "workloads": {
+    "tensor_training": {
+      "supah_activity_hypotheses": [
+        "dense compute stress test; not evidence of a Supah training workload"
+      ],
+      "simulated_package_power_w": 403.426739,
+      "simulated_gpu_peak_c": 102.06,
+      "simulated_hbm_peak_c": 85.99,
+      "task_duration_s": null,
+      "tasks_per_second": null,
+      "joules_per_task": null
+    },
+    "skewed_compute": {
+      "supah_activity_hypotheses": [
+        "uneven compute stress test"
+      ],
+      "simulated_package_power_w": 346.274154,
+      "simulated_gpu_peak_c": 103.23,
+      "simulated_hbm_peak_c": 78.83,
+      "task_duration_s": null,
+      "tasks_per_second": null,
+      "joules_per_task": null
+    },
+    "attention_decode": {
+      "supah_activity_hypotheses": [
+        "AI decoding and active context reads"
+      ],
+      "simulated_package_power_w": 323.44235,
+      "simulated_gpu_peak_c": 85.37,
+      "simulated_hbm_peak_c": 77.92,
+      "task_duration_s": null,
+      "tasks_per_second": null,
+      "joules_per_task": null
+    },
+    "memory_stream": {
+      "supah_activity_hypotheses": [
+        "record scans",
+        "retrieval candidate reads"
+      ],
+      "simulated_package_power_w": 394.987904,
+      "simulated_gpu_peak_c": 94.88,
+      "simulated_hbm_peak_c": 95.61,
+      "task_duration_s": null,
+      "tasks_per_second": null,
+      "joules_per_task": null
+    },
+    "mixed_serving": {
+      "supah_activity_hypotheses": [
+        "concurrent interactive and background work"
+      ],
+      "simulated_package_power_w": 351.688072,
+      "simulated_gpu_peak_c": 93.52,
+      "simulated_hbm_peak_c": 80.99,
+      "task_duration_s": null,
+      "tasks_per_second": null,
+      "joules_per_task": null
+    }
+  },
+  "system_measurements_needed": [
+    "Representative Supah/Muni request traces, with sensitive content removed",
+    "Time and bytes moved in ingest, filtering, retrieval, ranking and inference",
+    "Model and context sizes, memory capacity, concurrency and output quality",
+    "Idle and wall power, storage/network power, cooling overhead and utilization",
+    "Latency distributions and failure/recovery requirements"
+  ],
+  "interpretation": "The fixed synthetic cooler and package power do not establish appliance cooling cost, PUE or task energy."
+}

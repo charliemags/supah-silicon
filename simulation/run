@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT=$(cd "$(dirname "$0")/.." && pwd)
+CHALLENGE="$ROOT/.cache/challenge"
+REVISION=8948d9bc5e3aa041dcd1ff8a5a63ed6200d04d81
+IMAGE=supah-silicon-sim:local
+COMMAND=${1:-help}
+if [ "$#" -gt 0 ]; then shift; fi
+if [ "$COMMAND" = setup ]; then
+  mkdir -p "$ROOT/.cache"
+  if [ ! -d "$CHALLENGE" ]; then
+    git clone https://github.com/Czaja107/chiplet-thermal-simulator.git "$CHALLENGE"
+    git -C "$CHALLENGE" checkout --detach "$REVISION"
+  fi
+  if [ "$(git -C "$CHALLENGE" rev-parse HEAD)" != "$REVISION" ]; then
+    echo "Challenge revision differs from pinned version; use a separate checkout." >&2
+    exit 2
+  fi
+  docker build --platform linux/amd64 -t "$IMAGE" -f "$ROOT/simulation/Dockerfile" "$ROOT/simulation"
+  exit
+fi
+if [ "$COMMAND" = help ]; then
+  cat <<'HELP'
+Run from the repository root; all argument paths are relative to that root.
+  ./simulation/run setup
+  ./simulation/run validate simulation/layouts/p2/submission.json
+  ./simulation/run search simulation/layouts/p2/submission.json --output simulation/experiments/run1 --evals 80
+  ./simulation/run score simulation/layouts/p2/submission.json --grid 128 --output simulation/results/p2-128.json
+  ./simulation/run estimate simulation/layouts/p2/submission.json 32
+  ./simulation/run render simulation/layouts/p2/submission.json simulation/results/p2.png 64
+  ./simulation/run profile simulation/results/p2-128.json --output simulation/results/system-profile.json
+  ./simulation/run diagram simulation/layouts/p2/submission.json simulation/results/p2-128.json simulation/results/layout.png
+  ./simulation/run test
+The scorer uses the pinned Linux x86-64 binary, including on Apple Silicon.
+HELP
+  exit
+fi
+if [ ! -f "$CHALLENGE/challenge_spec.json" ]; then
+  echo "Run ./simulation/run setup first." >&2
+  exit 2
+fi
+if [ "$(git -C "$CHALLENGE" rev-parse HEAD)" != "$REVISION" ] || [ -n "$(git -C "$CHALLENGE" status --porcelain --untracked-files=no)" ]; then
+  echo "Challenge checkout must match the pinned revision without tracked changes." >&2
+  exit 2
+fi
+case "$COMMAND" in
+  validate) PROGRAM=(/challenge/verify_submission.py) ;;
+  search) PROGRAM=(simulation/tools/optimize.py) ;;
+  score) PROGRAM=(simulation/tools/evaluate.py) ;;
+  estimate) PROGRAM=(simulation/tools/fast.py) ;;
+  render) PROGRAM=(simulation/tools/render.py) ;;
+  profile) PROGRAM=(simulation/tools/export_system_profile.py) ;;
+  diagram) PROGRAM=(simulation/tools/render_report.py) ;;
+  test) PROGRAM=(-m unittest discover -s simulation/tests -v) ;;
+  *) echo "Unknown command: $COMMAND" >&2; exit 2 ;;
+esac
+exec docker run --rm --init --platform linux/amd64 --network none \
+  --cpus "${SUPAH_SIM_CPUS:-6}" --memory "${SUPAH_SIM_MEMORY:-4g}" \
+  --user "$(id -u):$(id -g)" \
+  -v "$ROOT:/work" -v "$CHALLENGE:/challenge:ro" \
+  "$IMAGE" "${PROGRAM[@]}" "$@"
