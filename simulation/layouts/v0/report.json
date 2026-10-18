@@ -1,0 +1,407 @@
+{
+  "hill": "beat-the-hotspot",
+  "tree_hash": "a37a22c02e0b4620d8372287b38d75caf8cce525",
+  "commit": "15363d1926867b3a88a10379f1a39ecfe0be8659",
+  "submission_hash": "sha256:d8ff37d97d999f17f9522bb85882ada963d9db41a0432798afeef6db266b2eda",
+  "submission_git": null,
+  "passed": true,
+  "config": [
+    {
+      "name": "thermal_grid",
+      "value": "64x64",
+      "primary": true
+    },
+    {
+      "name": "hotspot_sha256",
+      "value": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb",
+      "primary": true
+    }
+  ],
+  "metrics": [
+    {
+      "name": "score",
+      "value": 1.00302697,
+      "direction": "min"
+    },
+    {
+      "name": "worst_gpu_c",
+      "value": 104.66,
+      "direction": "min"
+    },
+    {
+      "name": "worst_hbm_c",
+      "value": 97.9,
+      "direction": "min"
+    }
+  ],
+  "details": {
+    "constraint_report": {
+      "passed": true,
+      "die_edge_margin_mm": 4.1,
+      "minimum_die_separation_mm": 1.2,
+      "weighted_route_gb_s_mm": 8364.0,
+      "route_limit_gb_s_mm": 13500.0,
+      "die_edge_capacity": {
+        "G0.right": {
+          "reserved_mm_including_gaps": 4.0,
+          "available_mm": 6.3
+        },
+        "H0.left": {
+          "reserved_mm_including_gaps": 4.0,
+          "available_mm": 6.12
+        },
+        "G1.top": {
+          "reserved_mm_including_gaps": 4.0,
+          "available_mm": 6.9
+        },
+        "H1.bottom": {
+          "reserved_mm_including_gaps": 4.0,
+          "available_mm": 6.3
+        },
+        "G2.left": {
+          "reserved_mm_including_gaps": 4.0,
+          "available_mm": 6.3
+        },
+        "H2.right": {
+          "reserved_mm_including_gaps": 4.0,
+          "available_mm": 6.12
+        },
+        "G3.bottom": {
+          "reserved_mm_including_gaps": 4.0,
+          "available_mm": 6.9
+        },
+        "H3.top": {
+          "reserved_mm_including_gaps": 4.0,
+          "available_mm": 6.3
+        },
+        "G0.top": {
+          "reserved_mm_including_gaps": 2.0,
+          "available_mm": 6.9
+        },
+        "H3.bottom": {
+          "reserved_mm_including_gaps": 2.0,
+          "available_mm": 6.3
+        },
+        "G1.left": {
+          "reserved_mm_including_gaps": 2.0,
+          "available_mm": 6.3
+        },
+        "H0.right": {
+          "reserved_mm_including_gaps": 2.0,
+          "available_mm": 6.12
+        },
+        "G2.bottom": {
+          "reserved_mm_including_gaps": 2.0,
+          "available_mm": 6.9
+        },
+        "H1.top": {
+          "reserved_mm_including_gaps": 2.0,
+          "available_mm": 6.3
+        },
+        "G3.right": {
+          "reserved_mm_including_gaps": 2.0,
+          "available_mm": 6.3
+        },
+        "H2.left": {
+          "reserved_mm_including_gaps": 2.0,
+          "available_mm": 6.12
+        }
+      },
+      "links": {
+        "P0": {
+          "route_length_mm": 2.72,
+          "max_route_mm": 5.0,
+          "required_port_each_end_mm": 4.0,
+          "from_port_mm": [
+            19.06,
+            9.55
+          ],
+          "to_port_mm": [
+            20.93,
+            9.399999999999999
+          ],
+          "route_grid": [
+            [
+              39,
+              19
+            ],
+            [
+              39,
+              18
+            ],
+            [
+              40,
+              18
+            ]
+          ]
+        },
+        "P1": {
+          "route_length_mm": 2.55,
+          "max_route_mm": 5.0,
+          "required_port_each_end_mm": 4.0,
+          "from_port_mm": [
+            39.02,
+            14.8
+          ],
+          "to_port_mm": [
+            39.37,
+            16.0
+          ],
+          "route_grid": [
+            [
+              78,
+              31
+            ],
+            [
+              78,
+              30
+            ]
+          ]
+        },
+        "P2": {
+          "route_length_mm": 1.95,
+          "max_route_mm": 5.0,
+          "required_port_each_end_mm": 4.0,
+          "from_port_mm": [
+            33.07,
+            32.65
+          ],
+          "to_port_mm": [
+            31.27,
+            32.7
+          ],
+          "route_grid": [
+            [
+              64,
+              65
+            ],
+            [
+              63,
+              65
+            ]
+          ]
+        },
+        "P3": {
+          "route_length_mm": 1.96,
+          "max_route_mm": 5.0,
+          "required_port_each_end_mm": 4.0,
+          "from_port_mm": [
+            13.740000000000002,
+            27.4
+          ],
+          "to_port_mm": [
+            14.0,
+            26.2
+          ],
+          "route_grid": [
+            [
+              27,
+              53
+            ],
+            [
+              28,
+              53
+            ]
+          ]
+        },
+        "S0": {
+          "route_length_mm": 3.51,
+          "max_route_mm": 6.0,
+          "required_port_each_end_mm": 2.0,
+          "from_port_mm": [
+            13.309999999999999,
+            14.8
+          ],
+          "to_port_mm": [
+            14.0,
+            16.0
+          ],
+          "route_grid": [
+            [
+              26,
+              31
+            ],
+            [
+              26,
+              30
+            ],
+            [
+              27,
+              30
+            ],
+            [
+              28,
+              30
+            ]
+          ]
+        },
+        "S1": {
+          "route_length_mm": 2.69,
+          "max_route_mm": 6.0,
+          "required_port_each_end_mm": 2.0,
+          "from_port_mm": [
+            33.27,
+            9.55
+          ],
+          "to_port_mm": [
+            31.43,
+            9.399999999999999
+          ],
+          "route_grid": [
+            [
+              65,
+              19
+            ],
+            [
+              64,
+              19
+            ],
+            [
+              64,
+              18
+            ]
+          ]
+        },
+        "S2": {
+          "route_length_mm": 1.89,
+          "max_route_mm": 6.0,
+          "required_port_each_end_mm": 2.0,
+          "from_port_mm": [
+            38.82,
+            27.4
+          ],
+          "to_port_mm": [
+            39.37,
+            26.2
+          ],
+          "route_grid": [
+            [
+              77,
+              53
+            ],
+            [
+              78,
+              53
+            ]
+          ]
+        },
+        "S3": {
+          "route_length_mm": 1.43,
+          "max_route_mm": 6.0,
+          "required_port_each_end_mm": 2.0,
+          "from_port_mm": [
+            19.490000000000002,
+            32.65
+          ],
+          "to_port_mm": [
+            20.77,
+            32.7
+          ],
+          "route_grid": [
+            [
+              40,
+              65
+            ]
+          ]
+        }
+      }
+    },
+    "per_workload": {
+      "tensor_training": {
+        "gpu_peak_c": 102.58,
+        "hbm_peak_c": 87.63,
+        "per_die_peak_c": {
+          "G0": 100.16,
+          "H0": 87.63,
+          "G1": 102.58,
+          "H3": 83.19,
+          "H1": 84.05,
+          "G3": 101.22,
+          "H2": 87.06,
+          "G2": 99.47
+        },
+        "total_w": 402.517882
+      },
+      "skewed_compute": {
+        "gpu_peak_c": 104.66,
+        "hbm_peak_c": 82.31,
+        "per_die_peak_c": {
+          "G0": 104.66,
+          "H0": 82.31,
+          "G1": 83.2,
+          "H3": 77.94,
+          "H1": 75.54,
+          "G3": 79.55,
+          "H2": 79.11,
+          "G2": 98.9
+        },
+        "total_w": 345.292973
+      },
+      "attention_decode": {
+        "gpu_peak_c": 86.81,
+        "hbm_peak_c": 80.07,
+        "per_die_peak_c": {
+          "G0": 84.9,
+          "H0": 79.84,
+          "G1": 86.81,
+          "H3": 76.98,
+          "H1": 77.72,
+          "G3": 86.11,
+          "H2": 80.07,
+          "G2": 83.85
+        },
+        "total_w": 321.265005
+      },
+      "memory_stream": {
+        "gpu_peak_c": 97.83,
+        "hbm_peak_c": 97.9,
+        "per_die_peak_c": {
+          "G0": 95.4,
+          "H0": 97.9,
+          "G1": 96.05,
+          "H3": 97.16,
+          "H1": 94.22,
+          "G3": 97.83,
+          "H2": 97.16,
+          "G2": 93.78
+        },
+        "total_w": 392.487853
+      },
+      "mixed_serving": {
+        "gpu_peak_c": 94.85,
+        "hbm_peak_c": 84.23,
+        "per_die_peak_c": {
+          "G0": 92.77,
+          "H0": 84.23,
+          "G1": 94.85,
+          "H3": 79.31,
+          "H1": 79.71,
+          "G3": 89.54,
+          "H2": 82.5,
+          "G2": 85.53
+        },
+        "total_w": 350.091296
+      }
+    },
+    "reference": {
+      "grid": 64,
+      "worst_gpu_c": 104.59,
+      "worst_hbm_c": 97.68,
+      "layout": "random_layout",
+      "note": "Public seeded random baseline; full precision rounded to 0.01 Celsius by the judge."
+    },
+    "final": false
+  },
+  "params": {},
+  "final": false,
+  "official": true,
+  "official_reason": null,
+  "hill_spec_version": 2,
+  "tool": {
+    "version": "0.12.1",
+    "sha256": "e61791784bda99c9a8343f12272184667d8b33f8acd17f7fe7328ef170416e29"
+  },
+  "timestamp": "2026-10-18T15:14:00Z",
+  "report_version": 1,
+  "signature": "hmac-sha256:9b11f160fa71de42c41ba0b961c579a5b95b9231cb6d7cd80b087e52124f3c30"
+}
