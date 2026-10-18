@@ -1,0 +1,8 @@
+.cache/
+__pycache__/
+*.pyc
+simulation/experiments/
+simulation/results/
+
+profiling/results/local-*
+architecture/local-*

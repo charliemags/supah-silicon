@@ -1,5 +1,11 @@
 # Running a simulation yourself
 
+## Mac and cross-platform workflow
+
+The new [Supah design workflow](07-supah-design-workflow.md) runs the exact Linux
+scorer through Docker, including on Apple Silicon. Start with `./simulation/run
+setup` from the repository root. The direct commands below are for Linux/WSL.
+
 ## What you need
 
 - A Linux machine (or Windows with WSL). The bundled HotSpot program is a pinned Linux build for Intel/AMD processors. It won't run natively on a Mac, including Apple Silicon.

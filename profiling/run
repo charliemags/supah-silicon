@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+PROFILE_DIR=$(cd "$(dirname "$0")" && pwd)
+REPO_ROOT=$(cd "$PROFILE_DIR/.." && pwd)
+MUNI_SOURCE=${SUPAH_MUNI_ROOT:-"$REPO_ROOT/../muni"}
+if [ ! -f "$MUNI_SOURCE/Gemfile" ]; then
+  echo 'Set SUPAH_MUNI_ROOT to your Muni checkout; install its Ruby dependencies first.' >&2
+  exit 2
+fi
+MUNI_SOURCE=$(cd "$MUNI_SOURCE" && pwd)
+export BUNDLE_GEMFILE="$MUNI_SOURCE/Gemfile"
+BUNDLER=(bundle)
+if command -v rbenv >/dev/null 2>&1; then
+  export RBENV_VERSION=$(cat "$MUNI_SOURCE/.ruby-version")
+  BUNDLER=(rbenv exec bundle)
+fi
+if [ "${1:-}" = test ]; then
+  shift
+  cd "$REPO_ROOT"
+  exec "${BUNDLER[@]}" exec rspec --options /dev/null "$PROFILE_DIR/spec" "$@"
+fi
+exec "${BUNDLER[@]}" exec ruby "$PROFILE_DIR/muni_workloads.rb" --muni-root "$MUNI_SOURCE" "$@"

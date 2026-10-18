@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "name": "Supah Edge v0 \u2014 workload-derived architecture hypothesis",
+  "status": "Reference-host capacity scenario and architecture requirements; not RTL or a fabricated chip",
+  "reference_host": {
+    "ruby": "ruby 3.3.6 (2024-11-05 revision 75015d4c1f) [arm64-darwin25]",
+    "os": "darwin25",
+    "arch": "arm64",
+    "cpu_model": "Apple M5 Pro"
+  },
+  "muni_commit": "acaa9cf1f892f2e0b57292e7b3017617c0ea530e",
+  "source_profiler_sha256": "91bc682a3c13fc43268b6bc3c5d5f3dad7f7073f22ee978f783f597293576949",
+  "measured_scope": "Native Muni code on a bounded public-source replay; single process, warm OS caches",
+  "software_findings": {
+    "service_requests": {
+      "individual_insert_vs_bulk_insert_speedup": 2.2233451019194552,
+      "estimated_pipeline_speedup_using_existing_bulk_api": 1.7960839944482567,
+      "pipeline_basis": "Sum of isolated stage medians, not an end-to-end measured speedup",
+      "bulk_pipeline_wall_s_per_row": 7.782420000294223e-05,
+      "decode_time_fraction": 0.011523407822558517,
+      "normalization_time_fraction": 0.3377329931723988,
+      "ideal_decode_only_acceleration_upper_bound": 1.0116577447698327,
+      "ideal_normalize_only_acceleration_upper_bound": 1.5099649985437311,
+      "amdahl_assumption": "Only this stage becomes infinitely fast; all other stage times and workload stay fixed"
+    },
+    "building_permits": {
+      "individual_insert_vs_bulk_insert_speedup": 2.580548711801225,
+      "estimated_pipeline_speedup_using_existing_bulk_api": 1.8600608761943618,
+      "pipeline_basis": "Sum of isolated stage medians, not an end-to-end measured speedup",
+      "bulk_pipeline_wall_s_per_row": 5.5194000003393736e-05,
+      "decode_time_fraction": 0.04355183540027482,
+      "normalization_time_fraction": 0.4122948147075733,
+      "ideal_decode_only_acceleration_upper_bound": 1.045534966778363,
+      "ideal_normalize_only_acceleration_upper_bound": 1.701533396378707,
+      "amdahl_assumption": "Only this stage becomes infinitely fast; all other stage times and workload stay fixed"
+    }
+  },
+  "scenario": {
+    "rates_are_assumptions": true,
+    "rates": {
+      "service_request_rows_s": 100,
+      "permit_rows_s": 100,
+      "queries_s": 10,
+      "empirical_predictions_s": 10,
+      "digest_requests_s": 0.1
+    },
+    "target_utilization": 0.6,
+    "host_cpu_seconds_per_unit": {
+      "service_request_rows_s": 7.716599999999993e-05,
+      "permit_rows_s": 5.469539999999995e-05,
+      "queries_s": 0.003364280000000015,
+      "empirical_predictions_s": 0.0004200330000000001,
+      "digest_requests_s": 0.19855399999999435
+    },
+    "host_cpu_seconds_per_second_by_activity": {
+      "service_request_rows_s": 0.007716599999999994,
+      "permit_rows_s": 0.005469539999999995,
+      "queries_s": 0.03364280000000015,
+      "empirical_predictions_s": 0.004200330000000001,
+      "digest_requests_s": 0.019855399999999437
+    },
+    "host_cpu_seconds_per_second": 0.07088466999999958,
+    "reference_host_core_equivalents_at_target_utilization": 0.11814111666666598,
+    "integer_reference_host_cpu_budget_lower_bound": 1,
+    "limitations": [
+      "Service-demand estimate only; excludes queues, synchronization, cold caches and contention",
+      "Same host, same Ruby runtime and same dataset sizes; not a prediction for an ARM or RISC-V custom core",
+      "Excludes generative inference, full analytics refresh, network fetch, other server work and production redundancy",
+      "SQLite writer serialization and Ruby process/thread behavior require a separate concurrency benchmark"
+    ]
+  },
+  "architecture": {
+    "cpu_tile": {
+      "decision": "Start with programmable 64-bit CPU cores and shared cache for Ruby, SQLite, ranking and empirical prediction",
+      "core_count": null,
+      "evidence": "These measured operations execute through the CPU software path; CPU time alone cannot distinguish ALU from memory stalls"
+    },
+    "memory": {
+      "decision": "Begin evaluation on a shared-memory SoC; measure working set and cache misses before fixing SRAM or external-memory bandwidth",
+      "capacity_bytes": null,
+      "required_dram_bandwidth_bytes_s": null,
+      "hbm": "Not justified by this small replay; local LLM weights and KV-cache requirements remain unmeasured"
+    },
+    "io": {
+      "decision": "Keep durable records in external storage; retain standard storage/network DMA and normal OS support",
+      "bandwidth_bytes_s": null
+    },
+    "inference_tile": {
+      "decision": "Reserve an optional programmable inference-accelerator interface; select NPU/GPU only after profiling a chosen local model",
+      "tops": null,
+      "precision": null,
+      "weights_bytes": null,
+      "kv_cache_bytes": null
+    },
+    "custom_kernel_gate": {
+      "decision": "Prototype candidate kernels in software/FPGA before creating dedicated RTL",
+      "first_candidates": [
+        "Record normalization/tokenization",
+        "Batched columnar filtering or context assembly"
+      ],
+      "required_evidence": [
+        "CPU/cache/DRAM counters",
+        "End-to-end speedup at unchanged outputs",
+        "Measured energy per task",
+        "Synthesis area/timing and interface overhead"
+      ]
+    },
+    "packaging": {
+      "decision": "Evaluate a CPU/memory/I-O SoC with an optional accelerator; 2.5D is a later bandwidth/capacity decision",
+      "process_node": null,
+      "die_area_mm2": null,
+      "package_power_w": null
+    }
+  },
+  "simulation_bridge": {
+    "track_1": "Use the explicit rates and reference-host service demand as a workload-sizing input; add measured system power and concurrency",
+    "track_2": "Retain the verified four-GPU/four-HBM challenge layout unchanged. These CPU timings cannot be converted into its synthetic power maps",
+    "next_thermal_input": "Calibrated per-component power traces plus a physically defined custom architecture outside the frozen challenge"
+  },
+  "unmeasured": {
+    "llm_execution": "Skipped by user; request preparation is not model inference",
+    "llm_input_tokens": null,
+    "llm_output_tokens": null,
+    "llm_tokens_per_second": null,
+    "dram_traffic_bytes": null,
+    "hardware_counters": null,
+    "wall_energy_j": null,
+    "peak_working_set_bytes": null
+  },
+  "profile_sha256": "f0fe7b56c8c797d0aa06bedb84cb8d2088066fc3a1275155ed4bd50cedcfc340"
+}

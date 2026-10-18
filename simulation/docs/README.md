@@ -10,6 +10,8 @@ Plain-English guides to how Supah-Silicon is simulated and searched. Read them i
 6. [The organizers' two tools, and how we use them](06-the-organizer-tools.md): the scorer repo and the Chiplet Thermal Studio GUI, proof they compute the same thing, and what the GUI adds (hand-drawn wires, live heat-source previews, run comparisons).
 7. [Run it and see it](07-run-it-and-see-it.md): look at the test outputs, run a test in your browser with one command, or run it on your own computer.
 
+8. [Supah Silicon design workflow](07-supah-design-workflow.md): reproducible Mac/Linux setup, bounded search, finalist verification and the bridge to Track 1.
+
 Start with [the story](../STORY.md) for the whole journey in plain English.
 
 Everything is built on the organizers' repos: [chiplet-thermal-simulator](https://github.com/Czaja107/chiplet-thermal-simulator) (power workloads + scorer + HotSpot) and [chiplet-thermal-gui](https://github.com/Czaja107/chiplet-thermal-gui) (the same plus a desktop GUI).

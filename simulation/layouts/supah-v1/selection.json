@@ -1,0 +1,21 @@
+{
+  "criterion": "Lowest all-five-workload score at grid 128 among the two pinned-binary verified new candidates; must improve p2 at grid 128",
+  "selected_source": "supah-v1-final",
+  "selected_submission_sha256": "ab55e27d151917abbf79678184898ac5f2fd1996b4c7a81d5ff299530505b60d",
+  "p2_grid128_score": 0.98908954,
+  "candidates": [
+    {
+      "name": "supah-v1",
+      "grid64_score": 0.98316371,
+      "grid128_score": 0.98482568
+    },
+    {
+      "name": "supah-v1-final",
+      "grid64_score": 0.98115341,
+      "grid128_score": 0.98106346
+    }
+  ],
+  "challenge_revision": "8948d9bc5e3aa041dcd1ff8a5a63ed6200d04d81",
+  "search_evaluations": 50,
+  "claim": "Improvement in this fixed synthetic benchmark, not a globally optimal design or measured Supah application efficiency"
+}
