@@ -1,0 +1,24 @@
+{
+  "start": "simulation/experiments/finalists/tied-screen.json",
+  "output": "simulation/experiments/polish-native-1",
+  "evals": 400,
+  "max_proposals": 20000,
+  "grid": 64,
+  "seed": 41,
+  "workers": 3,
+  "finalists": 3,
+  "screen": [
+    "skewed_compute",
+    "tensor_training",
+    "memory_stream"
+  ],
+  "step": 0.4,
+  "temperature": 0.0005,
+  "focus": null,
+  "kind": "exploration; not an official score",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "inputs_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  }
+}

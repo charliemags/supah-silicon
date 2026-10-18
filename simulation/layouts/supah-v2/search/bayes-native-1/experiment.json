@@ -1,0 +1,24 @@
+{
+  "start": "simulation/layouts/supah-v1/submission.json",
+  "output": "simulation/experiments/bayes-native-1",
+  "history": [
+    "simulation/layouts/supah-v1/search/search.jsonl",
+    "simulation/experiments/calibration/g0-history.jsonl"
+  ],
+  "evals": 160,
+  "pool": 1800,
+  "seed": 19,
+  "workers": 3,
+  "radius": 1.0,
+  "kind": "64-grid surrogate-assisted exploration; not a verified score",
+  "model": "Matern-5/2 GP; cross-validated length/noise; lower confidence bound",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "inputs_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  },
+  "history_sha256": {
+    "simulation/layouts/supah-v1/search/search.jsonl": "6433ef4b17a5ad45915e376ad36eafba2111b995ed2867b86a32f738257a7bed",
+    "simulation/experiments/calibration/g0-history.jsonl": "b2616728cf408f4bb78fe243942e894a37f410765528b82e6611f29435445ff5"
+  }
+}

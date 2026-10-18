@@ -1,0 +1,25 @@
+{
+  "start": "simulation/experiments/finalists/per-die.json",
+  "output": "simulation/experiments/project-h3",
+  "die": "H3",
+  "x": [
+    3.8,
+    7.8,
+    11.0
+  ],
+  "y": [
+    16.5,
+    19.5,
+    11.0
+  ],
+  "grid": 64,
+  "parallel": 1,
+  "kind": "native screening; requires pinned all-workload verification",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "code_sha256": "11f73deeaf041d016126c1dfe38b03de3071ce266c72de3028782f6a43d26d2e",
+  "input_sha256": "4d4acf712ba7a610061b8fefd8bcf6566b9ba3735d78af80b8f68157f1a806ee",
+  "files_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  }
+}

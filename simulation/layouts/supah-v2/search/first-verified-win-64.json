@@ -1,0 +1,488 @@
+{
+  "passed": true,
+  "grid": 64,
+  "finalist_grid": false,
+  "hotspot_sha256": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb",
+  "constraints": {
+    "passed": true,
+    "die_edge_margin_mm": 2.741,
+    "minimum_die_separation_mm": 1.009,
+    "weighted_route_gb_s_mm": 13081.2,
+    "route_limit_gb_s_mm": 13500.0,
+    "die_edge_capacity": {
+      "G0.right": {
+        "reserved_mm_including_gaps": 4.0,
+        "available_mm": 6.3
+      },
+      "H0.left": {
+        "reserved_mm_including_gaps": 4.0,
+        "available_mm": 6.12
+      },
+      "G1.top": {
+        "reserved_mm_including_gaps": 4.0,
+        "available_mm": 6.9
+      },
+      "H1.bottom": {
+        "reserved_mm_including_gaps": 4.0,
+        "available_mm": 6.3
+      },
+      "G2.left": {
+        "reserved_mm_including_gaps": 4.0,
+        "available_mm": 6.3
+      },
+      "H2.right": {
+        "reserved_mm_including_gaps": 4.0,
+        "available_mm": 6.12
+      },
+      "G3.bottom": {
+        "reserved_mm_including_gaps": 4.0,
+        "available_mm": 6.9
+      },
+      "H3.top": {
+        "reserved_mm_including_gaps": 4.0,
+        "available_mm": 6.3
+      },
+      "G0.top": {
+        "reserved_mm_including_gaps": 2.0,
+        "available_mm": 6.9
+      },
+      "H3.bottom": {
+        "reserved_mm_including_gaps": 2.0,
+        "available_mm": 6.3
+      },
+      "G1.left": {
+        "reserved_mm_including_gaps": 2.0,
+        "available_mm": 6.3
+      },
+      "H0.right": {
+        "reserved_mm_including_gaps": 2.0,
+        "available_mm": 6.12
+      },
+      "G2.bottom": {
+        "reserved_mm_including_gaps": 2.0,
+        "available_mm": 6.9
+      },
+      "H1.top": {
+        "reserved_mm_including_gaps": 2.0,
+        "available_mm": 6.3
+      },
+      "G3.right": {
+        "reserved_mm_including_gaps": 2.0,
+        "available_mm": 6.3
+      },
+      "H2.left": {
+        "reserved_mm_including_gaps": 2.0,
+        "available_mm": 6.12
+      }
+    },
+    "links": {
+      "P0": {
+        "route_length_mm": 4.931,
+        "max_route_mm": 5.0,
+        "required_port_each_end_mm": 4.0,
+        "from_port_mm": [
+          15.504,
+          8.718
+        ],
+        "to_port_mm": [
+          20.241,
+          8.911999999999999
+        ],
+        "route_grid": [
+          [
+            32,
+            17
+          ],
+          [
+            33,
+            17
+          ],
+          [
+            34,
+            17
+          ],
+          [
+            35,
+            17
+          ],
+          [
+            36,
+            17
+          ],
+          [
+            37,
+            17
+          ],
+          [
+            38,
+            17
+          ],
+          [
+            39,
+            17
+          ]
+        ]
+      },
+      "P1": {
+        "route_length_mm": 1.37,
+        "max_route_mm": 5.0,
+        "required_port_each_end_mm": 4.0,
+        "from_port_mm": [
+          41.836,
+          14.128
+        ],
+        "to_port_mm": [
+          41.785,
+          15.377
+        ],
+        "route_grid": [
+          [
+            83,
+            29
+          ]
+        ]
+      },
+      "P2": {
+        "route_length_mm": 1.17,
+        "max_route_mm": 5.0,
+        "required_port_each_end_mm": 4.0,
+        "from_port_mm": [
+          36.216,
+          33.908
+        ],
+        "to_port_mm": [
+          35.207,
+          33.747
+        ],
+        "route_grid": [
+          [
+            71,
+            67
+          ]
+        ]
+      },
+      "P3": {
+        "route_length_mm": 4.993,
+        "max_route_mm": 5.0,
+        "required_port_each_end_mm": 4.0,
+        "from_port_mm": [
+          15.335,
+          28.759
+        ],
+        "to_port_mm": [
+          11.828,
+          27.429
+        ],
+        "route_grid": [
+          [
+            30,
+            56
+          ],
+          [
+            29,
+            56
+          ],
+          [
+            28,
+            56
+          ],
+          [
+            27,
+            56
+          ],
+          [
+            26,
+            56
+          ],
+          [
+            25,
+            56
+          ],
+          [
+            24,
+            56
+          ],
+          [
+            23,
+            56
+          ]
+        ]
+      },
+      "S0": {
+        "route_length_mm": 5.343,
+        "max_route_mm": 6.0,
+        "required_port_each_end_mm": 2.0,
+        "from_port_mm": [
+          9.754,
+          13.968
+        ],
+        "to_port_mm": [
+          11.828,
+          17.229
+        ],
+        "route_grid": [
+          [
+            19,
+            29
+          ],
+          [
+            19,
+            30
+          ],
+          [
+            19,
+            31
+          ],
+          [
+            19,
+            32
+          ],
+          [
+            19,
+            33
+          ],
+          [
+            20,
+            33
+          ],
+          [
+            21,
+            33
+          ],
+          [
+            22,
+            33
+          ],
+          [
+            23,
+            33
+          ]
+        ]
+      },
+      "S1": {
+        "route_length_mm": 5.635,
+        "max_route_mm": 6.0,
+        "required_port_each_end_mm": 2.0,
+        "from_port_mm": [
+          36.086,
+          8.878
+        ],
+        "to_port_mm": [
+          30.741,
+          8.911999999999999
+        ],
+        "route_grid": [
+          [
+            70,
+            17
+          ],
+          [
+            69,
+            17
+          ],
+          [
+            68,
+            17
+          ],
+          [
+            67,
+            17
+          ],
+          [
+            66,
+            17
+          ],
+          [
+            65,
+            17
+          ],
+          [
+            64,
+            17
+          ],
+          [
+            63,
+            17
+          ],
+          [
+            62,
+            17
+          ]
+        ]
+      },
+      "S2": {
+        "route_length_mm": 3.332,
+        "max_route_mm": 6.0,
+        "required_port_each_end_mm": 2.0,
+        "from_port_mm": [
+          41.966,
+          28.658
+        ],
+        "to_port_mm": [
+          41.785,
+          25.576999999999998
+        ],
+        "route_grid": [
+          [
+            83,
+            55
+          ],
+          [
+            83,
+            54
+          ],
+          [
+            83,
+            53
+          ],
+          [
+            83,
+            52
+          ]
+        ]
+      },
+      "S3": {
+        "route_length_mm": 4.366,
+        "max_route_mm": 6.0,
+        "required_port_each_end_mm": 2.0,
+        "from_port_mm": [
+          21.085,
+          34.009
+        ],
+        "to_port_mm": [
+          24.707,
+          33.747
+        ],
+        "route_grid": [
+          [
+            43,
+            68
+          ],
+          [
+            43,
+            67
+          ],
+          [
+            44,
+            67
+          ],
+          [
+            45,
+            67
+          ],
+          [
+            46,
+            67
+          ],
+          [
+            47,
+            67
+          ],
+          [
+            48,
+            67
+          ]
+        ]
+      }
+    }
+  },
+  "worst_gpu_c": 101.55,
+  "worst_hbm_c": 94.71,
+  "workloads": {
+    "tensor_training": {
+      "gpu_peak_c": 100.87,
+      "hbm_peak_c": 85.29,
+      "per_die_peak_c": {
+        "G0": 97.09,
+        "G1": 100.27,
+        "G2": 98.31,
+        "G3": 100.87,
+        "H0": 78.46,
+        "H1": 81.04,
+        "H2": 85.29,
+        "H3": 80.76
+      },
+      "total_w": 403.298302
+    },
+    "skewed_compute": {
+      "gpu_peak_c": 101.55,
+      "hbm_peak_c": 79.18,
+      "per_die_peak_c": {
+        "G0": 101.55,
+        "G1": 81.25,
+        "G2": 97.67,
+        "G3": 78.97,
+        "H0": 74.79,
+        "H1": 69.65,
+        "H2": 79.18,
+        "H3": 69.79
+      },
+      "total_w": 345.980022
+    },
+    "attention_decode": {
+      "gpu_peak_c": 84.29,
+      "hbm_peak_c": 77.55,
+      "per_die_peak_c": {
+        "G0": 80.88,
+        "G1": 83.55,
+        "G2": 82.3,
+        "G3": 84.29,
+        "H0": 73.94,
+        "H1": 74.77,
+        "H2": 77.55,
+        "H3": 73.71
+      },
+      "total_w": 323.279763
+    },
+    "memory_stream": {
+      "gpu_peak_c": 94.15,
+      "hbm_peak_c": 94.71,
+      "per_die_peak_c": {
+        "G0": 89.29,
+        "G1": 90.86,
+        "G2": 91.85,
+        "G3": 94.15,
+        "H0": 93.39,
+        "H1": 91.2,
+        "H2": 94.71,
+        "H3": 93.22
+      },
+      "total_w": 394.993814
+    },
+    "mixed_serving": {
+      "gpu_peak_c": 91.58,
+      "hbm_peak_c": 79.39,
+      "per_die_peak_c": {
+        "G0": 88.65,
+        "G1": 91.58,
+        "G2": 84.22,
+        "G3": 87.66,
+        "H0": 76.27,
+        "H1": 76.81,
+        "H2": 79.39,
+        "H3": 75.67
+      },
+      "total_w": 351.572115
+    }
+  },
+  "reference_c": {
+    "grid": 64,
+    "worst_gpu_c": 104.59,
+    "worst_hbm_c": 97.68,
+    "layout": "random_layout",
+    "note": "Public seeded random baseline; full precision rounded to 0.01 Celsius by the judge."
+  },
+  "score": 0.96180425,
+  "provenance": {
+    "verification": "local unmodified organizer judge; not a signed leaderboard submission",
+    "submission_sha256": "25c3f72649fa945dae0a22274244ce0cfe1fec692591a2b8a5a068088cbd567c",
+    "files_sha256": {
+      "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+      "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9",
+      "verify_high_accuracy.py": "c0bc63e60f378907b1406985d2dd12b0da65140f31c094999334dbc3c44d27dc",
+      "geometry.py": "62fa0dcada07cda67aff889ce1770f63c8acc16c0aadffeb3315be205d957565",
+      "interconnect.py": "a11f105588890c765981fe18f0e560c63c1c5d1c7272a10528636f7572f547ff",
+      "run_simulations.py": "86fce0bad7262111aad272d3ebb484d89252b2974495f9d87be7db6ab10c4899"
+    }
+  }
+}

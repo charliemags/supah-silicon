@@ -1,0 +1,10 @@
+{
+  "kind": "all-workload exploration result; verify at 64 and 128 with evaluate.py",
+  "grid": 64,
+  "evaluations": 160,
+  "proposals": 364,
+  "seed_score": 0.9810277673074507,
+  "best_score": 0.9744942832014072,
+  "best_candidate": 1,
+  "elapsed_seconds": 102.31
+}

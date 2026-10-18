@@ -1,0 +1,27 @@
+{
+  "start": "simulation/experiments/coupled-sweep/submission.json",
+  "output": "simulation/experiments/bayes-additive-2",
+  "history": [
+    "simulation/layouts/supah-v1/search/search.jsonl",
+    "simulation/experiments/bayes-additive-1/search.jsonl"
+  ],
+  "evals": 240,
+  "pool": 3000,
+  "seed": 53,
+  "workers": 3,
+  "radius": 1.2,
+  "kernel": "additive",
+  "grid": 64,
+  "kind": "64-grid surrogate-assisted exploration; not a verified score",
+  "model": "Matern-5/2 GP; cross-validated length/noise; lower confidence bound",
+  "code_sha256": "1c7064bbe684d53202963abbc22a66ec0c06934359431f6bab2a0c1aefb2e120",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "inputs_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  },
+  "history_sha256": {
+    "simulation/layouts/supah-v1/search/search.jsonl": "6433ef4b17a5ad45915e376ad36eafba2111b995ed2867b86a32f738257a7bed",
+    "simulation/experiments/bayes-additive-1/search.jsonl": "3e28818426df8fa5bff08be5cf90f046a0ef7c9699c40430b4806fd59b4fcdef"
+  }
+}

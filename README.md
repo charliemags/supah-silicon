@@ -28,21 +28,29 @@ The [Supah design workflow](simulation/docs/07-supah-design-workflow.md) connect
 this experiment to the proposed data-processing, retrieval and inference
 pipeline, and explains the evidence still needed for Track 1.
 
-**Built: [Supah Silicon v1](simulation/layouts/supah-v1/README.md).** A 50-layout
-search produced a candidate verified on all five workloads at both 64 and 128.
-At 128, it scores **0.981063** versus p2's **0.989090**: GPU peak
-**103.23 °C** (0.64 °C lower), HBM peak **95.61 °C** (0.52 °C higher).
-These are local checks with the unmodified pinned evaluator, not signed
-leaderboard results or measurements of Supah application efficiency.
+**Built: [Supah Silicon v2](simulation/layouts/supah-v2/README.md).** The
+original evaluator confirms a **0.95991959** score at 64 × 64 across all five
+workloads: GPU **101.40 °C**, HBM **94.16 °C**. This beats the rechecked
+October 18 leaderboard leader's **0.96180425**. The 0.95 and 0.94 targets
+remain unmet. These are local checks, not signed leaderboard submissions
+or measurements of Supah application efficiency.
+
+The search combines native HotSpot/SuperLU simulation, additive Gaussian-process
+guidance and parallel placement search. See the
+[optimization guide](simulation/docs/08-surrogate-search.md) for the model,
+Docker resource settings and verification workflow. The earlier
+[v1 design](simulation/layouts/supah-v1/README.md) remains available.
 
 With Docker running, from this directory:
 
 ```sh
 ./simulation/run setup
+./simulation/run setup-search
 ./simulation/run test
-./simulation/run validate simulation/layouts/supah-v1/submission.json
-./simulation/run search simulation/layouts/supah-v1/submission.json --output simulation/experiments/run1 --evals 80
-./simulation/run score simulation/experiments/run1/submission.json --grid 128 --output simulation/results/run1-128.json
+./simulation/run test-native
+./simulation/run validate simulation/layouts/supah-v2/submission.json
+./simulation/run score simulation/layouts/supah-v2/submission.json --grid 64 --output simulation/results/supah-v2-64.json
+./simulation/run score simulation/layouts/supah-v2/submission.json --grid 128 --output simulation/results/supah-v2-128.json
 ```
 
 The wrapper supports Apple Silicon by running the pinned Linux scorer in a
@@ -51,7 +59,10 @@ verification does not submit a result to AutoLab.
 
 ## Models
 
-Every design that beat the reference, named by its official score: see [`Models/`](Models/README.md). Best so far: [`Supah_0.9873`](Models/Supah_0.9873/) (0.9891 on the finals grid).
+The signed design archive is in [`Models/`](Models/README.md), including
+[`Supah_0.9719`](Models/Supah_0.9719/). The newer
+[Supah v2](simulation/layouts/supah-v2/README.md) result is locally verified
+and awaits an AutoLab submission.
 
 ## Simulation
 
@@ -63,6 +74,6 @@ Everything about how we simulate and search chip layouts is in [`simulation/`](s
 
 - [`simulation/docs/`](simulation/docs/README.md): plain-English guides (how the heat simulation works, how to run it, making it faster, searching for a cool layout, a 3D stacking experiment, and the organizers' simulator and GUI)
 - [`simulation/tools/`](simulation/tools/): the search, fast-estimate, heat-map and 3D-stack code
-- [`simulation/layouts/`](simulation/layouts/): designs and their evidence. `supah-v1` includes the submission, local 64/128 verification, floorplan, full search history and a Track 1 system-profile export. Earlier layouts retain their signed reports.
+- [`simulation/layouts/`](simulation/layouts/): designs and their evidence. `supah-v2` includes the improved submission, local verification, floorplan and search records. `supah-v1` also retains a Track 1 system-profile export. Earlier layouts retain their signed reports.
 
 Built on the organizers' [chiplet-thermal-simulator](https://github.com/Czaja107/chiplet-thermal-simulator) and [chiplet-thermal-gui](https://github.com/Czaja107/chiplet-thermal-gui).

@@ -1,0 +1,29 @@
+{
+  "start": "simulation/experiments/finalists/per-die.json",
+  "output": "simulation/experiments/population-expanded",
+  "history": [
+    "simulation/experiments/bayes-additive-1/search.jsonl",
+    "simulation/experiments/bayes-additive-2/search.jsonl",
+    "simulation/experiments/bayes-per-die/search.jsonl"
+  ],
+  "evals": 1600,
+  "parallel": 4,
+  "walkers": 12,
+  "grid": 64,
+  "seed": 71,
+  "radius": 1.2,
+  "temperature": 0.003,
+  "kind": "native screening only; pinned verification required",
+  "code_sha256": "fadf53e08b5a30b1264ce9f087946dddacf41c4a13387484fad57e692562cd57",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "input_sha256": "4d4acf712ba7a610061b8fefd8bcf6566b9ba3735d78af80b8f68157f1a806ee",
+  "history_sha256": {
+    "simulation/experiments/bayes-additive-1/search.jsonl": "3e28818426df8fa5bff08be5cf90f046a0ef7c9699c40430b4806fd59b4fcdef",
+    "simulation/experiments/bayes-additive-2/search.jsonl": "bebc6a064e6f49955a7bc7400cea95c5b5de665ffed5fae6df413221d2959588",
+    "simulation/experiments/bayes-per-die/search.jsonl": "d25887a0429e9583743e6125c0a6a7c32455912ec0a5cae9cb9b6ee627d9cef2"
+  },
+  "files_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  }
+}

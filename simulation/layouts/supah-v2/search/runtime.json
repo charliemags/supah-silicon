@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-18",
+  "docker_vm": {
+    "cpus": 18,
+    "memory_bytes": 16745730048,
+    "swap_kib": 2097148,
+    "swap_note": "2 GiB available VM swap, all free at measurement; per-container swap allowance cannot enlarge this pool."
+  },
+  "native_image": "sha256:d67b90a011a39b196b5ece334d57e1b1e64bccc13eb888bc5cd4c7a74d53b630",
+  "platform": "linux/arm64",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "packages": {
+    "libblas3": "3.11.0-2",
+    "libopenblas0-pthread": "0.3.21+ds-4",
+    "libsuperlu5": "5.3.0+dfsg1-2+b1",
+    "python3-numpy": "1:1.24.2-1+deb12u1",
+    "python3-scipy": "1.10.1-2"
+  },
+  "population_limits": {
+    "cpus": 12,
+    "memory": "8g",
+    "memory_plus_swap": "12g",
+    "parallel_layouts": 4
+  },
+  "note": "Limits are maxima. The observed search is CPU-bound; spare RAM is not forced into use."
+}

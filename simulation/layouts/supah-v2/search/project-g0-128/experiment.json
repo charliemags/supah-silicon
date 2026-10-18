@@ -1,0 +1,25 @@
+{
+  "start": "simulation/experiments/finalists/population.json",
+  "output": "simulation/experiments/project-g0-128",
+  "die": "G0",
+  "x": [
+    3.7,
+    4.3,
+    9.0
+  ],
+  "y": [
+    3.1,
+    4.3,
+    13.0
+  ],
+  "grid": 128,
+  "parallel": 1,
+  "kind": "native screening; requires pinned all-workload verification",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "code_sha256": "11f73deeaf041d016126c1dfe38b03de3071ce266c72de3028782f6a43d26d2e",
+  "input_sha256": "09b3c673fd8a8a6b940abd8219cf9a85f88d70efcd98667e55604bb394845724",
+  "files_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  }
+}
