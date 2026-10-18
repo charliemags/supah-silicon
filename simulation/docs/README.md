@@ -11,6 +11,7 @@ Plain-English guides to how Supah-Silicon is simulated and searched. Read them i
 7. [Run it and see it](07-run-it-and-see-it.md): look at the test outputs, run a test in your browser with one command, or run it on your own computer.
 
 8. [Supah Silicon design workflow](07-supah-design-workflow.md): reproducible Mac/Linux setup, bounded search, finalist verification and the bridge to Track 1.
+9. [Faster placement optimization](08-surrogate-search.md): native direct-solver Docker image, Gaussian-process guidance, parallel placement search, and pinned verification.
 
 Start with [the story](../STORY.md) for the whole journey in plain English.
 

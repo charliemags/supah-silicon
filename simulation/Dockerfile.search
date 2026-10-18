@@ -1,0 +1,10 @@
+# Native exploration only. Final scores always use Dockerfile's pinned binary.
+# Build context: a clean copy of the pinned vendor/HotSpot source directory.
+FROM golang:1.27.2-bookworm@sha256:5cf287a799e6b94384bad13d16b14904c531f51ba65792237e122ce42b392f61
+RUN apt-get update && apt-get install -y --no-install-recommends python3-numpy python3-scipy libsuperlu-dev \
+    && rm -rf /var/lib/apt/lists/*
+COPY . /opt/hotspot
+RUN make -C /opt/hotspot clean && make -C /opt/hotspot -j6 SUPERLU=1 hotspot
+ENV CRYO_HILL=/challenge CRYO_HOTSPOT=/opt/hotspot/hotspot PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1
+WORKDIR /work
+ENTRYPOINT ["python3"]

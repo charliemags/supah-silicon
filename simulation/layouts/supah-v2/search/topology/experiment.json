@@ -1,0 +1,6 @@
+{
+  "kind": "native screen; topology survey",
+  "grid": 64,
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "code_sha256": "9ad10457e20f9fe66eada9998efd5e9569463a845555995816b9a0d6be901979"
+}

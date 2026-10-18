@@ -1,14 +1,17 @@
 # Supah Silicon simulation
 
-The current portable search and verification workflow is described in
-[Supah design workflow](docs/07-supah-design-workflow.md). The earlier
+The current optimization method is described in
+[Faster placement optimization](docs/08-surrogate-search.md), with the portable
+verification workflow in [Supah design workflow](docs/07-supah-design-workflow.md). The earlier
 Supah-Silicon experiments below are retained as design history.
 
-**Current design: [Supah Silicon v1](layouts/supah-v1/README.md).** Locally
-verified 128-grid score: **0.981063**; GPU **103.23 °C**, HBM **95.61 °C**.
-Against p2 at the same mesh, the GPU peak falls 0.64 °C and the HBM peak rises
-0.52 °C. The design directory includes the complete search and verification
-record, a floorplan and modeled package-power export for Track 1.
+**Current design: [Supah Silicon v2](layouts/supah-v2/README.md).** Locally
+verified 64-grid score: **0.95991959**; GPU **101.40 °C**, HBM **94.16 °C**.
+This beats the rechecked October 18 leaderboard leader's **0.96180425**.
+The 0.95 and 0.94 targets were not reached. The design directory contains
+the submission, verification evidence, floorplan and search records.
+No public leaderboard submission was made. The earlier
+[v1 artifact](layouts/supah-v1/README.md) retains its Track 1 power export.
 
 The original Supah-Silicon 1.0 experiment models four GPU dies and four HBM stacks with 3.6 TB/s of aggregate specified link bandwidth. Die power maps are fixed; positions and routes affect thermal coupling and modeled interconnect power. The link sum is not measured application throughput.
 

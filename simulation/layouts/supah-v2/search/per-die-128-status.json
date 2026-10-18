@@ -1,0 +1,10 @@
+{
+  "status": "cancelled_superseded",
+  "reason": "Selected population candidate passed all five workloads with pinned solver at both 64 and 128; earlier per-die candidate has a worse verified 64-grid score.",
+  "candidate": "per-die.json",
+  "available_results": [
+    "per-die-64.json",
+    "per-die-native-128.json"
+  ],
+  "not_a_completed_pinned_128_result": true
+}

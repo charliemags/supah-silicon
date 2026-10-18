@@ -1,0 +1,163 @@
+{
+  "kind": "sequential warm starts, not an unbiased algorithm tournament",
+  "screen_evaluations_by_grid": {
+    "64": 5518,
+    "128": 17
+  },
+  "unique_submissions_by_grid": {
+    "64": 5502,
+    "128": 17
+  },
+  "runs": [
+    {
+      "run": "anneal-native-1",
+      "grid": 64,
+      "evaluations": 160,
+      "start_score": 0.9810277673074507,
+      "best_screen_score": 0.9744942832014072,
+      "gpu_c": 102.56,
+      "hbm_c": 95.3,
+      "elapsed_seconds": 102.31
+    },
+    {
+      "run": "bayes-native-1",
+      "grid": 64,
+      "evaluations": 160,
+      "start_score": 0.9810277673074507,
+      "best_screen_score": 0.972107048624199,
+      "gpu_c": 102.37,
+      "hbm_c": 95.47,
+      "elapsed_seconds": 111.52
+    },
+    {
+      "run": "bayes-native-2",
+      "grid": 64,
+      "evaluations": 240,
+      "start_score": 0.972107048624199,
+      "best_screen_score": 0.9712275411483854,
+      "gpu_c": 102.3,
+      "hbm_c": 94.73,
+      "elapsed_seconds": 204.03
+    },
+    {
+      "run": "bayes-additive-1",
+      "grid": 64,
+      "evaluations": 160,
+      "start_score": 0.972107048624199,
+      "best_screen_score": 0.9623068224651338,
+      "gpu_c": 101.59,
+      "hbm_c": 94.65,
+      "elapsed_seconds": 213.09
+    },
+    {
+      "run": "polish-native-1",
+      "grid": 64,
+      "evaluations": 400,
+      "start_score": 0.9623068224651338,
+      "best_screen_score": 0.9621811785400175,
+      "gpu_c": 101.58,
+      "hbm_c": 94.39,
+      "elapsed_seconds": 259.59
+    },
+    {
+      "run": "polish-g0",
+      "grid": 64,
+      "evaluations": 180,
+      "start_score": 0.9623068224651338,
+      "best_screen_score": 0.9621811785400175,
+      "gpu_c": 101.58,
+      "hbm_c": 94.57,
+      "elapsed_seconds": 124.51
+    },
+    {
+      "run": "bayes-additive-2",
+      "grid": 64,
+      "evaluations": 240,
+      "start_score": 0.9618042467646688,
+      "best_screen_score": 0.9602965196632743,
+      "gpu_c": 101.43,
+      "hbm_c": 94.2,
+      "elapsed_seconds": 312.34
+    },
+    {
+      "run": "bayes-per-die",
+      "grid": 64,
+      "evaluations": 200,
+      "start_score": 0.9602965196632743,
+      "best_screen_score": 0.9601708757381581,
+      "gpu_c": 101.42,
+      "hbm_c": 94.2,
+      "elapsed_seconds": 270.98
+    },
+    {
+      "run": "population-expanded",
+      "grid": 64,
+      "evaluations": 1600,
+      "start_score": 0.9601708757381581,
+      "best_screen_score": 0.9597939439628094,
+      "gpu_c": 101.39,
+      "hbm_c": 94.16,
+      "elapsed_seconds": 419.02
+    },
+    {
+      "run": "project-g0",
+      "grid": 64,
+      "evaluations": 66,
+      "start_score": 0.9601708757381581,
+      "best_screen_score": 0.9601708757381581,
+      "gpu_c": 101.42,
+      "hbm_c": 94.2,
+      "elapsed_seconds": 72.33
+    },
+    {
+      "run": "project-h3",
+      "grid": 64,
+      "evaluations": 24,
+      "start_score": 0.9601708757381581,
+      "best_screen_score": 0.9601708757381581,
+      "gpu_c": 101.42,
+      "hbm_c": 94.2,
+      "elapsed_seconds": 32.29
+    },
+    {
+      "run": "topology",
+      "grid": 64,
+      "evaluations": 36,
+      "start_score": 0.9601708757381581,
+      "best_screen_score": 0.9601708757381581,
+      "gpu_c": 101.42,
+      "hbm_c": 94.2,
+      "elapsed_seconds": 35.21
+    },
+    {
+      "run": "project-g0-128",
+      "grid": 128,
+      "evaluations": 17,
+      "start_score": 0.961876097316278,
+      "best_screen_score": 0.961625282167043,
+      "gpu_c": 101.68,
+      "hbm_c": 94.23,
+      "elapsed_seconds": 163.02
+    },
+    {
+      "run": "population-wide",
+      "grid": 64,
+      "evaluations": 2000,
+      "start_score": 0.9597939439628094,
+      "best_screen_score": 0.9597939439628094,
+      "gpu_c": 101.39,
+      "hbm_c": 94.16,
+      "elapsed_seconds": 511.59
+    },
+    {
+      "run": "translation-sweep",
+      "grid": 64,
+      "evaluations": 42,
+      "start_score": 0.9597939439628094,
+      "best_screen_score": 0.9597939439628094,
+      "gpu_c": 101.39,
+      "hbm_c": 94.16,
+      "elapsed_seconds": 45.31
+    }
+  ]
+}

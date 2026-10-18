@@ -1,0 +1,16 @@
+{
+  "criterion": "lowest locally verified 64-grid score among completed finalists; require all-workload 128-grid verification too",
+  "selected_submission_sha256": "09b3c673fd8a8a6b940abd8219cf9a85f88d70efcd98667e55604bb394845724",
+  "scores": {
+    "64": 0.95991959,
+    "128": 0.9620015
+  },
+  "leaderboard_snapshot_score": 0.96180425,
+  "below_0_95": false,
+  "below_0_94": false,
+  "status": "locally verified with unmodified pinned judge; not submitted to AutoLab",
+  "search_evaluations_by_grid": {
+    "64": 5518,
+    "128": 17
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "start": "simulation/experiments/per-die-input/submission.json",
+  "output": "simulation/experiments/bayes-per-die",
+  "history": [
+    "simulation/experiments/bayes-additive-1/search.jsonl",
+    "simulation/experiments/per-die-input/history.jsonl",
+    "simulation/experiments/coupled-sweep/search.jsonl"
+  ],
+  "evals": 200,
+  "pool": 3000,
+  "seed": 61,
+  "workers": 3,
+  "radius": 1.2,
+  "kernel": "additive",
+  "grid": 64,
+  "per_die": true,
+  "kind": "64-grid surrogate-assisted exploration; not a verified score",
+  "model": "Matern-5/2 GP; cross-validated length/noise; lower confidence bound",
+  "code_sha256": "7a4e80f722ff6e374e9938017a4399fcb647b0dee48604e37cf59124dca86afd",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "inputs_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  },
+  "history_sha256": {
+    "simulation/experiments/bayes-additive-1/search.jsonl": "3e28818426df8fa5bff08be5cf90f046a0ef7c9699c40430b4806fd59b4fcdef",
+    "simulation/experiments/per-die-input/history.jsonl": "4162382892b572270bea8c5b77775f3c759e090a740128f1ea458e458cf1bf8f",
+    "simulation/experiments/coupled-sweep/search.jsonl": "ba5cc121933523805e7a0e99b2ed694c354bf9248ac3226ce53619e36eacb172"
+  }
+}

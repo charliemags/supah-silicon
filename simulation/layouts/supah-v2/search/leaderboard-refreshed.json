@@ -1,0 +1,41 @@
+{
+  "source": "https://app.autolab.ai/hills/czaja107/beat-the-hotspot/leaderboard",
+  "observed_utc": "2026-10-18T19:55:47.924750+00:00",
+  "method": "live browser accessibility tree",
+  "hill_version": "v0.2.0",
+  "hill_version_id": "3610c381240c",
+  "grid": 64,
+  "hotspot_sha256": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb",
+  "rows": [
+    {
+      "climber": "wilsonwu-ai",
+      "score": 0.96180425,
+      "worst_gpu_c": 101.55,
+      "worst_hbm_c": 94.72
+    },
+    {
+      "climber": "vyahhi",
+      "score": 0.96268375,
+      "worst_gpu_c": 101.62,
+      "worst_hbm_c": 92.88
+    },
+    {
+      "climber": "frido22",
+      "score": 0.96368891,
+      "worst_gpu_c": 101.7,
+      "worst_hbm_c": 94.79
+    },
+    {
+      "climber": "ottogin",
+      "score": 0.9679608,
+      "worst_gpu_c": 102.04,
+      "worst_hbm_c": 93.39
+    },
+    {
+      "climber": "czaja107",
+      "score": 0.96846337,
+      "worst_gpu_c": 102.08,
+      "worst_hbm_c": 94.13
+    }
+  ]
+}

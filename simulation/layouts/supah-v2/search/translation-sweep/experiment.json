@@ -1,0 +1,7 @@
+{
+  "kind": "native screen; rigid translations on 0.5 mm routing pitch",
+  "grid": 64,
+  "code_sha256": "32c9494873a7e67a68c502c6c4944397e6d557282636c22a9755d08a613de70e",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "input_sha256": "09b3c673fd8a8a6b940abd8219cf9a85f88d70efcd98667e55604bb394845724"
+}

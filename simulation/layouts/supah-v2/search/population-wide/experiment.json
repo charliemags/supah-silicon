@@ -1,0 +1,25 @@
+{
+  "start": "simulation/experiments/finalists/population.json",
+  "output": "simulation/experiments/population-wide",
+  "history": [
+    "simulation/experiments/population-expanded/search.jsonl"
+  ],
+  "evals": 2000,
+  "parallel": 4,
+  "walkers": 16,
+  "grid": 64,
+  "seed": 89,
+  "radius": 2.5,
+  "temperature": 0.012,
+  "kind": "native screening only; pinned verification required",
+  "code_sha256": "fadf53e08b5a30b1264ce9f087946dddacf41c4a13387484fad57e692562cd57",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "input_sha256": "09b3c673fd8a8a6b940abd8219cf9a85f88d70efcd98667e55604bb394845724",
+  "history_sha256": {
+    "simulation/experiments/population-expanded/search.jsonl": "da19ca55af0f121d4287e94aaa7f7112a6115aba09d26c735f5c15801c6243a2"
+  },
+  "files_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  }
+}

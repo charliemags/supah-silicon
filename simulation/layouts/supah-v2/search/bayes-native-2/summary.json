@@ -1,0 +1,7 @@
+{
+  "kind": "screening estimate; requires all-workload verification at 64 and 128",
+  "evaluations": 240,
+  "seed_score": 0.972107048624199,
+  "best_score": 0.9712275411483854,
+  "elapsed_seconds": 204.03
+}
