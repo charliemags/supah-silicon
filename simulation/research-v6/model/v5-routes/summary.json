@@ -1,0 +1,15 @@
+{
+  "evaluations": 85,
+  "control_gpu": 101.26,
+  "combined_gpu": 101.26,
+  "control_hbm": 94.26,
+  "combined_hbm": 94.26,
+  "control_raw_g0": 101.26397098000001,
+  "combined_raw_g0": 101.26381409000004,
+  "control_score": 0.9581605729362985,
+  "combined_score": 0.9581605729362985,
+  "changed_links": [
+    "S0"
+  ],
+  "elapsed_seconds": 47.427805228999205
+}

@@ -1,0 +1,15 @@
+{
+  "kind": "quadratic native screen with adaptive actual/predicted reduction",
+  "source_sha256": "840289da3c23f6e5de4b7f6afc1fe2b85a4b0f7f61cb4415cf582972610c7214",
+  "constraints_sha256": "bcf958647f2aed22a2ec0918d0d5530fcb437774574bee7d35f44c9bd12e5d98",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "history_snapshot_sha256": {
+    "simulation/research-v4/placement-history-snapshot.jsonl": "058f01fc0293f6d6c2ad53aef73a9b86d79c00fc3c5ff0f0c7c6cc3608e612dd",
+    "simulation/research-v3/lead/control-population/search.jsonl": "6ed70a40a2d371891bceef3262603805a61dcb4d1e09e535a2b046c62f4db80c",
+    "simulation/research-v3/math/epigraph-fixed-64/search.jsonl": "ded4c33ed1c21b86a1c611fb1b9784b0f76755c0b3fbf2cf9621741b604ddd7e",
+    "simulation/experiments/population-expanded/search.jsonl": "da19ca55af0f121d4287e94aaa7f7112a6115aba09d26c735f5c15801c6243a2"
+  },
+  "historical_records": 2366,
+  "new_budget": 256,
+  "seed": 404
+}

@@ -1,0 +1,17 @@
+{
+  "purpose": "Match independent workload workers during final pinned verification; no simulator input changes.",
+  "containers": {
+    "precise-first-128": {
+      "cpu_limit": 5
+    },
+    "precision-best-128": {
+      "cpu_limit": 5
+    },
+    "memory-balanced-128": {
+      "cpu_limit": 5
+    }
+  },
+  "unchanged_memory_limit_per_container": "3 GiB",
+  "network": "none",
+  "host": "local Docker; no rented compute"
+}

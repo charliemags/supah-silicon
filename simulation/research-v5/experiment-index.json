@@ -1,0 +1,110 @@
+{
+  "smoke": {
+    "manifest": "simulation/research-v5/smoke/manifest.json",
+    "evaluations": 0,
+    "budget": 256,
+    "seed": 940,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "local-polish": {
+    "manifest": "simulation/research-v5/local-polish/manifest.json",
+    "evaluations": 1,
+    "kind": "output-precision-only native search; original pinned judge required for promotion"
+  },
+  "isolation-relocated": {
+    "manifest": "simulation/research-v5/isolation-relocated/manifest.json",
+    "evaluations": 179,
+    "budget": 320,
+    "seed": 943,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "cross-cell-256": {
+    "manifest": "simulation/research-v5/cross-cell-256/manifest.json",
+    "evaluations": 256,
+    "budget": 256,
+    "seed": 940,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "diagonal-sweep": {
+    "manifest": "simulation/research-v5/diagonal-sweep/manifest.json",
+    "evaluations": 250,
+    "budget": 401,
+    "seed": 941,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "relocated-routes": {
+    "manifest": "simulation/research-v5/relocated-routes/manifest.json",
+    "evaluations": 85,
+    "kind": "native screening; pinned all-workload 64/128 verification required"
+  },
+  "relocated-hotspot-sweep": {
+    "manifest": "simulation/research-v5/relocated-hotspot-sweep/manifest.json",
+    "evaluations": 11,
+    "budget": 651,
+    "seed": 941,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "local-polish-exact": {
+    "manifest": "simulation/research-v5/local-polish-exact/manifest.json",
+    "evaluations": 254,
+    "kind": "output-precision-only native search; original pinned judge required for promotion"
+  },
+  "isolation-cool-memory": {
+    "manifest": "simulation/research-v5/isolation-cool-memory/manifest.json",
+    "evaluations": 320,
+    "budget": 320,
+    "seed": 941,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "relocated-polish": {
+    "manifest": "simulation/research-v5/relocated-polish/manifest.json",
+    "evaluations": 338,
+    "kind": "output-precision-only native search; original pinned judge required for promotion"
+  },
+  "relocated-balance": {
+    "manifest": "simulation/research-v5/relocated-balance/manifest.json",
+    "evaluations": 12,
+    "budget": 50,
+    "seed": 941,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "relocate-g0": {
+    "manifest": "simulation/research-v5/relocate-g0/manifest.json",
+    "evaluations": 113,
+    "budget": 147,
+    "seed": 941,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "ring-symmetries": {
+    "manifest": "simulation/research-v5/ring-symmetries/manifest.json",
+    "evaluations": 120,
+    "budget": 384,
+    "seed": 941,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "isolation-checkpoint": {
+    "manifest": "simulation/research-v5/isolation-checkpoint/manifest.json",
+    "evaluations": 320,
+    "budget": 320,
+    "seed": 942,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  },
+  "relocate-fine": {
+    "manifest": "simulation/research-v5/relocate-fine/manifest.json",
+    "evaluations": 213,
+    "budget": 242,
+    "seed": 944,
+    "target": 0.94,
+    "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative"
+  }
+}

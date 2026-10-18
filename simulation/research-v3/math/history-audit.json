@@ -1,0 +1,386 @@
+{
+  "note": "Historical screening records, not independently rerun or signed results; unique identity is exact submission JSON. Reused history records inflate raw count.",
+  "valid64_records": 5648,
+  "unique_placements": 5502,
+  "below0961_unique": 3461,
+  "best": {
+    "source": "layouts/supah-v2/search/translation-sweep/search.jsonl",
+    "line": 1,
+    "score": 0.9597939439628094
+  },
+  "near_elite_coordinate_ranges": {
+    "G0": [
+      [
+        3.934,
+        4.021
+      ],
+      [
+        3.368,
+        3.634
+      ]
+    ],
+    "G1": [
+      [
+        35.556,
+        36.639
+      ],
+      [
+        3.387,
+        4.54
+      ]
+    ],
+    "G2": [
+      [
+        36.214,
+        37.358
+      ],
+      [
+        27.782,
+        29.089
+      ]
+    ],
+    "G3": [
+      [
+        8.224,
+        10.551
+      ],
+      [
+        27.978,
+        29.04
+      ]
+    ],
+    "H0": [
+      [
+        19.682,
+        20.423
+      ],
+      [
+        3.544,
+        3.812
+      ]
+    ],
+    "H1": [
+      [
+        36.01,
+        37.677
+      ],
+      [
+        15.203,
+        16.365
+      ]
+    ],
+    "H2": [
+      [
+        24.072,
+        25.727
+      ],
+      [
+        28.606,
+        29.392
+      ]
+    ],
+    "H3": [
+      [
+        6.484,
+        7.55
+      ],
+      [
+        16.379,
+        17.538
+      ]
+    ]
+  },
+  "incumbent_components": [
+    {
+      "workload": "skewed_compute",
+      "die": "G0",
+      "temperature_c": 101.4,
+      "normalized_rise": 0.9599195878879256,
+      "reduction_to_095_c": 0.7900000000000063
+    },
+    {
+      "workload": "tensor_training",
+      "die": "G3",
+      "temperature_c": 101.13,
+      "normalized_rise": 0.9565272019097876,
+      "reduction_to_095_c": 0.519999999999996
+    },
+    {
+      "workload": "tensor_training",
+      "die": "G2",
+      "temperature_c": 100.9,
+      "normalized_rise": 0.9536373916321146,
+      "reduction_to_095_c": 0.29000000000000625
+    },
+    {
+      "workload": "skewed_compute",
+      "die": "G2",
+      "temperature_c": 100.85,
+      "normalized_rise": 0.9530091720065333,
+      "reduction_to_095_c": 0.23999999999999488
+    },
+    {
+      "workload": "memory_stream",
+      "die": "H2",
+      "temperature_c": 94.16,
+      "normalized_rise": 0.9515685195376994,
+      "reduction_to_095_c": 0.11999999999999034
+    },
+    {
+      "workload": "tensor_training",
+      "die": "G1",
+      "temperature_c": 100.29,
+      "normalized_rise": 0.9459731122000251,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "memory_stream",
+      "die": "H0",
+      "temperature_c": 92.95,
+      "normalized_rise": 0.9349201981287837,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "memory_stream",
+      "die": "H3",
+      "temperature_c": 92.88,
+      "normalized_rise": 0.9339570720968629,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "memory_stream",
+      "die": "H1",
+      "temperature_c": 90.7,
+      "normalized_rise": 0.9039625756741881,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "tensor_training",
+      "die": "G0",
+      "temperature_c": 96.9,
+      "normalized_rise": 0.9033798215856264,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "memory_stream",
+      "die": "G3",
+      "temperature_c": 93.52,
+      "normalized_rise": 0.8609121748963436,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "mixed_serving",
+      "die": "G1",
+      "temperature_c": 91.37,
+      "normalized_rise": 0.8338987309963564,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "memory_stream",
+      "die": "G2",
+      "temperature_c": 91.26,
+      "normalized_rise": 0.832516647820078,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "memory_stream",
+      "die": "G1",
+      "temperature_c": 90.5,
+      "normalized_rise": 0.8229677095112451,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "tensor_training",
+      "die": "H2",
+      "temperature_c": 84.44,
+      "normalized_rise": 0.8178315905338469,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "memory_stream",
+      "die": "G0",
+      "temperature_c": 88.93,
+      "normalized_rise": 0.8032416132679986,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "mixed_serving",
+      "die": "G0",
+      "temperature_c": 88.41,
+      "normalized_rise": 0.796708129161955,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "mixed_serving",
+      "die": "G3",
+      "temperature_c": 87.12,
+      "normalized_rise": 0.7805000628219626,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "tensor_training",
+      "die": "H3",
+      "temperature_c": 79.84,
+      "normalized_rise": 0.7545404512933407,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "tensor_training",
+      "die": "H1",
+      "temperature_c": 79.46,
+      "normalized_rise": 0.7493120528343422,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "mixed_serving",
+      "die": "H2",
+      "temperature_c": 78.75,
+      "normalized_rise": 0.7395432030820033,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "mixed_serving",
+      "die": "G2",
+      "temperature_c": 83.8,
+      "normalized_rise": 0.7387862796833773,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "attention_decode",
+      "die": "G3",
+      "temperature_c": 83.72,
+      "normalized_rise": 0.7377811282824475,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "skewed_compute",
+      "die": "H2",
+      "temperature_c": 78.39,
+      "normalized_rise": 0.734589983489268,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "attention_decode",
+      "die": "G1",
+      "temperature_c": 83.2,
+      "normalized_rise": 0.7312476441764041,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "tensor_training",
+      "die": "H0",
+      "temperature_c": 78.05,
+      "normalized_rise": 0.7299119427627957,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "attention_decode",
+      "die": "G2",
+      "temperature_c": 81.93,
+      "normalized_rise": 0.7152908656866441,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "attention_decode",
+      "die": "H2",
+      "temperature_c": 76.84,
+      "normalized_rise": 0.71326362135388,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "skewed_compute",
+      "die": "G1",
+      "temperature_c": 81.23,
+      "normalized_rise": 0.7064957909285087,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "mixed_serving",
+      "die": "H0",
+      "temperature_c": 76.08,
+      "normalized_rise": 0.7028068244358833,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "attention_decode",
+      "die": "G0",
+      "temperature_c": 80.62,
+      "normalized_rise": 0.6988315114964192,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "mixed_serving",
+      "die": "H1",
+      "temperature_c": 75.38,
+      "normalized_rise": 0.6931755641166757,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "mixed_serving",
+      "die": "H3",
+      "temperature_c": 75.08,
+      "normalized_rise": 0.6890478811227296,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "skewed_compute",
+      "die": "H0",
+      "temperature_c": 74.68,
+      "normalized_rise": 0.6835443037974683,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "skewed_compute",
+      "die": "G3",
+      "temperature_c": 78.95,
+      "normalized_rise": 0.6778489760020103,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "attention_decode",
+      "die": "H1",
+      "temperature_c": 74.11,
+      "normalized_rise": 0.6757017061089707,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "attention_decode",
+      "die": "H0",
+      "temperature_c": 73.55,
+      "normalized_rise": 0.6679966978536047,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "attention_decode",
+      "die": "H3",
+      "temperature_c": 73.33,
+      "normalized_rise": 0.664969730324711,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "skewed_compute",
+      "die": "H1",
+      "temperature_c": 68.77,
+      "normalized_rise": 0.6022289488167307,
+      "reduction_to_095_c": 0
+    },
+    {
+      "workload": "skewed_compute",
+      "die": "H3",
+      "temperature_c": 68.6,
+      "normalized_rise": 0.5998899284534946,
+      "reduction_to_095_c": 0
+    }
+  ],
+  "route_slack_mm": {
+    "P0": 0.09600000000000009,
+    "P1": 3.615,
+    "P2": 3.856,
+    "P3": 0.051000000000000156,
+    "S0": 0.014000000000000234,
+    "S1": 0.0019999999999997797,
+    "S2": 1.9960000000000004,
+    "S3": 1.936
+  },
+  "weighted_slack": 55.20000000000073
+}

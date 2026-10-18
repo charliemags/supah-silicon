@@ -1,0 +1,146 @@
+{
+  "G0": {
+    "x-": {
+      "first_invalid_mm": 0.015,
+      "reason": "S0 port Manhattan lower bound 6.00 mm exceeds reach"
+    },
+    "x+": {
+      "first_invalid_mm": 0.051,
+      "reason": "S0 route 6.00 mm exceeds 6.00 mm"
+    },
+    "y-": {
+      "first_invalid_mm": 0.015,
+      "reason": "S0 port Manhattan lower bound 6.00 mm exceeds reach"
+    },
+    "y+": {
+      "first_invalid_mm": 0.199,
+      "reason": "P0 route 5.00 mm exceeds 5.00 mm"
+    }
+  },
+  "G1": {
+    "x-": {
+      "first_invalid_mm": 0.291,
+      "reason": "total bandwidth-weighted route 13782.9 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "x+": {
+      "first_invalid_mm": 0.003,
+      "reason": "S1 route 6.00 mm exceeds 6.00 mm"
+    },
+    "y-": {
+      "first_invalid_mm": 0.185,
+      "reason": "total bandwidth-weighted route 13500.3 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "y+": {
+      "first_invalid_mm": 0.003,
+      "reason": "S1 route 6.00 mm exceeds 6.00 mm"
+    }
+  },
+  "G2": {
+    "x-": {
+      "first_invalid_mm": 0.002,
+      "reason": "port cannot access a free route track"
+    },
+    "x+": {
+      "first_invalid_mm": 0.049,
+      "reason": "total bandwidth-weighted route 13638.9 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "y-": {
+      "first_invalid_mm": 0.274,
+      "reason": "total bandwidth-weighted route 13798.2 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "y+": {
+      "first_invalid_mm": 0.062,
+      "reason": "total bandwidth-weighted route 13500.6 exceeds 13500.0 GB/s\u00b7mm"
+    }
+  },
+  "G3": {
+    "x-": {
+      "first_invalid_mm": 0.097,
+      "reason": "total bandwidth-weighted route 13500.9 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "x+": {
+      "first_invalid_mm": 0.052,
+      "reason": "P3 route 5.00 mm exceeds 5.00 mm"
+    },
+    "y-": {
+      "first_invalid_mm": 0.253,
+      "reason": "total bandwidth-weighted route 13517.1 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "y+": {
+      "first_invalid_mm": 0.052,
+      "reason": "P3 route 5.00 mm exceeds 5.00 mm"
+    }
+  },
+  "H0": {
+    "x-": {
+      "first_invalid_mm": 0.003,
+      "reason": "S1 route 6.00 mm exceeds 6.00 mm"
+    },
+    "x+": {
+      "first_invalid_mm": 0.097,
+      "reason": "P0 port Manhattan lower bound 5.00 mm exceeds reach"
+    },
+    "y-": {
+      "first_invalid_mm": 0.081,
+      "reason": "S1 port Manhattan lower bound 6.00 mm exceeds reach"
+    },
+    "y+": {
+      "first_invalid_mm": 0.003,
+      "reason": "S1 route 6.00 mm exceeds 6.00 mm"
+    }
+  },
+  "H1": {
+    "x-": {
+      "first_invalid_mm": 0.102,
+      "reason": "total bandwidth-weighted route 13500.6 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "x+": {
+      "first_invalid_mm": 0.062,
+      "reason": "total bandwidth-weighted route 13500.6 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "y-": {
+      "first_invalid_mm": 0.326,
+      "reason": "G1 and H1 violate 1.0 mm clearance"
+    },
+    "y+": {
+      "first_invalid_mm": 0.185,
+      "reason": "total bandwidth-weighted route 13500.3 exceeds 13500.0 GB/s\u00b7mm"
+    }
+  },
+  "H2": {
+    "x-": {
+      "first_invalid_mm": 0.185,
+      "reason": "total bandwidth-weighted route 13500.3 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "x+": {
+      "first_invalid_mm": 0.118,
+      "reason": "G2 and H2 violate 1.0 mm clearance"
+    },
+    "y-": {
+      "first_invalid_mm": 0.062,
+      "reason": "total bandwidth-weighted route 13500.6 exceeds 13500.0 GB/s\u00b7mm"
+    },
+    "y+": {
+      "first_invalid_mm": 0.07,
+      "reason": "total bandwidth-weighted route 13500.6 exceeds 13500.0 GB/s\u00b7mm"
+    }
+  },
+  "H3": {
+    "x-": {
+      "first_invalid_mm": 0.053,
+      "reason": "S0 route 6.00 mm exceeds 6.00 mm"
+    },
+    "x+": {
+      "first_invalid_mm": 0.015,
+      "reason": "S0 port Manhattan lower bound 6.00 mm exceeds reach"
+    },
+    "y-": {
+      "first_invalid_mm": 0.052,
+      "reason": "P3 route 5.00 mm exceeds 5.00 mm"
+    },
+    "y+": {
+      "first_invalid_mm": 0.015,
+      "reason": "S0 port Manhattan lower bound 6.00 mm exceeds reach"
+    }
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "passed": true,
+  "die_edge_margin_mm": 3.25,
+  "minimum_die_separation_mm": 2.15,
+  "weighted_route_gb_s_mm": 12870.0,
+  "route_limit_gb_s_mm": 13500.0,
+  "die_edge_capacity": {
+    "G0.right": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.3
+    },
+    "H0.left": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.12
+    },
+    "G1.top": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.9
+    },
+    "H1.bottom": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.3
+    },
+    "G2.left": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.3
+    },
+    "H2.right": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.12
+    },
+    "G3.bottom": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.9
+    },
+    "H3.top": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.3
+    },
+    "G0.left": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.3
+    },
+    "H3.right": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.12
+    },
+    "G1.bottom": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.9
+    },
+    "H0.top": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.3
+    },
+    "G2.right": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.3
+    },
+    "H1.left": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.12
+    },
+    "G3.top": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.9
+    },
+    "H2.bottom": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.3
+    }
+  },
+  "links": {
+    "P0": {
+      "route_length_mm": 4.5,
+      "max_route_mm": 5.0,
+      "required_port_each_end_mm": 4.0,
+      "from_port_mm": [
+        31.75,
+        8.5
+      ],
+      "to_port_mm": [
+        35.75,
+        8.5
+      ],
+      "route_grid": [
+        [
+          64,
+          17
+        ],
+        [
+          65,
+          17
+        ],
+        [
+          66,
+          17
+        ],
+        [
+          67,
+          17
+        ],
+        [
+          68,
+          17
+        ],
+        [
+          69,
+          17
+        ],
+        [
+          70,
+          17
+        ]
+      ]
+    },
+    "P1": {
+      "route_length_mm": 2.65,
+      "max_route_mm": 5.0,
+      "required_port_each_end_mm": 4.0,
+      "from_port_mm": [
+        41.0,
+        26.25
+      ],
+      "to_port_mm": [
+        41.0,
+        28.4
+      ],
+      "route_grid": [
+        [
+          82,
+          53
+        ],
+        [
+          82,
+          54
+        ],
+        [
+          82,
+          55
+        ]
+      ]
+    },
+    "P2": {
+      "route_length_mm": 4.5,
+      "max_route_mm": 5.0,
+      "required_port_each_end_mm": 4.0,
+      "from_port_mm": [
+        20.25,
+        33.5
+      ],
+      "to_port_mm": [
+        16.25,
+        33.5
+      ],
+      "route_grid": [
+        [
+          39,
+          67
+        ],
+        [
+          38,
+          67
+        ],
+        [
+          37,
+          67
+        ],
+        [
+          36,
+          67
+        ],
+        [
+          35,
+          67
+        ],
+        [
+          34,
+          67
+        ],
+        [
+          33,
+          67
+        ]
+      ]
+    },
+    "P3": {
+      "route_length_mm": 2.65,
+      "max_route_mm": 5.0,
+      "required_port_each_end_mm": 4.0,
+      "from_port_mm": [
+        11.0,
+        15.75
+      ],
+      "to_port_mm": [
+        11.0,
+        13.6
+      ],
+      "route_grid": [
+        [
+          22,
+          30
+        ],
+        [
+          22,
+          29
+        ],
+        [
+          22,
+          28
+        ]
+      ]
+    },
+    "S0": {
+      "route_length_mm": 4.5,
+      "max_route_mm": 6.0,
+      "required_port_each_end_mm": 2.0,
+      "from_port_mm": [
+        20.25,
+        8.5
+      ],
+      "to_port_mm": [
+        16.25,
+        8.5
+      ],
+      "route_grid": [
+        [
+          39,
+          17
+        ],
+        [
+          38,
+          17
+        ],
+        [
+          37,
+          17
+        ],
+        [
+          36,
+          17
+        ],
+        [
+          35,
+          17
+        ],
+        [
+          34,
+          17
+        ],
+        [
+          33,
+          17
+        ]
+      ]
+    },
+    "S1": {
+      "route_length_mm": 2.65,
+      "max_route_mm": 6.0,
+      "required_port_each_end_mm": 2.0,
+      "from_port_mm": [
+        41.0,
+        15.75
+      ],
+      "to_port_mm": [
+        41.0,
+        13.6
+      ],
+      "route_grid": [
+        [
+          82,
+          30
+        ],
+        [
+          82,
+          29
+        ],
+        [
+          82,
+          28
+        ]
+      ]
+    },
+    "S2": {
+      "route_length_mm": 4.5,
+      "max_route_mm": 6.0,
+      "required_port_each_end_mm": 2.0,
+      "from_port_mm": [
+        31.75,
+        33.5
+      ],
+      "to_port_mm": [
+        35.75,
+        33.5
+      ],
+      "route_grid": [
+        [
+          64,
+          67
+        ],
+        [
+          65,
+          67
+        ],
+        [
+          66,
+          67
+        ],
+        [
+          67,
+          67
+        ],
+        [
+          68,
+          67
+        ],
+        [
+          69,
+          67
+        ],
+        [
+          70,
+          67
+        ]
+      ]
+    },
+    "S3": {
+      "route_length_mm": 2.65,
+      "max_route_mm": 6.0,
+      "required_port_each_end_mm": 2.0,
+      "from_port_mm": [
+        11.0,
+        26.25
+      ],
+      "to_port_mm": [
+        11.0,
+        28.4
+      ],
+      "route_grid": [
+        [
+          22,
+          53
+        ],
+        [
+          22,
+          54
+        ],
+        [
+          22,
+          55
+        ]
+      ]
+    }
+  }
+}

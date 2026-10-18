@@ -1,0 +1,16 @@
+{
+  "kind": "native screening; original pinned verification required",
+  "source_sha256": "6d5d77bbfd9a901f388d135333bb9a784040baaff25046a1e8b40ed97db4fe9d",
+  "solver_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "start_sha256": "e93a980c560cd10ad9b0dac238c3b06c0c61bf13aac93134207b2a3604808a49",
+  "equal_path_counts": {
+    "P0": 1,
+    "P1": 1,
+    "P2": 1,
+    "P3": 1,
+    "S0": 84,
+    "S1": 1,
+    "S2": 1,
+    "S3": 1
+  }
+}

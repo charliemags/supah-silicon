@@ -1,0 +1,21 @@
+{
+  "completed_observations": 950,
+  "unique_submissions": 941,
+  "all_original_geometry_valid": true,
+  "failures": [],
+  "max_weighted_route_gb_s_mm": 13499.7,
+  "v5_sha256": "e93a980c560cd10ad9b0dac238c3b06c0c61bf13aac93134207b2a3604808a49",
+  "challenge_hashes": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "geometry.py": "62fa0dcada07cda67aff889ce1770f63c8acc16c0aadffeb3315be205d957565",
+    "run_simulations.py": "86fce0bad7262111aad272d3ebb484d89252b2974495f9d87be7db6ab10c4899",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  },
+  "all_workloads_per_observation": [
+    "tensor_training",
+    "skewed_compute",
+    "memory_stream"
+  ],
+  "grid": 64,
+  "solver": "native SuperLU with increased output precision only; pinned evaluator untouched"
+}

@@ -1,0 +1,10 @@
+{
+  "completed_observations": 400,
+  "unique_submissions": 400,
+  "all_original_geometry_valid": true,
+  "best_evaluation": 178,
+  "best_native_gpu_c": 101.21,
+  "best_native_hbm_c": 94.3,
+  "best_native_score": 0.9575323533107173,
+  "best_raw_merit_c": 101.20680920000001
+}

@@ -1,0 +1,5 @@
+{
+  "status": "stopped before completion",
+  "reason": "Superseded by the relocated candidate, which has a better pinned 64 score and better native 128 screening. Resources focused on that final pinned 128 evaluation.",
+  "no_128_pinned_score_claimed": true
+}

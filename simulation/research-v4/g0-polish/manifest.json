@@ -1,0 +1,15 @@
+{
+  "kind": "native two-coordinate screening; pinned verification required",
+  "args": {
+    "start": "simulation/research-v4/finalists/quad-first/submission.json",
+    "output": "simulation/research-v4/g0-polish",
+    "die": "G0",
+    "extent": [
+      0.025,
+      0.08
+    ],
+    "step": 0.004
+  },
+  "source_sha256": "33eed49dc476e78563509084808670d80d97645656f23fe0650dbc5a852cae80",
+  "input_sha256": "20e1711f772c9e9b80a334052a12edd709faa89ccb6a984b74d0a3fe36c4753a"
+}

@@ -1,6 +1,7 @@
 .cache/
 __pycache__/
 *.pyc
+simulation/research-v3/math/fixed_route_model.part
 simulation/experiments/
 simulation/results/
 

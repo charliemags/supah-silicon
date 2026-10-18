@@ -1,0 +1,369 @@
+{
+  "all_protected_hashes_unchanged": true,
+  "protected_files": 139,
+  "protected_manifest_sha256": "9849ae0a8964e78aabdbdadb721322ff47beb10d0ea851435b27df742d140fc1",
+  "repository_revision": "2be990e82ececd8dbc358d7e14a7fabfa98cb203",
+  "challenge_revision": "8948d9bc5e3aa041dcd1ff8a5a63ed6200d04d81",
+  "preserved_submission_sha256": "e93a980c560cd10ad9b0dac238c3b06c0c61bf13aac93134207b2a3604808a49",
+  "preserved_pinned_verification": {
+    "64": {
+      "score": 0.95828622,
+      "sha256": "f656927049f20a811247e7b3cf26207d035a1883e01608cae28f628df5d25205",
+      "workloads": [
+        "tensor_training",
+        "skewed_compute",
+        "attention_decode",
+        "memory_stream",
+        "mixed_serving"
+      ]
+    },
+    "128": {
+      "score": 0.9602458,
+      "sha256": "09ff205fc2b33d5a8ea5e65153a065bfc6696c26e3a2f6e89f406c3244953163",
+      "workloads": [
+        "tensor_training",
+        "skewed_compute",
+        "attention_decode",
+        "memory_stream",
+        "mixed_serving"
+      ]
+    }
+  },
+  "logged_candidate_evaluations": 4494,
+  "logged_workload_solves": 13378,
+  "independently_revalidated_unique_submissions": 4362,
+  "largest_die_displacement_from_preserved_mm": 43.78585455670958,
+  "best_three_workload_native64_screen": {
+    "source": "de-0705-rescreen/results.jsonl",
+    "record": {
+      "source": "simulation/research-v6/global/finalists/de-0705/submission.json",
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.196086,
+            4.025982
+          ],
+          "G1": [
+            36.091596,
+            4.078308
+          ],
+          "G2": [
+            36.70388,
+            29.0
+          ],
+          "G3": [
+            9.565175,
+            28.964521
+          ],
+          "H0": [
+            19.670004,
+            4.15
+          ],
+          "H1": [
+            36.988526,
+            15.757205
+          ],
+          "H2": [
+            25.20288,
+            29.15
+          ],
+          "H3": [
+            6.5,
+            17.329796
+          ]
+        }
+      },
+      "passed": true,
+      "grid": 64,
+      "gpu": 101.2,
+      "hbm": 94.24,
+      "peaks": {
+        "tensor_training": {
+          "G0": 96.8,
+          "G1": 100.21,
+          "G2": 100.51,
+          "G3": 100.89,
+          "H0": 78.07,
+          "H1": 80.56,
+          "H2": 85.41,
+          "H3": 80.32
+        },
+        "skewed_compute": {
+          "G0": 101.2,
+          "G1": 81.25,
+          "G2": 100.33,
+          "G3": 79.04,
+          "H0": 74.68,
+          "H1": 69.76,
+          "H2": 79.5,
+          "H3": 70.64
+        },
+        "attention_decode": {
+          "G0": 80.77,
+          "G1": 83.36,
+          "G2": 82.12,
+          "G3": 83.96,
+          "H0": 73.55,
+          "H1": 74.85,
+          "H2": 77.41,
+          "H3": 73.59
+        },
+        "memory_stream": {
+          "G0": 89.26,
+          "G1": 90.57,
+          "G2": 91.6,
+          "G3": 93.62,
+          "H0": 92.99,
+          "H1": 90.81,
+          "H2": 94.24,
+          "H3": 93.16
+        },
+        "mixed_serving": {
+          "G0": 88.52,
+          "G1": 91.45,
+          "G2": 84.02,
+          "G3": 87.31,
+          "H0": 76.06,
+          "H1": 76.42,
+          "H2": 79.27,
+          "H3": 75.43
+        }
+      },
+      "power": {
+        "tensor_training": {
+          "base_w": 399.000000019,
+          "phy_w": 1.8192,
+          "wire_w": 2.5673589999999997,
+          "total_w": 403.38655873899995
+        },
+        "skewed_compute": {
+          "base_w": 341.999999993,
+          "phy_w": 1.6847999999999999,
+          "wire_w": 2.3398389999999996,
+          "total_w": 346.024638713
+        },
+        "attention_decode": {
+          "base_w": 313.00000000500006,
+          "phy_w": 4.295999999999999,
+          "wire_w": 6.177596,
+          "total_w": 323.47359616499995
+        },
+        "memory_stream": {
+          "base_w": 383.00000001800004,
+          "phy_w": 4.9392000000000005,
+          "wire_w": 7.252548,
+          "total_w": 395.19174849800004
+        },
+        "mixed_serving": {
+          "base_w": 344.000000004,
+          "phy_w": 3.1536,
+          "wire_w": 4.570069999999999,
+          "total_w": 351.7236704040001
+        }
+      },
+      "elapsed_seconds": 2.015749250999761,
+      "screen_score": 0.9574067093856012
+    }
+  },
+  "experiments": {
+    "de-0321-rescreen/results.jsonl": {
+      "sha256": "013692a472d2f2915d12a8244aff1a33dc0ec72bfeff15820c18cf39af992385",
+      "candidate_evaluations": 2,
+      "workload_solves": 10,
+      "grids": [
+        64,
+        128
+      ]
+    },
+    "de-0705-rescreen/results.jsonl": {
+      "sha256": "61c0eb03f006eb67c9a0216058c489dae722029145a46130cdbdef66d4df6d14",
+      "candidate_evaluations": 2,
+      "workload_solves": 10,
+      "grids": [
+        64,
+        128
+      ]
+    },
+    "de-0770-rescreen/results.jsonl": {
+      "sha256": "cec713bd48041784b55e4526316c6ebb97cce6e8318596d1ddb2449b859d770e",
+      "candidate_evaluations": 2,
+      "workload_solves": 10,
+      "grids": [
+        64,
+        128
+      ]
+    },
+    "full-contact-screen/results.jsonl": {
+      "sha256": "25d7f456bcdfa103d887ae48298327fe22bf09908986fb80d2c24e59f945e630",
+      "candidate_evaluations": 13,
+      "workload_solves": 65,
+      "grids": [
+        64
+      ]
+    },
+    "g0-preserved-screen/results.jsonl": {
+      "sha256": "1450696e8e47cd226280d4de140daefe6b73971f29ebee45fe9a62e207a0decf",
+      "candidate_evaluations": 14,
+      "workload_solves": 70,
+      "grids": [
+        64
+      ]
+    },
+    "global/adaptive-de-1000/search.jsonl": {
+      "sha256": "a0f5f83bf3b6823382e5cf3b09b6e156a438ff335931ece1df59b45b86ab7237",
+      "candidate_evaluations": 1000,
+      "workload_solves": 3000,
+      "grids": [
+        64
+      ]
+    },
+    "global/g0-pareto-600/search.jsonl": {
+      "sha256": "c1fc0f79f980ba91be357f93f2b9cba1827756ce6c9e4fe5ecdd9857a412c81f",
+      "candidate_evaluations": 600,
+      "workload_solves": 1800,
+      "grids": [
+        64
+      ]
+    },
+    "global/joint128-60/search.jsonl": {
+      "sha256": "c20f5c04010bf7cd635fff0243eabc6593b8387b15f31724da208816fac1d736",
+      "candidate_evaluations": 155,
+      "workload_solves": 465,
+      "grids": [
+        64,
+        128
+      ]
+    },
+    "global/joint128-relaxed-40/search.jsonl": {
+      "sha256": "eae43b6b7627dc2d20f351165930bd9db1bdd0c6f5f5f113b299b310fa9fa667",
+      "candidate_evaluations": 60,
+      "workload_solves": 180,
+      "grids": [
+        64,
+        128
+      ]
+    },
+    "global/population-1600/search.jsonl": {
+      "sha256": "2734b2285db7a01a24ebd9bba3b90135e79e7812de95d32bf5311518c47f45cf",
+      "candidate_evaluations": 631,
+      "workload_solves": 1893,
+      "grids": [
+        64
+      ]
+    },
+    "jumps/basins/search.jsonl": {
+      "sha256": "9e9de725e7d0f6f924c30e1593f218bd28d3d7291683ba55f48b13b22189d251",
+      "candidate_evaluations": 244,
+      "workload_solves": 732,
+      "grids": [
+        64
+      ]
+    },
+    "model/g0-isolation/skewed-screen.json": {
+      "sha256": "93a58566f5f56ad0219377a7b416985c1f1dd816ac9bb0a7c0cc197062d588c5",
+      "candidate_evaluations": 22,
+      "workload_solves": 22,
+      "grids": [
+        64
+      ]
+    },
+    "model/v5-routes/search.jsonl": {
+      "sha256": "cbbc2e2a0c111d390916f48a69ce369d3cc3bb654503bb311e7145020255198a",
+      "candidate_evaluations": 85,
+      "workload_solves": 93,
+      "grids": [
+        64
+      ]
+    },
+    "preserved-native-control/results.jsonl": {
+      "sha256": "b5ec690b799c310138283ef5eb3bf9c7ad95c63eac16feb5e7a6033b56cce729",
+      "candidate_evaluations": 2,
+      "workload_solves": 10,
+      "grids": [
+        64,
+        128
+      ]
+    },
+    "shortlist-v1-rescreen/results.jsonl": {
+      "sha256": "96b600f468d36ef79c9d040058e3f424c6f4f96feb571f8e36f4d2a78a67ac68",
+      "candidate_evaluations": 16,
+      "workload_solves": 80,
+      "grids": [
+        64,
+        128
+      ]
+    },
+    "topology/concave-global/search.jsonl": {
+      "sha256": "d397148b4fea1fb710319ee50949415c564f7afe6acc49c5f74d20747c17c246",
+      "candidate_evaluations": 551,
+      "workload_solves": 1653,
+      "grids": [
+        64
+      ]
+    },
+    "topology/contact-g0/search.jsonl": {
+      "sha256": "da04e1e86b2f3689fbb640b37ee1d3c13f8dea735fe74c77568c7a7f670af094",
+      "candidate_evaluations": 154,
+      "workload_solves": 462,
+      "grids": [
+        64
+      ]
+    },
+    "topology/de-restart/search.jsonl": {
+      "sha256": "6860c9184c7a0aa3a3622bdc946373b9ba9b754f0032467eb18b61cf06bcd61f",
+      "candidate_evaluations": 247,
+      "workload_solves": 741,
+      "grids": [
+        64
+      ]
+    },
+    "topology/de0321-refine/search.jsonl": {
+      "sha256": "e28975dfec64f48878273fa7d7ebce07df439891f629e17a51b63705b31b251c",
+      "candidate_evaluations": 400,
+      "workload_solves": 1200,
+      "grids": [
+        64
+      ]
+    },
+    "topology/folded-g0/search.jsonl": {
+      "sha256": "ce11a1fb114aabb5dbdd87e2dd30c8e638bdd656574bfa3c521653694a449b08",
+      "candidate_evaluations": 48,
+      "workload_solves": 144,
+      "grids": [
+        64
+      ]
+    },
+    "topology/offset-ring-balance/search.jsonl": {
+      "sha256": "b1debe021dcbde5268ccdac474a8531f00df5647f5716f236a3ad92f30a220d5",
+      "candidate_evaluations": 74,
+      "workload_solves": 222,
+      "grids": [
+        64
+      ]
+    },
+    "topology/offset-ring-coupling/search.jsonl": {
+      "sha256": "d7cce54fe3cfd3083d4d7d78f514dbd111deaa890aa435aa25ff899f9521cded",
+      "candidate_evaluations": 123,
+      "workload_solves": 369,
+      "grids": [
+        64
+      ]
+    },
+    "topology/p0-alignment/search.jsonl": {
+      "sha256": "19be3aa29a79b20b85e1865fb5439b8cc2059aa5d67715d5443e6148116170c7",
+      "candidate_evaluations": 49,
+      "workload_solves": 147,
+      "grids": [
+        64
+      ]
+    }
+  },
+  "count_note": "Actual completed native solver screens only, including repeated controls and rescreens; geometry proposals, inherited observations, and copied reports excluded.",
+  "execution": "Local network-disabled Docker. Challenge read-only. No AutoLab Docker socket connection; no rented compute.",
+  "selected": "simulation/research-v6/global/finalists/de-0321",
+  "selected_submission_sha256": "30d8038d5b0c92bd819aa4cc132eed10630d9a479bd576fd4b35ff38b5942d46",
+  "selected_pinned_scores": {
+    "64": 0.95753235,
+    "128": 0.96012039
+  }
+}

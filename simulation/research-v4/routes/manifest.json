@@ -1,0 +1,19 @@
+{
+  "kind": "native screening; pinned all-workload 64/128 verification required",
+  "arguments": {
+    "mode": "routes",
+    "start": "simulation/research-v3/lead/finalists/control-hbm/submission.json",
+    "output": "simulation/research-v4/routes",
+    "evals": 1024,
+    "seed": 2026101804
+  },
+  "source_sha256": "ee79d253cd9e8a2d4b1750ae679d0251ceed697f1f32e334850814a2f7d11a98",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "input_sha256": "9ab467d65809f0089735eb6d9646f6e351cda541e66705f9f812a3481ff65ba9",
+  "challenge_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9",
+    "geometry.py": "62fa0dcada07cda67aff889ce1770f63c8acc16c0aadffeb3315be205d957565",
+    "run_simulations.py": "86fce0bad7262111aad272d3ebb484d89252b2974495f9d87be7db6ab10c4899"
+  }
+}

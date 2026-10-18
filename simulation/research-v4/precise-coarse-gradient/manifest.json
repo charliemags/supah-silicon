@@ -1,0 +1,14 @@
+{
+  "kind": "output-precision-only native search; original pinned judge required for promotion",
+  "source_sha256": "7800db3e919d83e13b8f3acefe2a899ef89a87fffc0c1da3b487a718fba11977",
+  "solver_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "input_sha256": "edc6663fcbdf33f9630a6cbd6832a0701973ea54a0245cb536f1bdee370b0ea2",
+  "args": {
+    "start": "simulation/research-v4/precision-rescreen/submission.json",
+    "output": "simulation/research-v4/precise-coarse-gradient",
+    "iterations": 35,
+    "epochs": 2,
+    "epsilon": 0.005,
+    "radius": 0.4
+  }
+}

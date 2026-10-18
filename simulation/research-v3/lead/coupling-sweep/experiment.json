@@ -1,0 +1,13 @@
+{
+  "purpose": "native controlled screening; never an official score",
+  "hypothesis": "Moving connected neighbors can change lateral heat spreading as well as source coupling; southern upper-row movement can release route budget.",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "script_sha256": "eb747027b916df7834485d8740ef9a9df132c22acf636a369e9dfa3c1b652798",
+  "input_sha256": "09b3c673fd8a8a6b940abd8219cf9a85f88d70efcd98667e55604bb394845724",
+  "challenge_files": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  },
+  "grid": 64,
+  "workloads": "all five"
+}

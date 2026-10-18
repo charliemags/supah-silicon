@@ -8,9 +8,16 @@
   "leaderboard_snapshot_score": 0.96180425,
   "below_0_95": false,
   "below_0_94": false,
-  "status": "locally verified with unmodified pinned judge; not submitted to AutoLab",
+  "status": "official AutoLab 64-grid result; local pinned 128-grid verification",
   "search_evaluations_by_grid": {
     "64": 5518,
     "128": 17
+  },
+  "autolab": {
+    "experiment_id": "af03db90-7f0b-4b37-a53b-be12bddd4232",
+    "hill_version": "3610c381240c2920c36c9af77002c7162936f17b",
+    "report": "official-report-64.json",
+    "timestamp_utc": "2026-10-18T20:22:27Z",
+    "leaderboard_rank_at_observation": 1
   }
 }

@@ -1,0 +1,6 @@
+{
+  "native128_screens": 21,
+  "native64_gates": 39,
+  "reason": "User requested immediate wrap-up; stopped remaining Docker search. Completed records and immutable candidates preserved. No further simulations authorized in this turn.",
+  "search_log_sha256": "eae43b6b7627dc2d20f351165930bd9db1bdd0c6f5f5f113b299b310fa9fa667"
+}

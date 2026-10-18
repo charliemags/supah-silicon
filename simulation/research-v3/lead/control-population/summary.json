@@ -1,0 +1,7 @@
+{
+  "kind": "screening; verify all workloads with pinned judge",
+  "evaluations": 256,
+  "proposals": 947,
+  "best_score": 0.9597939439628094,
+  "elapsed_seconds": 107.05
+}

@@ -1,0 +1,359 @@
+{
+  "incumbent_unchanged": {
+    "simulation/layouts/supah-v2/submission.json": true,
+    "simulation/layouts/supah-v2/official-report-64.json": true,
+    "simulation/layouts/supah-v2/verification-64.json": true,
+    "simulation/layouts/supah-v2/verification-128.json": true
+  },
+  "official_new_submission": false,
+  "paid_compute_used": false,
+  "calibration": {
+    "64": {
+      "compared_die_workload_peaks": 40,
+      "maximum_absolute_error_c": 0.01,
+      "minimum_signed_error_c": -0.01,
+      "maximum_signed_error_c": 0.0,
+      "native_solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+      "pinned_solver_sha256": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb"
+    },
+    "128": {
+      "compared_die_workload_peaks": 40,
+      "maximum_absolute_error_c": 0.01,
+      "minimum_signed_error_c": -0.01,
+      "maximum_signed_error_c": 0.0,
+      "native_solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+      "pinned_solver_sha256": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb"
+    }
+  },
+  "experiments": {
+    "population_control": {
+      "evaluations": 256,
+      "best_native_score": 0.9597939439628094,
+      "record_kinds": {
+        "population": 256
+      }
+    },
+    "inverted_refinement": {
+      "evaluations": 256,
+      "best_native_score": 1.0025128785023245,
+      "record_kinds": {
+        "population": 256
+      }
+    },
+    "epigraph_all_stages": {
+      "evaluations": 320,
+      "best_native_score": 0.9597939439628094,
+      "record_kinds": {
+        "seed": 1,
+        "coordinate_secant": 37,
+        "group_secant": 5,
+        "projected_secant": 13,
+        "refresh_secant": 35,
+        "feasible_fallback_secant": 181,
+        "epigraph_trial": 48
+      }
+    },
+    "packaging": {
+      "status": "native screening only; all five workloads at64; no new pinned or signed claims",
+      "evaluations": 180,
+      "families": {
+        "4x2-cycle": {
+          "evaluations": 64,
+          "native_best_score": 1.0525591634562466,
+          "best_candidate": "flat-f0-r0-dy14.5-dx0.75",
+          "gpu": 108.57,
+          "hbm": 101.5,
+          "elapsed_seconds_sum": 97.98,
+          "best_power": {
+            "tensor_training": {
+              "base_w": 399.000000019,
+              "phy_w": 1.8192,
+              "wire_w": 1.591584,
+              "total_w": 402.41078401899995
+            },
+            "skewed_compute": {
+              "base_w": 341.999999993,
+              "phy_w": 1.6847999999999999,
+              "wire_w": 1.517088,
+              "total_w": 345.201887993
+            },
+            "attention_decode": {
+              "base_w": 313.00000000500006,
+              "phy_w": 4.295999999999999,
+              "wire_w": 3.8495999999999997,
+              "total_w": 321.14560000499995
+            },
+            "memory_stream": {
+              "base_w": 383.00000001800004,
+              "phy_w": 4.9392000000000005,
+              "wire_w": 4.52928,
+              "total_w": 392.46848001800004
+            },
+            "mixed_serving": {
+              "base_w": 344.000000004,
+              "phy_w": 3.1536,
+              "wire_w": 2.910912,
+              "total_w": 350.06451200400005
+            }
+          }
+        },
+        "control": {
+          "evaluations": 1,
+          "native_best_score": 0.9597939439628094,
+          "best_candidate": "incumbent",
+          "gpu": 101.39,
+          "hbm": 94.16,
+          "elapsed_seconds_sum": 1.358,
+          "best_power": {
+            "tensor_training": {
+              "base_w": 399.000000019,
+              "phy_w": 1.8192,
+              "wire_w": 2.51782,
+              "total_w": 403.33701889899993
+            },
+            "skewed_compute": {
+              "base_w": 341.999999993,
+              "phy_w": 1.6847999999999999,
+              "wire_w": 2.336465,
+              "total_w": 346.021263353
+            },
+            "attention_decode": {
+              "base_w": 313.00000000500006,
+              "phy_w": 4.295999999999999,
+              "wire_w": 6.09648,
+              "total_w": 323.392480005
+            },
+            "memory_stream": {
+              "base_w": 383.00000001800004,
+              "phy_w": 4.9392000000000005,
+              "wire_w": 7.200222,
+              "total_w": 395.139422738
+            },
+            "mixed_serving": {
+              "base_w": 344.000000004,
+              "phy_w": 3.1536,
+              "wire_w": 4.521815000000001,
+              "total_w": 351.6754150440001
+            }
+          }
+        },
+        "directed-math": {
+          "evaluations": 12,
+          "native_best_score": 0.9601708757381581,
+          "best_candidate": "directed-2",
+          "gpu": 101.42,
+          "hbm": 94.08,
+          "elapsed_seconds_sum": 22.552,
+          "best_power": {
+            "tensor_training": {
+              "base_w": 399.000000019,
+              "phy_w": 1.8192,
+              "wire_w": 2.45512,
+              "total_w": 403.2743193789999
+            },
+            "skewed_compute": {
+              "base_w": 341.999999993,
+              "phy_w": 1.6847999999999999,
+              "wire_w": 2.3129370000000002,
+              "total_w": 345.997735673
+            },
+            "attention_decode": {
+              "base_w": 313.00000000500006,
+              "phy_w": 4.295999999999999,
+              "wire_w": 5.974353,
+              "total_w": 323.27035264499995
+            },
+            "memory_stream": {
+              "base_w": 383.00000001800004,
+              "phy_w": 4.9392000000000005,
+              "wire_w": 7.061352000000001,
+              "total_w": 395.00055297800003
+            },
+            "mixed_serving": {
+              "base_w": 344.000000004,
+              "phy_w": 3.1536,
+              "wire_w": 4.440222,
+              "total_w": 351.59382272400006
+            }
+          }
+        },
+        "equal-length-route": {
+          "evaluations": 23,
+          "native_best_score": 0.9597939439628094,
+          "best_candidate": "route-S0-66",
+          "gpu": 101.39,
+          "hbm": 94.16,
+          "elapsed_seconds_sum": 31.113,
+          "best_power": {
+            "tensor_training": {
+              "base_w": 399.000000019,
+              "phy_w": 1.8192,
+              "wire_w": 2.51782,
+              "total_w": 403.33701889899993
+            },
+            "skewed_compute": {
+              "base_w": 341.999999993,
+              "phy_w": 1.6847999999999999,
+              "wire_w": 2.336465,
+              "total_w": 346.021263353
+            },
+            "attention_decode": {
+              "base_w": 313.00000000500006,
+              "phy_w": 4.295999999999999,
+              "wire_w": 6.09648,
+              "total_w": 323.392480005
+            },
+            "memory_stream": {
+              "base_w": 383.00000001800004,
+              "phy_w": 4.9392000000000005,
+              "wire_w": 7.200222,
+              "total_w": 395.139422738
+            },
+            "mixed_serving": {
+              "base_w": 344.000000004,
+              "phy_w": 3.1536,
+              "wire_w": 4.521815000000001,
+              "total_w": 351.6754150440001
+            }
+          }
+        },
+        "inverted-ring": {
+          "evaluations": 48,
+          "native_best_score": 1.0301545420278928,
+          "best_candidate": "inverted-f0-r2-dx15-dy12.5",
+          "gpu": 106.99,
+          "hbm": 90.75,
+          "elapsed_seconds_sum": 67.316,
+          "best_power": {
+            "tensor_training": {
+              "base_w": 399.000000019,
+              "phy_w": 1.8192,
+              "wire_w": 2.65296,
+              "total_w": 403.47216001899994
+            },
+            "skewed_compute": {
+              "base_w": 341.999999993,
+              "phy_w": 1.6847999999999999,
+              "wire_w": 2.105568,
+              "total_w": 345.79036799299996
+            },
+            "attention_decode": {
+              "base_w": 313.00000000500006,
+              "phy_w": 4.295999999999999,
+              "wire_w": 6.255168,
+              "total_w": 323.55116800499997
+            },
+            "memory_stream": {
+              "base_w": 383.00000001800004,
+              "phy_w": 4.9392000000000005,
+              "wire_w": 7.057727999999999,
+              "total_w": 394.99692801800006
+            },
+            "mixed_serving": {
+              "base_w": 344.000000004,
+              "phy_w": 3.1536,
+              "wire_w": 4.53984,
+              "total_w": 351.6934400040001
+            }
+          }
+        },
+        "wide-inverted-ring": {
+          "evaluations": 32,
+          "native_best_score": 1.015454202789295,
+          "best_candidate": "wide-f0-r2-dx16.25-dy11.75",
+          "gpu": 105.82,
+          "hbm": 90.71,
+          "elapsed_seconds_sum": 44.417,
+          "best_power": {
+            "tensor_training": {
+              "base_w": 399.000000019,
+              "phy_w": 1.8192,
+              "wire_w": 2.5723200000000004,
+              "total_w": 403.3915200189999
+            },
+            "skewed_compute": {
+              "base_w": 341.999999993,
+              "phy_w": 1.6847999999999999,
+              "wire_w": 1.9913280000000002,
+              "total_w": 345.67612799299997
+            },
+            "attention_decode": {
+              "base_w": 313.00000000500006,
+              "phy_w": 4.295999999999999,
+              "wire_w": 6.051648,
+              "total_w": 323.347648005
+            },
+            "memory_stream": {
+              "base_w": 383.00000001800004,
+              "phy_w": 4.9392000000000005,
+              "wire_w": 6.810047999999999,
+              "total_w": 394.74924801800006
+            },
+            "mixed_serving": {
+              "base_w": 344.000000004,
+              "phy_w": 3.1536,
+              "wire_w": 4.3939200000000005,
+              "total_w": 351.54752000400003
+            }
+          }
+        }
+      }
+    },
+    "coupling_sweep": {
+      "proposals": 73,
+      "evaluations": 13,
+      "best_native_score": 0.9597939439628094
+    }
+  },
+  "robustness": {
+    "proposals_completed": 73,
+    "exact_valid": 50,
+    "grids": {
+      "64": {
+        "base_gpu_c": 101.39,
+        "base_hbm_c": 94.08,
+        "perturbed_gpu_range_c": [
+          101.39,
+          101.44
+        ],
+        "perturbed_hbm_range_c": [
+          94.06,
+          94.14
+        ],
+        "better_primary_score_count": 0
+      },
+      "128": {
+        "base_gpu_c": 101.7,
+        "base_hbm_c": 94.18,
+        "perturbed_gpu_range_c": [
+          101.69,
+          101.72
+        ],
+        "perturbed_hbm_range_c": [
+          94.17,
+          94.22
+        ],
+        "better_primary_score_count": 1
+      }
+    }
+  },
+  "finalist": {
+    "64": {
+      "passed": true,
+      "grid": 64,
+      "score": 0.95991959,
+      "worst_gpu_c": 101.4,
+      "worst_hbm_c": 94.08,
+      "hotspot_sha256": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb"
+    },
+    "128": {
+      "passed": true,
+      "grid": 128,
+      "score": 0.9620015,
+      "worst_gpu_c": 101.71,
+      "worst_hbm_c": 94.19,
+      "hotspot_sha256": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb"
+    },
+    "submission_sha256": "9ab467d65809f0089735eb6d9646f6e351cda541e66705f9f812a3481ff65ba9"
+  }
+}

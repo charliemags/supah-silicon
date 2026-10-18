@@ -1,0 +1,21 @@
+{
+  "start": "simulation/research-v3/packaging/candidates/inverted-f0-r2-dx15-dy12.5/submission.json",
+  "output": "simulation/research-v3/lead/inverted-refinement",
+  "history": [],
+  "evals": 256,
+  "parallel": 2,
+  "walkers": 8,
+  "grid": 64,
+  "seed": 20261019,
+  "radius": 2.0,
+  "temperature": 0.01,
+  "kind": "native screening only; pinned verification required",
+  "code_sha256": "cabd327f29373338824f0571eb857d8dd553ec29f300e346a491aaadc23d0b6f",
+  "hotspot_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "input_sha256": "5fdd520c364e597722afb3efc67c984c9220b35875c2b8924b7d844c5f4bffa2",
+  "history_sha256": {},
+  "files_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  }
+}

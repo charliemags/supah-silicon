@@ -1,0 +1,30 @@
+{
+  "kind": "fresh native screening, not pinned verification",
+  "source_sha256": "e1af4ba2e7cdd5f97fb765ea5caea61b0e7ad31c497241c48f321a72e25abb27",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "inputs_sha256": {
+    "simulation/research-v6/model/full-contact/seed-0000.json": "c7343ee57921e277804a2ab61e75a363abcb6ccd52f97459cb3b827c8b0a37cd",
+    "simulation/research-v6/model/full-contact/seed-0001.json": "efa8997330cae74ea7c9d48cdadd558831b1a3e6446bae0b58d433823e8ddfe7",
+    "simulation/research-v6/model/full-contact/seed-0002.json": "efa0b670214f34f0d37bb856bad4403aa4f91e68da38cc7618c378ff90986f23",
+    "simulation/research-v6/model/full-contact/seed-0003.json": "75977aa2f6588582bc835956606defb8a510d36a275e0cda85bda2440d58a349",
+    "simulation/research-v6/model/full-contact/seed-0004.json": "15f6e2e0746384425329791059fb3ddc5170799067fab34d1fd0eb533505149f",
+    "simulation/research-v6/model/full-contact/seed-0005.json": "0ba0b4ba5bcc664dc852151debe810049360a14ba41f73b4ca80916ea0b8b82b",
+    "simulation/research-v6/model/full-contact/seed-0006.json": "4b5d765ddc1952747d5ce9e13cd339e200b161638c95415ca14c8dca25172fd8",
+    "simulation/research-v6/model/full-contact/seed-0007.json": "7994d72e6b59401f049cf00add5a7f4d1bf13ed03e70aba2c530403249d36d6d",
+    "simulation/research-v6/model/full-contact/seed-0008.json": "a8728d89f721743075181cd9b65fed8345ffefcd8deb2cc814846f20611c58cd",
+    "simulation/research-v6/model/full-contact/seed-0009.json": "feeac48b8738aa586796a57306986e94cc8be3b217f031c077486560ed51cf12",
+    "simulation/research-v6/model/full-contact/seed-0010.json": "3ebb63307ccb70bbf696861267f338ae56c3b0c2bad2ecac1466fec038d383d7",
+    "simulation/research-v6/model/full-contact/seed-0011.json": "e108d30e492731acf797a13098f4b344e5066f34cacd164ab2fcf370233803cb",
+    "simulation/research-v6/model/full-contact/seed-0012.json": "c85ef1aa4ced05062a528c5c7e9d43778b965b3bb2f4ef5669dd80aa3c9d9da7"
+  },
+  "grids": [
+    64
+  ],
+  "workloads": [
+    "tensor_training",
+    "skewed_compute",
+    "attention_decode",
+    "memory_stream",
+    "mixed_serving"
+  ]
+}

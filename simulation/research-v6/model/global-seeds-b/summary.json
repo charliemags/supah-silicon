@@ -1,0 +1,7 @@
+{
+  "trials": 1000,
+  "seeds": 42,
+  "elapsed": 36.26046684999983,
+  "source_sha256": "1c8bc4d859597a92858bdfee2a44398e374f745ef6d15044345c1b13924459f9",
+  "direction_sequences": 5739
+}

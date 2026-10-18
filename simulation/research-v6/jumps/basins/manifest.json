@@ -1,0 +1,10 @@
+{
+  "kind": "exact-valid native screening; pinned evaluation required",
+  "source_sha256": {
+    "search.py": "2caa62c71a5a599c281c3d2fd9f2288460812f93faef49c3a4b53ca0553138bc",
+    "proposal.py": "e30b2f0cdd796f5d44c45bb1b8b5360d34d73c322a735d29f95bcfcd9df26409"
+  },
+  "solver_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "seed": 9461,
+  "purpose": "Large G0-location jumps with coordinated neighbor repair in non-incumbent topologies; optional unchanged-contact containment of other GPUs."
+}

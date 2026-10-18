@@ -1,0 +1,10 @@
+{
+  "purpose": "native search guidance only; output formatting change, no thermal equations or judge changes",
+  "original_source_sha256": "1d50f58de5593b5620dfd26853a49f81a6ce6688218ce525b59af28b182441df",
+  "changed_source_sha256": "0c99d858fff70f7ab9b675a49666e20fdc392ace0d036e6b2df0b545ed36ce9b",
+  "exact_replacement": {
+    "old": "fprintf(fp, \"%d\\t%.2f\\n\", i*model->cols+j,",
+    "new": "fprintf(fp, \"%d\\t%.8f\\n\", i*model->cols+j,"
+  },
+  "binary_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09"
+}

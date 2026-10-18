@@ -1,0 +1,4 @@
+{
+  "status": "stopped_early_after_plateau",
+  "reason": "More than 100 subsequent feasible simulations without an improvement at judge scoring precision; preserved all logged observations and completed epoch results."
+}

@@ -1,0 +1,9 @@
+{
+  "native128_screens": 21,
+  "native64_gates": 117,
+  "best128_raw_c": 101.53672191000004,
+  "best128_score": 0.959869576122398,
+  "best64_gate_raw_c": 101.20256504000002,
+  "threshold64_c": 101.20762957,
+  "elapsed_seconds": 170.7415444949993
+}

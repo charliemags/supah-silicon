@@ -5,12 +5,21 @@ The current optimization method is described in
 verification workflow in [Supah design workflow](docs/07-supah-design-workflow.md). The earlier
 Supah-Silicon experiments below are retained as design history.
 
-**Current design: [Supah Silicon v2](layouts/supah-v2/README.md).** Locally
-verified 64-grid score: **0.95991959**; GPU **101.40 °C**, HBM **94.16 °C**.
-This beats the rechecked October 18 leaderboard leader's **0.96180425**.
+**Latest local verified design: [research v6](research-v6/README.md).**
+Pinned scores across all five workloads: **0.95753235 at 64 × 64** and
+**0.96012039 at 128 × 128**. The [submission](research-v6/submission.json),
+both verification reports, and audit are saved with the optimization code.
+This candidate has not yet been scored by the signed AutoLab service.
+See [reproduction](research-v6/REPRODUCE.md) for fresh-clone setup.
+
+**Signed incumbent: [Supah Silicon v2](layouts/supah-v2/README.md).** Official
+AutoLab 64-grid score: **0.95991959**; GPU **101.40 °C**, HBM **94.16 °C**.
+Ranked **#1 as charliemags** on an earlier October 18 leaderboard snapshot,
+ahead of **0.96180425**. The [v3 research refresh](research-v3/README.md) records
+the later leaderboard snapshot and begins the subsequent experiments.
 The 0.95 and 0.94 targets were not reached. The design directory contains
-the submission, verification evidence, floorplan and search records.
-No public leaderboard submission was made. The earlier
+the submission, signed report, local 64/128 verification, floorplan and search records.
+The earlier
 [v1 artifact](layouts/supah-v1/README.md) retains its Track 1 power export.
 
 The original Supah-Silicon 1.0 experiment models four GPU dies and four HBM stacks with 3.6 TB/s of aggregate specified link bandwidth. Die power maps are fixed; positions and routes affect thermal coupling and modeled interconnect power. The link sum is not measured application throughput.

@@ -1,0 +1,34 @@
+{
+  "kind": "fresh native screening, not pinned verification",
+  "source_sha256": "e1af4ba2e7cdd5f97fb765ea5caea61b0e7ad31c497241c48f321a72e25abb27",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "inputs_sha256": {
+    "simulation/research-v6/global/shortlist-v1/de-0006-record.json": "91d691559eb663b04afba33b91bd48d1d0f9f4a9a14914ae5436f695f4be99c4",
+    "simulation/research-v6/global/shortlist-v1/de-0006.json": "6c92af69e12c1b29436863aa5c5a1498916821a271bb6ad09c6162de1da42cbd",
+    "simulation/research-v6/global/shortlist-v1/de-0016-record.json": "cc4cc19e918a070075fc81ec8f83ffa508bb32aa59c937e45dc2f11edb7470a0",
+    "simulation/research-v6/global/shortlist-v1/de-0016.json": "1ec988a94de56c03bef2b73ae92bdca2f3a5065dbab09881204c943e0dc15592",
+    "simulation/research-v6/global/shortlist-v1/de-0040-record.json": "d167dff2ecffa112d66da0a2459cb0f8b3f0c52a431400c5ab4a1447e036ef5c",
+    "simulation/research-v6/global/shortlist-v1/de-0040.json": "f659c2ddb5f089f1567c23670df34f0440e60f676077a54bdd24f8e394774abd",
+    "simulation/research-v6/global/shortlist-v1/de-0043-record.json": "d8bbf540544ecc00a0f4f5d4e50cbb62160bd67f4ce5445cef7b216edda14140",
+    "simulation/research-v6/global/shortlist-v1/de-0043.json": "cb36854d8af9f867a0d49497934ee7e1cd9ee7d10440777f82d06e77ea5ac55c",
+    "simulation/research-v6/global/shortlist-v1/de-0053-record.json": "30c7e5f551f7249ad26196804ec010df3b1fb8b1dcbbafd5598028ad0c56acc5",
+    "simulation/research-v6/global/shortlist-v1/de-0053.json": "5df296bd75b1137151b5018acdf20bafdb2040e99b924b73a921d364e738d309",
+    "simulation/research-v6/global/shortlist-v1/de-0068-record.json": "8a40299ffe6c5f9799f13bc817df045805e9c891a3a0cef9132646d299d34b79",
+    "simulation/research-v6/global/shortlist-v1/de-0068.json": "eea26b0c0598a2263f9b7b28b910a4b737c76c986c469f998329ae7355681787",
+    "simulation/research-v6/global/shortlist-v1/de-0085-record.json": "0681701889ea95ea7275e8ca6522e009485e4ef4e58b89c98142262276e6cd1b",
+    "simulation/research-v6/global/shortlist-v1/de-0085.json": "2d4dc888146e2b292eaf37a14ac4fc54adb9fc8a0eb12876c505058df7f16678",
+    "simulation/research-v6/global/shortlist-v1/de-0109-record.json": "c4538328899b6c1f98b96d0a2ccc47bfe8ffecd1bf7a1d3dbd3ae8d95c629c09",
+    "simulation/research-v6/global/shortlist-v1/de-0109.json": "ebbde68cc5c4d1f4d6d6165b1a2117b8f8dd801c75d050e2ce4b81883a4c4e84"
+  },
+  "grids": [
+    64,
+    128
+  ],
+  "workloads": [
+    "tensor_training",
+    "skewed_compute",
+    "attention_decode",
+    "memory_stream",
+    "mixed_serving"
+  ]
+}

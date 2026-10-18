@@ -1,0 +1,12 @@
+{
+  "unique_logged_submissions": 3628,
+  "all_exact_valid": true,
+  "errors": [],
+  "largest_measured_die_displacement_from_incumbent": {
+    "experiment": "placement",
+    "evaluation": 115,
+    "die": "G1",
+    "shift_mm": 2.7333192276058806
+  },
+  "preserved_files_changed": []
+}

@@ -1,0 +1,137 @@
+{
+  "kind": "native-screening-only repaired epigraph continuation",
+  "components": [
+    [
+      "skewed_compute",
+      "G0"
+    ],
+    [
+      "skewed_compute",
+      "G1"
+    ],
+    [
+      "skewed_compute",
+      "G2"
+    ],
+    [
+      "skewed_compute",
+      "G3"
+    ],
+    [
+      "skewed_compute",
+      "H0"
+    ],
+    [
+      "skewed_compute",
+      "H1"
+    ],
+    [
+      "skewed_compute",
+      "H2"
+    ],
+    [
+      "skewed_compute",
+      "H3"
+    ],
+    [
+      "tensor_training",
+      "G0"
+    ],
+    [
+      "tensor_training",
+      "G1"
+    ],
+    [
+      "tensor_training",
+      "G2"
+    ],
+    [
+      "tensor_training",
+      "G3"
+    ],
+    [
+      "tensor_training",
+      "H0"
+    ],
+    [
+      "tensor_training",
+      "H1"
+    ],
+    [
+      "tensor_training",
+      "H2"
+    ],
+    [
+      "tensor_training",
+      "H3"
+    ],
+    [
+      "memory_stream",
+      "G0"
+    ],
+    [
+      "memory_stream",
+      "G1"
+    ],
+    [
+      "memory_stream",
+      "G2"
+    ],
+    [
+      "memory_stream",
+      "G3"
+    ],
+    [
+      "memory_stream",
+      "H0"
+    ],
+    [
+      "memory_stream",
+      "H1"
+    ],
+    [
+      "memory_stream",
+      "H2"
+    ],
+    [
+      "memory_stream",
+      "H3"
+    ]
+  ],
+  "denominators": [
+    79.59,
+    79.59,
+    79.59,
+    79.59,
+    72.68,
+    72.68,
+    72.68,
+    72.68,
+    79.59,
+    79.59,
+    79.59,
+    79.59,
+    72.68,
+    72.68,
+    72.68,
+    72.68,
+    79.59,
+    79.59,
+    79.59,
+    79.59,
+    72.68,
+    72.68,
+    72.68,
+    72.68
+  ],
+  "seed": 9485,
+  "total_budget_including_inherited": 256,
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "source_sha256": "77218878fc3bd079ea38e0b3a7284fd6e04cc5de57f308adcb69bb481a9f03cd",
+  "input_sha256": "09b3c673fd8a8a6b940abd8219cf9a85f88d70efcd98667e55604bb394845724",
+  "files_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  },
+  "history_sha256": "8e3a7da5ad608ba88d158f2f99ae088f2d1a5f8d534254d7ea8f7786d31f7bc5"
+}

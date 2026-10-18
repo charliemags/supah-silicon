@@ -1,0 +1,7 @@
+{
+  "source": "memory-polish/search.jsonl",
+  "evaluation": 95,
+  "native_hbm_c": 94.1,
+  "native_g0_raw_c": 101.38101395000001,
+  "selection": "Lowest native HBM with G0 raw peak no higher than the already pinned-verified precise-first temperature (101.38103432 C), allowing 0.00006568 C for screening; final pinned checks decide acceptance."
+}

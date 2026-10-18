@@ -1,0 +1,268 @@
+[
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0000.json",
+    "trial": 0,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 11553.0,
+    "signature": "EENWNWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0001.json",
+    "trial": 2,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 10323.0,
+    "signature": "EEENWWWS",
+    "directions": [
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0002.json",
+    "trial": 130,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13489.8,
+    "signature": "NNEEESWW",
+    "directions": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0003.json",
+    "trial": 589,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13489.8,
+    "signature": "EENNWWWS",
+    "directions": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0004.json",
+    "trial": 675,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.4,
+    "signature": "NNEESWWW",
+    "directions": [
+      1,
+      1,
+      0,
+      0,
+      3,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0005.json",
+    "trial": 780,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12816.0,
+    "signature": "EENWNWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0006.json",
+    "trial": 1017,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13489.8,
+    "signature": "EENNSWWS",
+    "directions": [
+      0,
+      0,
+      1,
+      1,
+      3,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0007.json",
+    "trial": 1853,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "EENWWSWS",
+    "directions": [
+      0,
+      0,
+      1,
+      2,
+      2,
+      3,
+      2,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0008.json",
+    "trial": 2162,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13489.5,
+    "signature": "NEEESSWW",
+    "directions": [
+      1,
+      0,
+      0,
+      0,
+      3,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0009.json",
+    "trial": 3004,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "ENENWWSS",
+    "directions": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0010.json",
+    "trial": 3130,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13489.8,
+    "signature": "NEEESWWW",
+    "directions": [
+      1,
+      0,
+      0,
+      0,
+      3,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0011.json",
+    "trial": 3791,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 11645.7,
+    "signature": "NENESSWW",
+    "directions": [
+      1,
+      0,
+      1,
+      0,
+      3,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0012.json",
+    "trial": 3897,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12389.7,
+    "signature": "EEENWWWS",
+    "directions": [
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/g0-preserved/seed-0013.json",
+    "trial": 3959,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 11657.4,
+    "signature": "EENNWWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3
+    ]
+  }
+]

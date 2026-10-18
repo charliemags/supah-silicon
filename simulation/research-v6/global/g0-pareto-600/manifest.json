@@ -1,0 +1,131 @@
+{
+  "kind": "G0 Pareto objective population differential-evolution + mixed integer basin hopping; native screens only; unchanged original rules",
+  "source_sha256": {
+    "g0_search.py": "a5e155bc6ec0beece2892c6ffd8b9ed6afdc06f3b7acd13f12d83af3e2ccef52",
+    "proposal.py": "ae1ae76900c9c2aaf5c7d6d33b3eff6e818bbfdcbd5fcb53c0f568df1c8ecf85"
+  },
+  "helper_origin": "simulation/research-v5/target_milp.py",
+  "helper_origin_sha256": "6ea9f1a48d016727ac725e9e9882b31a58001449d6e2ea4abaa365141f75ee32",
+  "hotspot_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "baseline_sha256": "e93a980c560cd10ad9b0dac238c3b06c0c61bf13aac93134207b2a3604808a49",
+  "historical_records": 5216,
+  "historical_sources": [
+    {
+      "path": "simulation/research-v4/memory-polish/search.jsonl",
+      "sha256": "38b24aa4b94b2d6782050e94bea078612576a6483e229939006d76255caee5cd"
+    },
+    {
+      "path": "simulation/research-v4/quadratic/search.jsonl",
+      "sha256": "e042c3ead7dd14db78ee98808003a49a078946f913e7b43fe62cac856e08b9f8"
+    },
+    {
+      "path": "simulation/research-v4/precise/search.jsonl",
+      "sha256": "7f0bd473da3a2c502bd838d5a5927bcd1eff80b999e147bf11e83e010103a39b"
+    },
+    {
+      "path": "simulation/research-v4/precision-rescreen/search.jsonl",
+      "sha256": "0801e2e543cfbcffdea957b7a2c632355a87a649336f62d60aaa439ab5e17e24"
+    },
+    {
+      "path": "simulation/research-v4/precise-coarse-gradient/search.jsonl",
+      "sha256": "0ed1ef7528854a69978fc3a616c5e6e627dd671d7694f55bdc1f18a7d09c29b1"
+    },
+    {
+      "path": "simulation/research-v4/directed/search.jsonl",
+      "sha256": "15435ba44da86f6789f169c6e75eb1194d287fa73f4e695bbb6de372030ef0c9"
+    },
+    {
+      "path": "simulation/research-v4/pattern/search.jsonl",
+      "sha256": "c175b3e46a4800c785001fc7084ccde08b9496be6cdca73b496f00eada8f5aeb"
+    },
+    {
+      "path": "simulation/research-v4/g0-polish/search.jsonl",
+      "sha256": "3819ad7876308bddb554abedaaf5dfdf0d04f38fb563f1a88d00a86282ca9797"
+    },
+    {
+      "path": "simulation/research-v4/routes/search.jsonl",
+      "sha256": "0f05ba4b5505e24a0dcf3e87bd28b8409c39a59366f0ca48a5055a12cc226238"
+    },
+    {
+      "path": "simulation/research-v4/placement-from-quadratic/search.jsonl",
+      "sha256": "6d413466d9e03758a3d9f697ff8e4c20207bb7b2313444bbab13919dd7949407"
+    },
+    {
+      "path": "simulation/research-v4/routes-finalist/search.jsonl",
+      "sha256": "ab4ea9c6b9df6369e5c0a15e13688e2913aa7407fa7ecaa054ace2efbc6469be"
+    },
+    {
+      "path": "simulation/research-v4/placement/search.jsonl",
+      "sha256": "2721c2a03366425124a9a41587155a73001df2bf61e26b1932800c3869596419"
+    },
+    {
+      "path": "simulation/research-v5/smoke/search.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "simulation/research-v5/local-polish/search.jsonl",
+      "sha256": "3ef8ab6e134d63b19266614f5ffbc7fb3251ee81740a636819bd10c38192d65b"
+    },
+    {
+      "path": "simulation/research-v5/isolation-relocated/search.jsonl",
+      "sha256": "36522c578f85f59db2a59e4601f3f463b16d491ece58596287e1f70adc6b329a"
+    },
+    {
+      "path": "simulation/research-v5/cross-cell-256/search.jsonl",
+      "sha256": "a11fa9224e92d1537f2b015c6fb92b0c2936e0745e529068f1b0b91f3836f3f5"
+    },
+    {
+      "path": "simulation/research-v5/diagonal-sweep/search.jsonl",
+      "sha256": "e28ae5bb8c5c6748a590c2f5511afaab9cdc96eaaaeb0cb4bfb982f17fb00615"
+    },
+    {
+      "path": "simulation/research-v5/relocated-routes/search.jsonl",
+      "sha256": "cef3ae1b3eb137bb06c84c05363f9e0c1e8c80c49f70bcea1007c3604c4f9251"
+    },
+    {
+      "path": "simulation/research-v5/relocated-hotspot-sweep/search.jsonl",
+      "sha256": "6e4a7a97e25564b9244ddfa18b6e4bb55daea4a57df524f28ee8e47beb060bee"
+    },
+    {
+      "path": "simulation/research-v5/local-polish-exact/search.jsonl",
+      "sha256": "2b4112edb9c6627fbab65439d39909fff9be974404bc7b111b12528979253613"
+    },
+    {
+      "path": "simulation/research-v5/isolation-cool-memory/search.jsonl",
+      "sha256": "69d32e4deaf7b6f93a19e03a3c8ed2fb860a6f0a61ddf217a4de91707b417e39"
+    },
+    {
+      "path": "simulation/research-v5/relocated-polish/search.jsonl",
+      "sha256": "c3a4c548051af0c2a20987097299cca51b6919d3bccb7566e2366aba6be7ba6a"
+    },
+    {
+      "path": "simulation/research-v5/relocated-balance/search.jsonl",
+      "sha256": "1b1ed2434dee5a5ccbbf1e6f28b4c53b23cf66cfa696e96906f0f51f5fc0c69a"
+    },
+    {
+      "path": "simulation/research-v5/relocate-g0/search.jsonl",
+      "sha256": "a70eeab84d6965339d180fe9bb7a65d48f3d412131f5393753abea662ca2bad3"
+    },
+    {
+      "path": "simulation/research-v5/ring-symmetries/search.jsonl",
+      "sha256": "affe7feb75dae0188c888bcd5169ac842d858c20acbaddd0787fb9441bfc4f84"
+    },
+    {
+      "path": "simulation/research-v5/isolation-checkpoint/search.jsonl",
+      "sha256": "ff61263b54a3a802b3ca48a3b66ac9ecfe5125cdd95997a2c5097ad52a3e67cb"
+    },
+    {
+      "path": "simulation/research-v5/relocate-fine/search.jsonl",
+      "sha256": "c0eea1d34ffb72d886cb01ee0b3d941758b55453cdeff935d142e8e4c54f5ccd"
+    }
+  ],
+  "seed": 9494,
+  "budget": 600,
+  "grid": 64,
+  "workloads": [
+    "skewed_compute",
+    "tensor_training",
+    "memory_stream"
+  ],
+  "cpus": 3
+}

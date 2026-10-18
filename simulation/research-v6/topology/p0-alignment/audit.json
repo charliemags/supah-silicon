@@ -1,0 +1,15 @@
+{
+  "completed_observations": 49,
+  "aligned_candidates": 48,
+  "all_original_geometry_valid": true,
+  "max_port_y_misalignment_mm": 1.7763568394002505e-15,
+  "P0_route_length_range_mm": [
+    5.0,
+    5.0
+  ],
+  "control_raw_merit_c": 101.20308975,
+  "best_aligned_raw_merit_c": 101.21421950000001,
+  "best_aligned_native_score": 0.9575323533107173,
+  "best_aligned_evaluation": 37,
+  "improved_control": false
+}

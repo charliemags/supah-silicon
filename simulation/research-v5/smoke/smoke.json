@@ -1,0 +1,9 @@
+{
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "predicted_equivalent_c": 101.4,
+  "exact_valid": true,
+  "exact_reason": null,
+  "weighted_route": 13444.8,
+  "cell_changes": 0
+}

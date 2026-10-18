@@ -1,0 +1,93 @@
+{
+  "kind": "Adaptive measured-only DE with routing repair and thermal-phase-aware basins.\n\nNo learned thermal extrapolation is used for proposals or selection in this run.\nGlobal group moves and differential crossover are repaired by the unchanged-rule\nproposal MILP, then the original validator and actual HotSpot screen decide.\n",
+  "sources": [
+    {
+      "path": "simulation/research-v5/smoke/search.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "simulation/research-v5/local-polish/search.jsonl",
+      "sha256": "3ef8ab6e134d63b19266614f5ffbc7fb3251ee81740a636819bd10c38192d65b"
+    },
+    {
+      "path": "simulation/research-v5/isolation-relocated/search.jsonl",
+      "sha256": "36522c578f85f59db2a59e4601f3f463b16d491ece58596287e1f70adc6b329a"
+    },
+    {
+      "path": "simulation/research-v5/cross-cell-256/search.jsonl",
+      "sha256": "a11fa9224e92d1537f2b015c6fb92b0c2936e0745e529068f1b0b91f3836f3f5"
+    },
+    {
+      "path": "simulation/research-v5/diagonal-sweep/search.jsonl",
+      "sha256": "e28ae5bb8c5c6748a590c2f5511afaab9cdc96eaaaeb0cb4bfb982f17fb00615"
+    },
+    {
+      "path": "simulation/research-v5/relocated-routes/search.jsonl",
+      "sha256": "cef3ae1b3eb137bb06c84c05363f9e0c1e8c80c49f70bcea1007c3604c4f9251"
+    },
+    {
+      "path": "simulation/research-v5/relocated-hotspot-sweep/search.jsonl",
+      "sha256": "6e4a7a97e25564b9244ddfa18b6e4bb55daea4a57df524f28ee8e47beb060bee"
+    },
+    {
+      "path": "simulation/research-v5/local-polish-exact/search.jsonl",
+      "sha256": "2b4112edb9c6627fbab65439d39909fff9be974404bc7b111b12528979253613"
+    },
+    {
+      "path": "simulation/research-v5/isolation-cool-memory/search.jsonl",
+      "sha256": "69d32e4deaf7b6f93a19e03a3c8ed2fb860a6f0a61ddf217a4de91707b417e39"
+    },
+    {
+      "path": "simulation/research-v5/relocated-polish/search.jsonl",
+      "sha256": "c3a4c548051af0c2a20987097299cca51b6919d3bccb7566e2366aba6be7ba6a"
+    },
+    {
+      "path": "simulation/research-v5/relocated-balance/search.jsonl",
+      "sha256": "1b1ed2434dee5a5ccbbf1e6f28b4c53b23cf66cfa696e96906f0f51f5fc0c69a"
+    },
+    {
+      "path": "simulation/research-v5/relocate-g0/search.jsonl",
+      "sha256": "a70eeab84d6965339d180fe9bb7a65d48f3d412131f5393753abea662ca2bad3"
+    },
+    {
+      "path": "simulation/research-v5/ring-symmetries/search.jsonl",
+      "sha256": "affe7feb75dae0188c888bcd5169ac842d858c20acbaddd0787fb9441bfc4f84"
+    },
+    {
+      "path": "simulation/research-v5/isolation-checkpoint/search.jsonl",
+      "sha256": "ff61263b54a3a802b3ca48a3b66ac9ecfe5125cdd95997a2c5097ad52a3e67cb"
+    },
+    {
+      "path": "simulation/research-v5/relocate-fine/search.jsonl",
+      "sha256": "c0eea1d34ffb72d886cb01ee0b3d941758b55453cdeff935d142e8e4c54f5ccd"
+    },
+    {
+      "path": "simulation/research-v6/global/population-1600/search.jsonl",
+      "sha256": "2734b2285db7a01a24ebd9bba3b90135e79e7812de95d32bf5311518c47f45cf"
+    },
+    {
+      "path": "simulation/research-v6/global/adaptive-de-1000/search.jsonl",
+      "sha256": "a0f5f83bf3b6823382e5cf3b09b6e156a438ff335931ece1df59b45b86ab7237"
+    },
+    {
+      "path": "simulation/research-v6/topology/de0321-refine/search.jsonl",
+      "sha256": "e28975dfec64f48878273fa7d7ebce07df439891f629e17a51b63705b31b251c"
+    }
+  ],
+  "baseline_path": "simulation/research-v6/global/finalists/de-0936/submission.json",
+  "baseline_sha256": "36c45edb75811be4b03ae5913217c2e97f8e66fad02aacf1f260dfc2dd726e09",
+  "source_sha256": {
+    "de_restart.py": "9bd3eb7b43eefbd394edd99e3c5416c1803895dde9bb629d5838ea53a7c4c416",
+    "proposal_restart.py": "ae1ae76900c9c2aaf5c7d6d33b3eff6e818bbfdcbd5fcb53c0f568df1c8ecf85"
+  },
+  "native_hotspot_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "cpus": 3,
+  "seed": 194936,
+  "budget": 800,
+  "grid": 64,
+  "workloads": [
+    "skewed_compute",
+    "tensor_training",
+    "memory_stream"
+  ]
+}

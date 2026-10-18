@@ -1,0 +1,9 @@
+{
+  "evaluations": 631,
+  "proposals": 671,
+  "best_screen_score": 0.9581605729362985,
+  "best_continuous_merit_c": 101.26397098000001,
+  "rejected": {},
+  "elapsed_seconds": 429.0924980280006,
+  "reason": "Stopped early after no minimax gain; observed global linear thermal prediction error around+12C at large moves. Reallocated remaining budget to measured-only adaptive DE without thermal extrapolation."
+}

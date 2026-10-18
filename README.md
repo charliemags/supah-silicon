@@ -29,11 +29,25 @@ this experiment to the proposed data-processing, retrieval and inference
 pipeline, and explains the evidence still needed for Track 1.
 
 **Built: [Supah Silicon v2](simulation/layouts/supah-v2/README.md).** The
-original evaluator confirms a **0.95991959** score at 64 × 64 across all five
-workloads: GPU **101.40 °C**, HBM **94.16 °C**. This beats the rechecked
-October 18 leaderboard leader's **0.96180425**. The 0.95 and 0.94 targets
-remain unmet. These are local checks, not signed leaderboard submissions
-or measurements of Supah application efficiency.
+AutoLab signed evaluator confirms a **0.95991959** score at 64 × 64 across all five
+workloads: GPU **101.40 °C**, HBM **94.16 °C**. It ranked **#1 as charliemags**
+on an earlier October 18 leaderboard snapshot, ahead of **0.96180425**. The
+[official report](simulation/layouts/supah-v2/official-report-64.json) matches
+the local result. The 0.95 and 0.94 targets remain unmet; the 128-grid result
+is locally verified only. These are thermal benchmark results, not measurements
+of Supah application efficiency.
+
+**Latest verified placement:** [research v6](simulation/research-v6/README.md)
+improves the local pinned score to **0.95753235 at 64 × 64** and
+**0.96012039 at 128 × 128**, across all five workloads. Adaptive differential
+evolution with legal placement/routing repair produced the improvement;
+different package topologies and valid routing alternatives were also tested.
+The [submission](simulation/research-v6/submission.json), verification reports,
+and search audit are saved together. The signed v2 incumbent and all benchmark
+rules remain unchanged. The 0.95 and 0.94 targets remain unmet, and this is
+not yet a signed AutoLab result. Earlier [v3](simulation/research-v3/README.md),
+[v4](simulation/research-v4/README.md), and [v5](simulation/research-v5/README.md)
+reports preserve the full investigation history.
 
 The search combines native HotSpot/SuperLU simulation, additive Gaussian-process
 guidance and parallel placement search. See the
@@ -48,9 +62,9 @@ With Docker running, from this directory:
 ./simulation/run setup-search
 ./simulation/run test
 ./simulation/run test-native
-./simulation/run validate simulation/layouts/supah-v2/submission.json
-./simulation/run score simulation/layouts/supah-v2/submission.json --grid 64 --output simulation/results/supah-v2-64.json
-./simulation/run score simulation/layouts/supah-v2/submission.json --grid 128 --output simulation/results/supah-v2-128.json
+./simulation/run validate simulation/research-v6/submission.json
+./simulation/run score simulation/research-v6/submission.json --grid 64 --output simulation/results/supah-v6-64.json
+./simulation/run score simulation/research-v6/submission.json --grid 128 --output simulation/results/supah-v6-128.json
 ```
 
 The wrapper supports Apple Silicon by running the pinned Linux scorer in a
@@ -61,8 +75,8 @@ verification does not submit a result to AutoLab.
 
 The signed design archive is in [`Models/`](Models/README.md), including
 [`Supah_0.9719`](Models/Supah_0.9719/). The newer
-[Supah v2](simulation/layouts/supah-v2/README.md) result is locally verified
-and awaits an AutoLab submission.
+[Supah v2](simulation/layouts/supah-v2/README.md) result includes its signed
+AutoLab report and first-place leaderboard snapshot.
 
 ## Simulation
 

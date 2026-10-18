@@ -1,0 +1,249 @@
+[
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0000.json",
+    "trial": 0,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 8907.6,
+    "signature": "EENWNWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0001.json",
+    "trial": 38,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 10318.5,
+    "signature": "ENNWWSSE",
+    "directions": [
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0002.json",
+    "trial": 203,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 8345.1,
+    "signature": "WNWNEESS",
+    "directions": [
+      2,
+      1,
+      2,
+      1,
+      0,
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0003.json",
+    "trial": 215,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12277.5,
+    "signature": "SWNWNEES",
+    "directions": [
+      3,
+      2,
+      1,
+      2,
+      1,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0004.json",
+    "trial": 288,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 9918.3,
+    "signature": "ESSWNWNE",
+    "directions": [
+      0,
+      3,
+      3,
+      2,
+      1,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0005.json",
+    "trial": 327,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 10164.0,
+    "signature": "NWNWSSEE",
+    "directions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0006.json",
+    "trial": 403,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 8706.0,
+    "signature": "WWNNESES",
+    "directions": [
+      2,
+      2,
+      1,
+      1,
+      0,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0007.json",
+    "trial": 697,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 11111.7,
+    "signature": "ESWSWNNE",
+    "directions": [
+      0,
+      3,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0008.json",
+    "trial": 731,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12599.1,
+    "signature": "WNNESESW",
+    "directions": [
+      2,
+      1,
+      1,
+      0,
+      3,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0009.json",
+    "trial": 778,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 11901.6,
+    "signature": "SSEENNWW",
+    "directions": [
+      3,
+      3,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0010.json",
+    "trial": 780,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12545.1,
+    "signature": "EENWNWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0011.json",
+    "trial": 792,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12373.8,
+    "signature": "NWWSSEEN",
+    "directions": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0012.json",
+    "trial": 834,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13242.9,
+    "signature": "ENENWWSE",
+    "directions": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      2,
+      3,
+      0
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "kind": "fresh native screening, not pinned verification",
+  "source_sha256": "e1af4ba2e7cdd5f97fb765ea5caea61b0e7ad31c497241c48f321a72e25abb27",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "inputs_sha256": {
+    "simulation/research-v6/global/shortlist-v1/de-0006.json": "6c92af69e12c1b29436863aa5c5a1498916821a271bb6ad09c6162de1da42cbd",
+    "simulation/research-v6/global/shortlist-v1/de-0016.json": "1ec988a94de56c03bef2b73ae92bdca2f3a5065dbab09881204c943e0dc15592",
+    "simulation/research-v6/global/shortlist-v1/de-0040.json": "f659c2ddb5f089f1567c23670df34f0440e60f676077a54bdd24f8e394774abd",
+    "simulation/research-v6/global/shortlist-v1/de-0043.json": "cb36854d8af9f867a0d49497934ee7e1cd9ee7d10440777f82d06e77ea5ac55c",
+    "simulation/research-v6/global/shortlist-v1/de-0053.json": "5df296bd75b1137151b5018acdf20bafdb2040e99b924b73a921d364e738d309",
+    "simulation/research-v6/global/shortlist-v1/de-0068.json": "eea26b0c0598a2263f9b7b28b910a4b737c76c986c469f998329ae7355681787",
+    "simulation/research-v6/global/shortlist-v1/de-0085.json": "2d4dc888146e2b292eaf37a14ac4fc54adb9fc8a0eb12876c505058df7f16678",
+    "simulation/research-v6/global/shortlist-v1/de-0109.json": "ebbde68cc5c4d1f4d6d6165b1a2117b8f8dd801c75d050e2ce4b81883a4c4e84"
+  },
+  "grids": [
+    64,
+    128
+  ],
+  "workloads": [
+    "tensor_training",
+    "skewed_compute",
+    "attention_decode",
+    "memory_stream",
+    "mixed_serving"
+  ]
+}
