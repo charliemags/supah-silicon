@@ -49,6 +49,10 @@ The wrapper supports Apple Silicon by running the pinned Linux scorer in a
 container. Search results are estimates until checked by the judge. Local
 verification does not submit a result to AutoLab.
 
+## Models
+
+Every design that beat the reference, named by its official score: see [`Models/`](Models/README.md). Best so far: [`Supah_0.9873`](Models/Supah_0.9873/) (0.9891 on the finals grid).
+
 ## Simulation
 
 **Start here: [the Supah-Silicon story](simulation/STORY.md)**, how we found a cooler layout, in plain English with the official test outputs.
