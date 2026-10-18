@@ -8,6 +8,9 @@ Plain-English guides to how Supah-Silicon is simulated and searched. Read them i
 4. [Searching for a cool layout](04-searching-for-a-cool-layout.md): the search method, the AI-guided option, what the physics taught us, and the official results.
 5. [Supah-Silicon 2.0: simulating a 3D stack](05-3d-stacking-experiment.md): the 3D what-if, its assumptions and results.
 6. [The organizers' two tools, and how we use them](06-the-organizer-tools.md): the scorer repo and the Chiplet Thermal Studio GUI, proof they compute the same thing, and what the GUI adds (hand-drawn wires, live heat-source previews, run comparisons).
+7. [Run it and see it](07-run-it-and-see-it.md): look at the test outputs, run a test in your browser with one command, or run it on your own computer.
+
+Start with [the story](../STORY.md) for the whole journey in plain English.
 
 Everything is built on the organizers' repos: [chiplet-thermal-simulator](https://github.com/Czaja107/chiplet-thermal-simulator) (power workloads + scorer + HotSpot) and [chiplet-thermal-gui](https://github.com/Czaja107/chiplet-thermal-gui) (the same plus a desktop GUI).
 
