@@ -34,6 +34,14 @@ What the physics rewards, so far:
 - Spacing between dies matters more than staying inside the well-cooled area.
 - Each GPU's compute hot spot should point toward the outer edge, not toward the middle.
 
+## The design
+
+![Floorplan: organizers' reference vs. Supah-Silicon](img/floorplan_compare.png)
+
+Supah-Silicon moves the two middle memory stacks to the top and bottom edges, shifts the left column of chips about 2.7 mm outward, and gives every GPU more room. The price is longer wires: 13,435.5 of the 13,500 GB/s·mm wire budget, against 8,728.5 for the reference. Draw any layout with `tools/floorplan.py`.
+
+Raw logs of every test are in [`runs/`](runs/README.md).
+
 ## How we search
 
 - `tools/fast.py` runs the organizer's own HotSpot build with the same heat sources on a coarser grid, for quick estimates. At 16 × 16 it takes about 2 s per layout but reads GPU peaks up to about 4 °C too cool. At 64 × 64 on only the two GPU-deciding workloads, it matches the official GPU number exactly in about 39 s.
