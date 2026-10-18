@@ -1,0 +1,53 @@
+{
+  "source": "https://app.autolab.ai/hills/czaja107/beat-the-hotspot/leaderboard",
+  "observed_utc": "2026-10-18T20:24:26.033833+00:00",
+  "method": "live browser accessibility tree; screenshot saved as ../autolab-leaderboard.jpg",
+  "hill_version": "v0.2.0",
+  "hill_version_id": "3610c381240c",
+  "grid": 64,
+  "hotspot_sha256": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb",
+  "rows": [
+    {
+      "climber": "charliemags",
+      "score": 0.95991959,
+      "worst_gpu_c": 101.4,
+      "worst_hbm_c": 94.16
+    },
+    {
+      "climber": "vyahhi",
+      "score": 0.96180425,
+      "worst_gpu_c": 101.55,
+      "worst_hbm_c": 93.34
+    },
+    {
+      "climber": "wilsonwu-ai",
+      "score": 0.96180425,
+      "worst_gpu_c": 101.55,
+      "worst_hbm_c": 94.72
+    },
+    {
+      "climber": "frido22",
+      "score": 0.96368891,
+      "worst_gpu_c": 101.7,
+      "worst_hbm_c": 94.79
+    },
+    {
+      "climber": "ottogin",
+      "score": 0.9679608,
+      "worst_gpu_c": 102.04,
+      "worst_hbm_c": 93.39
+    },
+    {
+      "climber": "czaja107",
+      "score": 0.96846337,
+      "worst_gpu_c": 102.08,
+      "worst_hbm_c": 94.13
+    },
+    {
+      "climber": "5hishir01",
+      "score": 1,
+      "worst_gpu_c": 104.59,
+      "worst_hbm_c": 97.68
+    }
+  ]
+}
