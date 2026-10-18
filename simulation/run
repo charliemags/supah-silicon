@@ -25,6 +25,7 @@ Run from the repository root; all argument paths are relative to that root.
   ./simulation/run setup
   ./simulation/run validate simulation/layouts/p2/submission.json
   ./simulation/run search simulation/layouts/p2/submission.json --output simulation/experiments/run1 --evals 80
+  ./simulation/run bayes simulation/layouts/supah-v1/submission.json --output simulation/experiments/bayes1 --evals 70
   ./simulation/run score simulation/layouts/p2/submission.json --grid 128 --output simulation/results/p2-128.json
   ./simulation/run estimate simulation/layouts/p2/submission.json 32
   ./simulation/run render simulation/layouts/p2/submission.json simulation/results/p2.png 64
@@ -46,6 +47,7 @@ fi
 case "$COMMAND" in
   validate) PROGRAM=(/challenge/verify_submission.py) ;;
   search) PROGRAM=(simulation/tools/optimize.py) ;;
+  bayes) PROGRAM=(simulation/tools/bayes.py) ;;
   score) PROGRAM=(simulation/tools/evaluate.py) ;;
   estimate) PROGRAM=(simulation/tools/fast.py) ;;
   render) PROGRAM=(simulation/tools/render.py) ;;

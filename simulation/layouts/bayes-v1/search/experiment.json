@@ -1,0 +1,20 @@
+{
+  "start": "simulation/layouts/supah-v1/submission.json",
+  "output": "simulation/experiments/bayes-1",
+  "dies": [
+    "G0",
+    "H0",
+    "H2",
+    "H3",
+    "G2"
+  ],
+  "box": 1.2,
+  "evals": 70,
+  "init": 8,
+  "pool": 600,
+  "grid": 64,
+  "workers": 5,
+  "seed": 11,
+  "kind": "exploration; not an official score",
+  "hotspot": "native Apple Silicon build of the pinned HotSpot source (see docs/07)"
+}
