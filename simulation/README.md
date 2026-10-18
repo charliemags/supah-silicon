@@ -1,6 +1,6 @@
-# CRYO-GOBLIN 1.0
+# Supah-Silicon 1.0
 
-CRYO-GOBLIN 1.0 is a four-GPU, four-HBM AI accelerator with 3.6 TB/s between its chips. It uses the same silicon and power as everyone else's layout, and runs cooler because we placed every chip by where its heat goes.
+Supah-Silicon 1.0 is a four-GPU, four-HBM AI accelerator with 3.6 TB/s between its chips. It uses the same silicon and power as everyone else's layout, and runs cooler because we placed every chip by where its heat goes.
 
 Built at Sundai @ MIT, Track 2 ("Design the coolest chiplet layout"), October 18, 2026.
 
@@ -41,7 +41,7 @@ What the physics rewards, so far:
 - `tools/render.py` draws a layout as a worst-case heat map.
 - Official numbers only ever come from the hill's scorer (`hills eval`), never from these tools.
 
-## CRYO-GOBLIN 2.0: a 3D what-if
+## Supah-Silicon 2.0: a 3D what-if
 
 `tools/stack3d.py` stacks each HBM on its GPU using the same HotSpot physics, workloads and cooler. It isn't scored by the challenge (the challenge is 2.5D only). Coarse 32 × 32 grid, assumed material values (listed in the file), so compare designs with each other rather than trusting absolute temperatures. Full sweep in `results3d/sweep32.json`.
 

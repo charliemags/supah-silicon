@@ -1,4 +1,4 @@
-"""CRYO-GOBLIN 2.0: 3D-stacked what-if using the hill's own HotSpot build, workloads and cooler.
+"""Supah-Silicon 2.0: 3D-stacked what-if using the hill's own HotSpot build, workloads and cooler.
 
 Not scored by the hill (the challenge is 2.5D only). Same power maps, same TIM/spreader/sink,
 same ambient. Each HBM_i is stacked on GPU_i ("A": memory on top) or under it ("B": GPU on top).
@@ -113,9 +113,9 @@ def run(gpu_xy, order="A", k_hbm=30.0, k_bond=1.5, fill="mold", grid=32, workloa
     seq += [("tim.flp", tim, "N", TM["thermal_resistivity_tim_mK_per_W"], TM["tim_thickness_um"])]
     wls = workloads or list(PORT["workloads"])
     out = {}
-    with tempfile.TemporaryDirectory(prefix="goblin3d_") as t:
+    with tempfile.TemporaryDirectory(prefix="supah3d_") as t:
         rd = Path(t)
-        lcf = ["# CRYO-GOBLIN 2.0 stack, bottom to top"]
+        lcf = ["# Supah-Silicon 2.0 stack, bottom to top"]
         for i, (fn, txt, pw, res, th) in enumerate(seq):
             (rd / fn).write_text(txt)
             cp = "4.0e6" if fn == "tim.flp" else "1.75e6"

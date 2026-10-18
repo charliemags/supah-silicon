@@ -1,4 +1,4 @@
-"""Render a CRYO-GOBLIN layout as a heat map: worst-case temperature per cell across
+"""Render a Supah-Silicon layout as a heat map: worst-case temperature per cell across
 workloads, die outlines with peak temps, the well-cooled contact area, and the links."""
 import json, sys
 from pathlib import Path

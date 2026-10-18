@@ -1,4 +1,4 @@
-# CRYO-GOBLIN 2.0: simulating a 3D stack
+# Supah-Silicon 2.0: simulating a 3D stack
 
 The challenge only scores flat (2.5D) layouts. To ask "what if we stacked the memory on the GPU?", `tools/stack3d.py` builds a 3D version using the **same** HotSpot program, the same five workloads and the same cooler, so the numbers can be compared with 1.0.
 
