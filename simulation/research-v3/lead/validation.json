@@ -1,0 +1,56 @@
+{
+  "checked_utc": "2026-10-18T22:03:29.422749+00:00",
+  "existing_regression_suite": {
+    "command": "./simulation/research-v3/run native -m unittest discover -s simulation/tests -v",
+    "passed": 17,
+    "failed": 0
+  },
+  "launcher_bash_syntax": "passed",
+  "new_lead_python_syntax": "passed",
+  "git_diff_check": "passed",
+  "observed_resources": {
+    "native_robustness": {
+      "cpu_percent": 200.17,
+      "memory_mib": 807.1,
+      "memory_limit_gib": 3
+    },
+    "pinned_128": {
+      "cpu_percent": 397.69,
+      "memory_mib": 131.6,
+      "memory_limit_gib": 3
+    }
+  },
+  "resource_observation_note": "One local docker stats snapshot, not peak resource profiling; CPU limits4 per container. No rented resources.",
+  "runtime_changes": [
+    {
+      "container_purpose": "pinned 128 verification",
+      "change": "CPU cap increased from4 to6 after other searches completed; five solver workers; memory3GiB unchanged",
+      "reason": "remove CPU throttling without changing evaluator or workloads"
+    }
+  ],
+  "robustness_completed": {
+    "proposals": 73,
+    "valid_including_control": 50,
+    "grid_evaluations": 100,
+    "workload_solves": 500,
+    "elapsed_seconds": 657.088
+  },
+  "peer_review": {
+    "math": "Reviewed experiment counts, geometry failures, model errors and source snapshot hashes",
+    "packaging": "Independently confirmed1025 search evaluations,48/43 epigraph counts, candidate hash and four incumbent hashes",
+    "physics": "Reviewed conditional bounds, source attribution, cooling-boundary explanation; causal wording tightened to distinguish measured effect from hypothesis"
+  },
+  "completed_utc": "2026-10-18T22:14:24.408768+00:00",
+  "pinned_verification": {
+    "64": {
+      "passed": true,
+      "all_five_workloads": true,
+      "report_sha256": "41ac9c84b84d8f87cd9bca01b4e91e218d68317291362cdf712218525ba29004"
+    },
+    "128": {
+      "passed": true,
+      "all_five_workloads": true,
+      "report_sha256": "0b53439e7eec77b4d7cf5fa69f45a38621c428e50e1c2e57fab27bd403834e81"
+    }
+  }
+}

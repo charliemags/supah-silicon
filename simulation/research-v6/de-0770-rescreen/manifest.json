@@ -1,0 +1,19 @@
+{
+  "kind": "fresh native screening, not pinned verification",
+  "source_sha256": "e1af4ba2e7cdd5f97fb765ea5caea61b0e7ad31c497241c48f321a72e25abb27",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "inputs_sha256": {
+    "simulation/research-v6/global/finalists/de-0770/submission.json": "40da55096f3b5f2bbfa0b1e7c4158177710a47bedfbc00fb326a0d55d1d140a1"
+  },
+  "grids": [
+    64,
+    128
+  ],
+  "workloads": [
+    "tensor_training",
+    "skewed_compute",
+    "attention_decode",
+    "memory_stream",
+    "mixed_serving"
+  ]
+}

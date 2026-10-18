@@ -1,0 +1,7 @@
+{
+  "kind": "multi-scale fixed-G0 pattern search, native screening only",
+  "source_sha256": "d3969053d98212d3c68253df7d1a4c3257b70fa6758a5bbf01c69eb65a5e5fbc",
+  "input_sha256": "20e1711f772c9e9b80a334052a12edd709faa89ccb6a984b74d0a3fe36c4753a",
+  "budget": 800,
+  "seed": 405
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "output-precision-only native search; original pinned judge required for promotion",
+  "source_sha256": "7800db3e919d83e13b8f3acefe2a899ef89a87fffc0c1da3b487a718fba11977",
+  "solver_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "input_sha256": "3ea8ee1e2c89d555a07cb54c4b3887cbcf36686f1f1ed6f8847c5a33336dbf39",
+  "args": {
+    "start": "simulation/research-v5/finalists/isolation-first/submission.json",
+    "output": "simulation/research-v5/local-polish-exact",
+    "iterations": 30,
+    "epochs": 2,
+    "epsilon": 0.0001,
+    "radius": 0.2
+  }
+}

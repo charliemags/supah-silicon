@@ -1,0 +1,322 @@
+[
+  {
+    "candidate": "wide-f1-r4-dx16.25-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r2-dx16-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r0-dx16-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r4-dx16-dy14.5",
+    "passed": false,
+    "reason": "P1 route 5.15 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f0-r4-dx16.25-dy14.5",
+    "passed": false,
+    "reason": "P1 route 5.40 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f1-r6-dx16.25-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r2-dx16.25-dy14.5",
+    "passed": false,
+    "reason": "P2 route 5.40 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f0-r0-dx16.25-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r4-dx16-dy14.5",
+    "passed": false,
+    "reason": "P1 route 5.15 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f1-r2-dx16.25-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r4-dx16.25-dy14.5",
+    "passed": false,
+    "reason": "P3 route 5.40 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f0-r0-dx16-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r6-dx16.25-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r2-dx16-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r2-dx16.25-dy14.5",
+    "passed": false,
+    "reason": "P0 route 5.40 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f1-r0-dx16.25-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r4-dx16.25-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r6-dx16.25-dy14.5",
+    "passed": false,
+    "reason": "P0 route 5.40 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f1-r4-dx16-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r2-dx16-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r4-dx16-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r6-dx16-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r2-dx16.25-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r2-dx16.25-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r0-dx16.25-dy14.5",
+    "passed": false,
+    "reason": "P3 route 5.40 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f1-r2-dx16-dy14.5",
+    "passed": false,
+    "reason": "P0 route 5.15 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f1-r4-dx16.25-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r4-dx16.25-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r6-dx16.25-dy14.5",
+    "passed": false,
+    "reason": "P2 route 5.40 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f0-r2-dx16-dy14.5",
+    "passed": false,
+    "reason": "P0 route 5.15 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f0-r2-dx16.25-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r0-dx16.25-dy14.5",
+    "passed": false,
+    "reason": "P1 route 5.40 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f0-r4-dx16-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r2-dx16-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r6-dx16-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r4-dx16-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r6-dx16-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r4-dx16-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r6-dx16.25-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r4-dx16.25-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r2-dx16.25-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r0-dx16-dy14.5",
+    "passed": false,
+    "reason": "P1 route 5.15 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f0-r0-dx16-dy14.5",
+    "passed": false,
+    "reason": "P1 route 5.15 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f1-r4-dx16.25-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r0-dx16.25-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r2-dx16.25-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r4-dx16-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r6-dx16-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r0-dx16-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r2-dx16-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r0-dx16.25-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r6-dx16-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r0-dx16-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r6-dx16.25-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r6-dx16-dy14.5",
+    "passed": false,
+    "reason": "P0 route 5.15 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f0-r0-dx16.25-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r6-dx16.25-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r0-dx16-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r6-dx16-dy12",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 13770.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r6-dx16-dy14.5",
+    "passed": false,
+    "reason": "P0 route 5.15 mm exceeds 5.00 mm"
+  },
+  {
+    "candidate": "wide-f0-r2-dx16-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r6-dx16.25-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f0-r0-dx16-dy13.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 16470.0 exceeds 13500.0 GB/s\u00b7mm"
+  },
+  {
+    "candidate": "wide-f1-r0-dx16.25-dy12.5",
+    "passed": false,
+    "reason": "total bandwidth-weighted route 14670.0 exceeds 13500.0 GB/s\u00b7mm"
+  }
+]

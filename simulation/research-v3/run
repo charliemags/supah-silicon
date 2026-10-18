@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Local CPU execution only. Never exposes the Docker socket to AutoLab.
+set -euo pipefail
+ROOT=$(cd "$(dirname "$0")/../.." && pwd)
+CHALLENGE="$ROOT/.cache/challenge"
+REVISION=8948d9bc5e3aa041dcd1ff8a5a63ed6200d04d81
+MODE=${1:-help}
+if [ "$#" -gt 0 ]; then shift; fi
+case "$MODE" in
+  native) IMAGE=supah-silicon-search:local ;;
+  pinned) IMAGE=supah-silicon-sim:local ;;
+  *) echo "Usage: $0 {native|pinned} python-script [arguments...]"; exit 2 ;;
+esac
+if [ "$(git -C "$CHALLENGE" rev-parse HEAD)" != "$REVISION" ] ||
+   [ -n "$(git -C "$CHALLENGE" status --porcelain --untracked-files=no)" ]; then
+  echo "Refusing to run: challenge differs from the unchanged pinned revision." >&2
+  exit 2
+fi
+DOCKER=(docker run --rm --init --network none)
+if [ "$MODE" = pinned ]; then DOCKER+=(--platform linux/amd64); fi
+exec "${DOCKER[@]}" \
+  --cpus "${SUPAH_RESEARCH_CPUS:-4}" --memory "${SUPAH_RESEARCH_MEMORY:-3g}" \
+  --user "$(id -u):$(id -g)" \
+  -v "$ROOT:/work" -v "$CHALLENGE:/challenge:ro" \
+  "$IMAGE" "$@"

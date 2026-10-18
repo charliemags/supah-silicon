@@ -1,0 +1,9 @@
+{
+  "trials": 10000,
+  "seeds": 20,
+  "elapsed": 19.05258680099996,
+  "source_sha256": "a5e0e2545a5a03ab2d7664e92e920ad2bf47bfd47f0d0ebed6b3377f68b04368",
+  "direction_sequences": 11809,
+  "all_dies_within_contact": false,
+  "g0_fixed_to_v5": true
+}

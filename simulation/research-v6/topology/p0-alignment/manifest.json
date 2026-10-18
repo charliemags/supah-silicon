@@ -1,0 +1,25 @@
+{
+  "kind": "native64 three-workload screening only; original validator and pinned judge authoritative",
+  "start_path": "simulation/research-v6/global/finalists/de-0705/submission.json",
+  "start_sha256": "235f48ab62b6b3ead6c696635d9a303ab8cd8e8139302d08abd1dd2fb760923e",
+  "seed": 94321,
+  "budget": 51,
+  "historical_observations": 0,
+  "workloads": [
+    "skewed_compute",
+    "tensor_training",
+    "memory_stream"
+  ],
+  "grid": 64,
+  "solver_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "source_sha256": {
+    "p0_alignment.py": "66f4abd998f388a3343b5bd21d5e61492aa308b3531e564d17fc251b6fab4f27",
+    "route_fixed.py": "dd896aa41109e0938415fea31fca1146800b8236a72a0078a2183296b733642a"
+  },
+  "challenge_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "geometry.py": "62fa0dcada07cda67aff889ce1770f63c8acc16c0aadffeb3315be205d957565",
+    "run_simulations.py": "86fce0bad7262111aad272d3ebb484d89252b2974495f9d87be7db6ab10c4899",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  }
+}

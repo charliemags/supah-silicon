@@ -1,0 +1,12 @@
+{
+  "total_records_with_inherited": 320,
+  "new_records": 64,
+  "epigraph_thermal_trials": 48,
+  "proposed_optima": 48,
+  "exact_valid_optima": 43,
+  "best_trial_screen_score": 0.9597939439628094,
+  "mean_predicted_improvement_error_score": 0.0019062859194037135,
+  "max_predicted_improvement_error_score": 0.008622924872259019,
+  "best_overall": 0.9597939439628094,
+  "kind": "native screening only"
+}

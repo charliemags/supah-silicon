@@ -1,0 +1,4 @@
+{
+  "status": "stopped_early_after_plateau",
+  "reason": "Reallocated local CPU to output-precision-guided optimization and pinned verification; partial budget honestly counted from search.jsonl."
+}

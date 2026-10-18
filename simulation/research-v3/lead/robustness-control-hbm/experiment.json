@@ -1,0 +1,15 @@
+{
+  "kind": "native robustness screening, not pinned certification",
+  "submission_sha256": "9ab467d65809f0089735eb6d9646f6e351cda541e66705f9f812a3481ff65ba9",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "code_sha256": "59dd5d658f376a5a824405d9017a6f17ae0104e1046ee030d1acc1543f04417b",
+  "grids": [
+    64,
+    128
+  ],
+  "workloads": "all five",
+  "steps_mm": [
+    0.005,
+    0.025
+  ]
+}

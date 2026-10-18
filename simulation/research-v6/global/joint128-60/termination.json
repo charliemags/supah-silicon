@@ -1,0 +1,5 @@
+{
+  "native128_screens": 21,
+  "native64_gates": 134,
+  "reason": "Stopped tight native64 gate after pinned de0705/de0770 both scored101.21 despite native101.20. Restart uses nativeGPU<=101.21 and raw<=start+.012; actual promotion still requires pinned64<=.95753235."
+}

@@ -1,0 +1,11 @@
+{
+  "reason": "User requested wrap now; no more simulations. Stopped promptly and retained every completed observation. Any interrupted in-flight simulation is not counted.",
+  "completed_observations": 247,
+  "best_evaluation": 125,
+  "best_native_score": 0.9574067093856012,
+  "best_raw_merit_c": 101.20181822,
+  "best_gpu_c": 101.2,
+  "best_hbm_c": 94.22,
+  "best_is_pinned": false,
+  "search_jsonl_sha256": "6860c9184c7a0aa3a3622bdc946373b9ba9b754f0032467eb18b61cf06bcd61f"
+}

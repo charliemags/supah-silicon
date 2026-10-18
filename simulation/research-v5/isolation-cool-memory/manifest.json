@@ -1,0 +1,12 @@
+{
+  "kind": "native screening; proposal MILP changes route-grid cells, original validator and pinned judge authoritative",
+  "source_sha256": {
+    "isolation.py": "998bd61c54dcd71570aac47585da501f3b86cf10d1283a3fc78d4b96686dc36d",
+    "route_milp.py": "166655e6fb2a6caa2f28486277887b7a1d4367875c457b6e3db80102110417a8"
+  },
+  "solver_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "historical_records": 0,
+  "budget": 320,
+  "seed": 941,
+  "target": 0.94
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "native64 screening; pinned certification required",
+  "workloads": [
+    "skewed_compute",
+    "tensor_training",
+    "memory_stream"
+  ],
+  "budget": 1000,
+  "seed": 9411,
+  "solver_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "source_sha256": {
+    "provided_global.py": "cc8f142f06dd846597ae94862dd67be3593070bdced0e4e1bfa3f34ad450587c",
+    "route_milp.py": "166655e6fb2a6caa2f28486277887b7a1d4367875c457b6e3db80102110417a8"
+  },
+  "rules_sha256": {
+    "challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    "geometry.py": "62fa0dcada07cda67aff889ce1770f63c8acc16c0aadffeb3315be205d957565",
+    "run_simulations.py": "86fce0bad7262111aad272d3ebb484d89252b2974495f9d87be7db6ab10c4899",
+    "workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9"
+  }
+}

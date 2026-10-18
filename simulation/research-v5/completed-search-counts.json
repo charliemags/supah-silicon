@@ -1,0 +1,62 @@
+{
+  "smoke": {
+    "candidate_evaluations": 0,
+    "workload_solves": 0
+  },
+  "local-polish": {
+    "candidate_evaluations": 1,
+    "workload_solves": 3
+  },
+  "isolation-relocated": {
+    "candidate_evaluations": 179,
+    "workload_solves": 537
+  },
+  "cross-cell-256": {
+    "candidate_evaluations": 256,
+    "workload_solves": 768
+  },
+  "diagonal-sweep": {
+    "candidate_evaluations": 250,
+    "workload_solves": 250
+  },
+  "relocated-routes": {
+    "candidate_evaluations": 85,
+    "workload_solves": 89
+  },
+  "relocated-hotspot-sweep": {
+    "candidate_evaluations": 11,
+    "workload_solves": 11
+  },
+  "local-polish-exact": {
+    "candidate_evaluations": 254,
+    "workload_solves": 762
+  },
+  "isolation-cool-memory": {
+    "candidate_evaluations": 320,
+    "workload_solves": 960
+  },
+  "relocated-polish": {
+    "candidate_evaluations": 338,
+    "workload_solves": 1014
+  },
+  "relocated-balance": {
+    "candidate_evaluations": 12,
+    "workload_solves": 36
+  },
+  "relocate-g0": {
+    "candidate_evaluations": 113,
+    "workload_solves": 339
+  },
+  "ring-symmetries": {
+    "candidate_evaluations": 120,
+    "workload_solves": 360
+  },
+  "isolation-checkpoint": {
+    "candidate_evaluations": 320,
+    "workload_solves": 960
+  },
+  "relocate-fine": {
+    "candidate_evaluations": 213,
+    "workload_solves": 639
+  }
+}

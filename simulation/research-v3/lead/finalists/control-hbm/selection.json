@@ -1,0 +1,109 @@
+{
+  "selection": "Tied incumbent primary score at both grids; lower HBM at both grids. Small secondary improvement, not a substantial score improvement.",
+  "source": "simulation/research-v3/lead/control-population/search.jsonl",
+  "record": {
+    "evaluation": 2,
+    "walker": 2,
+    "submission": {
+      "placements_mm": {
+        "G0": [
+          3.982,
+          3.449
+        ],
+        "G1": [
+          36.54,
+          3.715
+        ],
+        "G2": [
+          37.201,
+          29.023
+        ],
+        "G3": [
+          10.026,
+          29.002
+        ],
+        "H0": [
+          20.296,
+          3.689
+        ],
+        "H1": [
+          37.02,
+          15.54
+        ],
+        "H2": [
+          25.584,
+          29.191
+        ],
+        "H3": [
+          7.019,
+          17.386
+        ]
+      }
+    },
+    "screen_score": 0.9597939439628094,
+    "accepted": true,
+    "elapsed_seconds": 1.6,
+    "passed": true,
+    "grid": 64,
+    "gpu": 101.39,
+    "hbm": 94.08,
+    "peaks": {
+      "skewed_compute": {
+        "G0": 101.39,
+        "G1": 81.23,
+        "G2": 100.84,
+        "G3": 78.94,
+        "H0": 74.68,
+        "H1": 68.76,
+        "H2": 78.37,
+        "H3": 69.45
+      },
+      "tensor_training": {
+        "G0": 96.89,
+        "G1": 100.29,
+        "G2": 100.89,
+        "G3": 101.12,
+        "H0": 78.04,
+        "H1": 79.45,
+        "H2": 84.42,
+        "H3": 79.88
+      },
+      "memory_stream": {
+        "G0": 88.93,
+        "G1": 90.5,
+        "G2": 91.22,
+        "G3": 93.49,
+        "H0": 92.95,
+        "H1": 90.69,
+        "H2": 94.08,
+        "H3": 92.88
+      }
+    },
+    "power": {
+      "skewed_compute": {
+        "base_w": 341.999999993,
+        "phy_w": 1.6847999999999999,
+        "wire_w": 2.344367,
+        "total_w": 346.029166073
+      },
+      "tensor_training": {
+        "base_w": 399.000000019,
+        "phy_w": 1.8192,
+        "wire_w": 2.524858,
+        "total_w": 403.3440576189999
+      },
+      "memory_stream": {
+        "base_w": 383.00000001800004,
+        "phy_w": 4.9392000000000005,
+        "wire_w": 7.221805,
+        "total_w": 395.161005458
+      }
+    }
+  },
+  "sha256": "9ab467d65809f0089735eb6d9646f6e351cda541e66705f9f812a3481ff65ba9",
+  "status": "local pinned verification passed at64 and128; no new signed AutoLab report",
+  "verified_scores": {
+    "64": 0.95991959,
+    "128": 0.9620015
+  }
+}

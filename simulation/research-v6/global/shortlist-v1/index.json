@@ -1,0 +1,85 @@
+{
+  "kind": "Eight diverse newly simulated placements tied at native64; no pinned claim",
+  "candidates": [
+    {
+      "submission": "simulation/research-v6/global/shortlist-v1/de-0068.json",
+      "source": "simulation/research-v6/global/adaptive-de-1000/search.jsonl",
+      "evaluation": 68,
+      "sha256": "eea26b0c0598a2263f9b7b28b910a4b737c76c986c469f998329ae7355681787",
+      "screen_score": 0.9581605729362985,
+      "g0_skewed_raw_c": 101.26415235000002,
+      "tensor_gpu_raw_c": 101.14961491000003,
+      "memory_hbm_raw_c": 94.23347412000004
+    },
+    {
+      "submission": "simulation/research-v6/global/shortlist-v1/de-0043.json",
+      "source": "simulation/research-v6/global/adaptive-de-1000/search.jsonl",
+      "evaluation": 43,
+      "sha256": "cb36854d8af9f867a0d49497934ee7e1cd9ee7d10440777f82d06e77ea5ac55c",
+      "screen_score": 0.9581605729362985,
+      "g0_skewed_raw_c": 101.26406174000005,
+      "tensor_gpu_raw_c": 101.19901242000003,
+      "memory_hbm_raw_c": 94.26762872
+    },
+    {
+      "submission": "simulation/research-v6/global/shortlist-v1/de-0053.json",
+      "source": "simulation/research-v6/global/adaptive-de-1000/search.jsonl",
+      "evaluation": 53,
+      "sha256": "5df296bd75b1137151b5018acdf20bafdb2040e99b924b73a921d364e738d309",
+      "screen_score": 0.9582862168614147,
+      "g0_skewed_raw_c": 101.26590656000002,
+      "tensor_gpu_raw_c": 101.19639811000002,
+      "memory_hbm_raw_c": 94.24032189000002
+    },
+    {
+      "submission": "simulation/research-v6/global/shortlist-v1/de-0016.json",
+      "source": "simulation/research-v6/global/adaptive-de-1000/search.jsonl",
+      "evaluation": 16,
+      "sha256": "1ec988a94de56c03bef2b73ae92bdca2f3a5065dbab09881204c943e0dc15592",
+      "screen_score": 0.9582862168614147,
+      "g0_skewed_raw_c": 101.26600359000003,
+      "tensor_gpu_raw_c": 101.18666050000002,
+      "memory_hbm_raw_c": 94.34236251000004
+    },
+    {
+      "submission": "simulation/research-v6/global/shortlist-v1/de-0085.json",
+      "source": "simulation/research-v6/global/adaptive-de-1000/search.jsonl",
+      "evaluation": 85,
+      "sha256": "2d4dc888146e2b292eaf37a14ac4fc54adb9fc8a0eb12876c505058df7f16678",
+      "screen_score": 0.9582862168614147,
+      "g0_skewed_raw_c": 101.26536958000003,
+      "tensor_gpu_raw_c": 101.20256624000001,
+      "memory_hbm_raw_c": 94.32318451000003
+    },
+    {
+      "submission": "simulation/research-v6/global/shortlist-v1/de-0006.json",
+      "source": "simulation/research-v6/global/adaptive-de-1000/search.jsonl",
+      "evaluation": 6,
+      "sha256": "6c92af69e12c1b29436863aa5c5a1498916821a271bb6ad09c6162de1da42cbd",
+      "screen_score": 0.9582862168614147,
+      "g0_skewed_raw_c": 101.26924127000001,
+      "tensor_gpu_raw_c": 101.20032726,
+      "memory_hbm_raw_c": 94.27133874000003
+    },
+    {
+      "submission": "simulation/research-v6/global/shortlist-v1/de-0040.json",
+      "source": "simulation/research-v6/global/adaptive-de-1000/search.jsonl",
+      "evaluation": 40,
+      "sha256": "f659c2ddb5f089f1567c23670df34f0440e60f676077a54bdd24f8e394774abd",
+      "screen_score": 0.9582862168614147,
+      "g0_skewed_raw_c": 101.27433327,
+      "tensor_gpu_raw_c": 101.07671265000005,
+      "memory_hbm_raw_c": 94.25520442000004
+    },
+    {
+      "submission": "simulation/research-v6/global/shortlist-v1/de-0109.json",
+      "source": "simulation/research-v6/global/adaptive-de-1000/search.jsonl",
+      "evaluation": 109,
+      "sha256": "ebbde68cc5c4d1f4d6d6165b1a2117b8f8dd801c75d050e2ce4b81883a4c4e84",
+      "screen_score": 0.9582862168614147,
+      "g0_skewed_raw_c": 101.27493390000001,
+      "tensor_gpu_raw_c": 100.95392028000003,
+      "memory_hbm_raw_c": 94.24150853000003
+    }
+  ]
+}

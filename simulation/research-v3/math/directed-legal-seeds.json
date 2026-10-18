@@ -1,0 +1,622 @@
+{
+  "kind": "exact valid placement candidates; no thermal predictions or simulations",
+  "tested": 384,
+  "legal_count": 12,
+  "candidates": [
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.801,
+            29.023
+          ],
+          "G3": [
+            9.676,
+            29.052
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            25.184,
+            29.146
+          ],
+          "H3": [
+            6.969,
+            17.398
+          ]
+        }
+      },
+      "delta": 0.05,
+      "left_g2_h2": 0.4,
+      "extra_g3_left": 0.3,
+      "reduce_h3_up": 0.05,
+      "weighted_route": 13275.0,
+      "h3_bank_to_g0_compute_distance": 18.318846825059705
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.801,
+            29.023
+          ],
+          "G3": [
+            9.676,
+            29.052
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            25.184,
+            29.146
+          ],
+          "H3": [
+            6.969,
+            17.348
+          ]
+        }
+      },
+      "delta": 0.05,
+      "left_g2_h2": 0.4,
+      "extra_g3_left": 0.3,
+      "reduce_h3_up": 0.1,
+      "weighted_route": 13290.0,
+      "h3_bank_to_g0_compute_distance": 18.26986997764352
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.801,
+            29.023
+          ],
+          "G3": [
+            9.476,
+            29.052
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            25.184,
+            29.146
+          ],
+          "H3": [
+            6.969,
+            17.398
+          ]
+        }
+      },
+      "delta": 0.05,
+      "left_g2_h2": 0.4,
+      "extra_g3_left": 0.5,
+      "reduce_h3_up": 0.05,
+      "weighted_route": 13243.8,
+      "h3_bank_to_g0_compute_distance": 18.318846825059705
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.801,
+            29.023
+          ],
+          "G3": [
+            9.476,
+            29.052
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            25.184,
+            29.146
+          ],
+          "H3": [
+            6.969,
+            17.348
+          ]
+        }
+      },
+      "delta": 0.05,
+      "left_g2_h2": 0.4,
+      "extra_g3_left": 0.5,
+      "reduce_h3_up": 0.1,
+      "weighted_route": 13258.8,
+      "h3_bank_to_g0_compute_distance": 18.26986997764352
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.201,
+            29.023
+          ],
+          "G3": [
+            9.676,
+            29.052
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            24.584,
+            29.146
+          ],
+          "H3": [
+            6.969,
+            17.398
+          ]
+        }
+      },
+      "delta": 0.05,
+      "left_g2_h2": 1.0,
+      "extra_g3_left": 0.3,
+      "reduce_h3_up": 0.05,
+      "weighted_route": 13095.6,
+      "h3_bank_to_g0_compute_distance": 18.318846825059705
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.201,
+            29.023
+          ],
+          "G3": [
+            9.676,
+            29.052
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            24.584,
+            29.146
+          ],
+          "H3": [
+            6.969,
+            17.348
+          ]
+        }
+      },
+      "delta": 0.05,
+      "left_g2_h2": 1.0,
+      "extra_g3_left": 0.3,
+      "reduce_h3_up": 0.1,
+      "weighted_route": 13110.6,
+      "h3_bank_to_g0_compute_distance": 18.26986997764352
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.201,
+            29.023
+          ],
+          "G3": [
+            9.476,
+            29.052
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            24.584,
+            29.146
+          ],
+          "H3": [
+            6.969,
+            17.398
+          ]
+        }
+      },
+      "delta": 0.05,
+      "left_g2_h2": 1.0,
+      "extra_g3_left": 0.5,
+      "reduce_h3_up": 0.05,
+      "weighted_route": 13064.4,
+      "h3_bank_to_g0_compute_distance": 18.318846825059705
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.201,
+            29.023
+          ],
+          "G3": [
+            9.476,
+            29.052
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            24.584,
+            29.146
+          ],
+          "H3": [
+            6.969,
+            17.348
+          ]
+        }
+      },
+      "delta": 0.05,
+      "left_g2_h2": 1.0,
+      "extra_g3_left": 0.5,
+      "reduce_h3_up": 0.1,
+      "weighted_route": 13079.4,
+      "h3_bank_to_g0_compute_distance": 18.26986997764352
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.201,
+            29.023
+          ],
+          "G3": [
+            9.126,
+            29.402
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            24.584,
+            29.146
+          ],
+          "H3": [
+            6.619,
+            17.798
+          ]
+        }
+      },
+      "delta": 0.4,
+      "left_g2_h2": 1.0,
+      "extra_g3_left": 0.5,
+      "reduce_h3_up": 0,
+      "weighted_route": 13413.6,
+      "h3_bank_to_g0_compute_distance": 18.645140090650965
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.201,
+            29.023
+          ],
+          "G3": [
+            9.126,
+            29.402
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            24.584,
+            29.146
+          ],
+          "H3": [
+            6.619,
+            17.773
+          ]
+        }
+      },
+      "delta": 0.4,
+      "left_g2_h2": 1.0,
+      "extra_g3_left": 0.5,
+      "reduce_h3_up": 0.025,
+      "weighted_route": 13421.1,
+      "h3_bank_to_g0_compute_distance": 18.620543064046227
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.201,
+            29.023
+          ],
+          "G3": [
+            9.126,
+            29.402
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            24.584,
+            29.146
+          ],
+          "H3": [
+            6.619,
+            17.748
+          ]
+        }
+      },
+      "delta": 0.4,
+      "left_g2_h2": 1.0,
+      "extra_g3_left": 0.5,
+      "reduce_h3_up": 0.05,
+      "weighted_route": 13428.6,
+      "h3_bank_to_g0_compute_distance": 18.595947112207007
+    },
+    {
+      "submission": {
+        "placements_mm": {
+          "G0": [
+            3.982,
+            3.449
+          ],
+          "G1": [
+            36.54,
+            3.715
+          ],
+          "G2": [
+            36.201,
+            29.023
+          ],
+          "G3": [
+            9.126,
+            29.402
+          ],
+          "H0": [
+            20.296,
+            3.689
+          ],
+          "H1": [
+            37.02,
+            15.54
+          ],
+          "H2": [
+            24.584,
+            29.146
+          ],
+          "H3": [
+            6.619,
+            17.698
+          ]
+        }
+      },
+      "delta": 0.4,
+      "left_g2_h2": 1.0,
+      "extra_g3_left": 0.5,
+      "reduce_h3_up": 0.1,
+      "weighted_route": 13443.6,
+      "h3_bank_to_g0_compute_distance": 18.546758449928657
+    }
+  ],
+  "rejections": {
+    "P3 route 5.01 mm exceeds 5.00 mm": 4,
+    "P3 route 5.03 mm exceeds 5.00 mm": 4,
+    "P3 route 5.06 mm exceeds 5.00 mm": 4,
+    "P3 route 5.11 mm exceeds 5.00 mm": 16,
+    "P3 route 5.13 mm exceeds 5.00 mm": 12,
+    "P3 route 5.16 mm exceeds 5.00 mm": 12,
+    "P3 route 5.21 mm exceeds 5.00 mm": 20,
+    "S0 route 6.05 mm exceeds 6.00 mm": 24,
+    "S0 route 6.02 mm exceeds 6.00 mm": 8,
+    "total bandwidth-weighted route 13875.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13890.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13844.4 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13859.4 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13635.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13650.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13604.4 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13619.4 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "P3 route 5.23 mm exceeds 5.00 mm": 8,
+    "P3 route 5.26 mm exceeds 5.00 mm": 8,
+    "P3 route 5.31 mm exceeds 5.00 mm": 12,
+    "S0 route 6.15 mm exceeds 6.00 mm": 16,
+    "S0 route 6.12 mm exceeds 6.00 mm": 16,
+    "S0 route 6.10 mm exceeds 6.00 mm": 16,
+    "P3 route 5.33 mm exceeds 5.00 mm": 4,
+    "P3 route 5.36 mm exceeds 5.00 mm": 4,
+    "P3 route 5.41 mm exceeds 5.00 mm": 4,
+    "S0 route 6.35 mm exceeds 6.00 mm": 12,
+    "S0 route 6.32 mm exceeds 6.00 mm": 12,
+    "S0 route 6.30 mm exceeds 6.00 mm": 12,
+    "S0 route 6.25 mm exceeds 6.00 mm": 12,
+    "P3 route 5.10 mm exceeds 5.00 mm": 12,
+    "P3 route 5.12 mm exceeds 5.00 mm": 4,
+    "P3 route 5.15 mm exceeds 5.00 mm": 12,
+    "P3 route 5.20 mm exceeds 5.00 mm": 8,
+    "P3 route 5.05 mm exceeds 5.00 mm": 12,
+    "P3 route 5.07 mm exceeds 5.00 mm": 8,
+    "P3 route 5.22 mm exceeds 5.00 mm": 4,
+    "P3 route 5.25 mm exceeds 5.00 mm": 4,
+    "P3 route 5.30 mm exceeds 5.00 mm": 4,
+    "total bandwidth-weighted route 14193.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14201.1 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14208.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14223.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13593.0 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13600.5 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13608.0 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13623.0 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13953.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13961.1 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13968.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13983.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14538.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14546.1 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14553.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "S3 port Manhattan lower bound 6.16 mm exceeds reach": 8,
+    "S3 port Manhattan lower bound 6.36 mm exceeds reach": 4,
+    "total bandwidth-weighted route 13938.0 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13945.5 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13953.0 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13834.2 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13841.7 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13849.2 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13864.2 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14298.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14306.1 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14313.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14194.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14202.3 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14209.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14224.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14134.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14142.3 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14149.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 14164.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13758.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13766.1 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13773.6 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13654.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13662.3 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13669.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13684.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13594.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13602.3 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13609.8 exceeds 13500.0 GB/s\u00b7mm": 1,
+    "total bandwidth-weighted route 13624.8 exceeds 13500.0 GB/s\u00b7mm": 1
+  }
+}

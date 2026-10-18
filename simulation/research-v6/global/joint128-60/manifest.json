@@ -1,0 +1,35 @@
+{
+  "kind": "Bounded native128 refinement with an actual native64 acceptance gate.\n\nBoth grids use the existing exact validator and unchanged HotSpot physics.\nOnly measured128 improvements whose64 raw minimax is within0.005C of the\npreserved start are retained. Final pinned verification is still required.\n",
+  "source_sha256": {
+    "joint128.py": "17f495324dcf21e8622aab240eaa7836c75f9c7bb73e23b41091bacb5fb0cbfa",
+    "proposal.py": "ae1ae76900c9c2aaf5c7d6d33b3eff6e818bbfdcbd5fcb53c0f568df1c8ecf85"
+  },
+  "start": "simulation/research-v6/global/finalists/de-0936/submission.json",
+  "start_sha256": "36c45edb75811be4b03ae5913217c2e97f8e66fad02aacf1f260dfc2dd726e09",
+  "hotspot_sha256": "b34022f89dad0dfb17697b084851e662cade3411d25a570be77078aec1578e09",
+  "budget128": 60,
+  "seed": 9464128,
+  "cpus": 3,
+  "gate64_raw_tolerance_c": 0.005,
+  "workloads": [
+    "skewed_compute",
+    "tensor_training",
+    "memory_stream"
+  ],
+  "references": {
+    "64": {
+      "grid": 64,
+      "worst_gpu_c": 104.59,
+      "worst_hbm_c": 97.68,
+      "layout": "random_layout",
+      "note": "Public seeded random baseline; full precision rounded to 0.01 Celsius by the judge."
+    },
+    "128": {
+      "grid": 128,
+      "worst_gpu_c": 104.74,
+      "worst_hbm_c": 97.7,
+      "layout": "random_layout",
+      "note": "High-resolution finalist baseline using the identical five workload sources and pinned HotSpot executable."
+    }
+  }
+}

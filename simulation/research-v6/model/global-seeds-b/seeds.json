@@ -1,0 +1,800 @@
+[
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0000.json",
+    "trial": 0,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13037.4,
+    "signature": "EENWNWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0001.json",
+    "trial": 1,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13489.8,
+    "signature": "EENNWWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0002.json",
+    "trial": 2,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 8670.3,
+    "signature": "EEENWWWS",
+    "directions": [
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0003.json",
+    "trial": 11,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 10986.0,
+    "signature": "WNEEESWW",
+    "directions": [
+      2,
+      1,
+      0,
+      0,
+      0,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0004.json",
+    "trial": 30,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.4,
+    "signature": "NESSWNNE",
+    "directions": [
+      1,
+      0,
+      3,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0005.json",
+    "trial": 38,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13109.7,
+    "signature": "ENNWWSSE",
+    "directions": [
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0006.json",
+    "trial": 99,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13489.5,
+    "signature": "WSNWNEES",
+    "directions": [
+      2,
+      3,
+      1,
+      2,
+      1,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0007.json",
+    "trial": 101,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "ESSWWWNE",
+    "directions": [
+      0,
+      3,
+      3,
+      2,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0008.json",
+    "trial": 130,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.4,
+    "signature": "NNEEESWW",
+    "directions": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0009.json",
+    "trial": 202,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "WSWWNEES",
+    "directions": [
+      2,
+      3,
+      2,
+      2,
+      1,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0010.json",
+    "trial": 203,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 10276.8,
+    "signature": "WNWNEESS",
+    "directions": [
+      2,
+      1,
+      2,
+      1,
+      0,
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0011.json",
+    "trial": 215,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13137.6,
+    "signature": "SWNWNEES",
+    "directions": [
+      3,
+      2,
+      1,
+      2,
+      1,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0012.json",
+    "trial": 270,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "WWSSEENW",
+    "directions": [
+      2,
+      2,
+      3,
+      3,
+      0,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0013.json",
+    "trial": 288,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12775.5,
+    "signature": "ESSWNWNE",
+    "directions": [
+      0,
+      3,
+      3,
+      2,
+      1,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0014.json",
+    "trial": 297,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 9407.1,
+    "signature": "EESWWWNE",
+    "directions": [
+      0,
+      0,
+      3,
+      2,
+      2,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0015.json",
+    "trial": 306,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.4,
+    "signature": "WNSSEENW",
+    "directions": [
+      2,
+      1,
+      3,
+      3,
+      0,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0016.json",
+    "trial": 327,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13304.4,
+    "signature": "NWNWSSEE",
+    "directions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0017.json",
+    "trial": 330,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "WNNEESWW",
+    "directions": [
+      2,
+      1,
+      1,
+      0,
+      0,
+      3,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0018.json",
+    "trial": 379,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "NWWSSEEE",
+    "directions": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0019.json",
+    "trial": 398,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "WNEESSNW",
+    "directions": [
+      2,
+      1,
+      0,
+      0,
+      3,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0020.json",
+    "trial": 403,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13259.4,
+    "signature": "WWNNESES",
+    "directions": [
+      2,
+      2,
+      1,
+      1,
+      0,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0021.json",
+    "trial": 427,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13452.6,
+    "signature": "WSSESENN",
+    "directions": [
+      2,
+      3,
+      3,
+      0,
+      3,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0022.json",
+    "trial": 511,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13449.9,
+    "signature": "NWSSENNW",
+    "directions": [
+      1,
+      2,
+      3,
+      3,
+      0,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0023.json",
+    "trial": 517,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13489.8,
+    "signature": "SWNNESSW",
+    "directions": [
+      3,
+      2,
+      1,
+      1,
+      0,
+      3,
+      3,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0024.json",
+    "trial": 531,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "EESWWSNN",
+    "directions": [
+      0,
+      0,
+      3,
+      2,
+      2,
+      3,
+      1,
+      1
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0025.json",
+    "trial": 589,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.4,
+    "signature": "EENNWWWS",
+    "directions": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0026.json",
+    "trial": 632,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "NWWWSEEN",
+    "directions": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0027.json",
+    "trial": 675,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.4,
+    "signature": "NNEESWWW",
+    "directions": [
+      1,
+      1,
+      0,
+      0,
+      3,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0028.json",
+    "trial": 681,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13460.4,
+    "signature": "NNWWWSEE",
+    "directions": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0029.json",
+    "trial": 697,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 11322.3,
+    "signature": "ESWSWNNE",
+    "directions": [
+      0,
+      3,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0030.json",
+    "trial": 709,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "WWSEEENN",
+    "directions": [
+      2,
+      2,
+      3,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0031.json",
+    "trial": 731,
+    "valid": true,
+    "reason": null,
+    "status": 1,
+    "weighted": 13489.5,
+    "signature": "WNNESESW",
+    "directions": [
+      2,
+      1,
+      1,
+      0,
+      3,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0032.json",
+    "trial": 772,
+    "valid": true,
+    "reason": null,
+    "status": 1,
+    "weighted": 13490.1,
+    "signature": "SEEENNWW",
+    "directions": [
+      3,
+      0,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0033.json",
+    "trial": 778,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 11782.8,
+    "signature": "SSEENNWW",
+    "directions": [
+      3,
+      3,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0034.json",
+    "trial": 780,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13487.7,
+    "signature": "EENWNWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0035.json",
+    "trial": 790,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12419.4,
+    "signature": "WSSENENW",
+    "directions": [
+      2,
+      3,
+      3,
+      0,
+      1,
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0036.json",
+    "trial": 792,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12462.0,
+    "signature": "NWWSSEEN",
+    "directions": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0037.json",
+    "trial": 834,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13413.3,
+    "signature": "ENENWWSE",
+    "directions": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0038.json",
+    "trial": 838,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "SSEEENWW",
+    "directions": [
+      3,
+      3,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0039.json",
+    "trial": 881,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 10420.5,
+    "signature": "WWWSEEEN",
+    "directions": [
+      2,
+      2,
+      2,
+      3,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0040.json",
+    "trial": 911,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13490.1,
+    "signature": "SESENNWS",
+    "directions": [
+      3,
+      0,
+      3,
+      0,
+      1,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/global-seeds-b/seed-0041.json",
+    "trial": 954,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13250.7,
+    "signature": "WSEENWWS",
+    "directions": [
+      2,
+      3,
+      0,
+      0,
+      1,
+      2,
+      2,
+      3
+    ]
+  }
+]

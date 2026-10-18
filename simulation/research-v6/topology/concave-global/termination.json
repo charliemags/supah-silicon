@@ -1,0 +1,7 @@
+{
+  "reason": "Bounded concave/inverted multi-basin branch remains uncompetitive after hundreds of legal global proposals; redirect compute to new NEEESSWW topology that breaks incumbent G0 coupling floor.",
+  "completed_observations": 551,
+  "best_native_score": 0.9997487121497675,
+  "best_gpu_c": 104.57,
+  "best_hbm_c": 90.45
+}

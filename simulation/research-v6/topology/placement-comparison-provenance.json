@@ -1,0 +1,9 @@
+{
+  "renderer": "matplotlib in existing supah-silicon-sim:local Docker image; no simulator invoked",
+  "data": "already-recorded native64 three-workload observations",
+  "sha256": {
+    "placement-comparison.png": "1a48241b0d50f193a1f7d8e84bc82d26b15442fb0fdf97310fa0940acf88e1ec",
+    "placement-comparison-data.json": "98a6b08701d1e5fce681bb26d414324729036bfea3233eae4deb54158cd4dfea",
+    "plot_comparison.py": "a31ac06755483afb6bc5e5c29ead963c02cf71cdd1ea0e061edf77b1c96f78d6"
+  }
+}

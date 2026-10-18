@@ -1,0 +1,259 @@
+{
+  "passed": true,
+  "die_edge_margin_mm": 1.5,
+  "minimum_die_separation_mm": 1.0,
+  "weighted_route_gb_s_mm": 7290.0,
+  "route_limit_gb_s_mm": 13500.0,
+  "die_edge_capacity": {
+    "G0.left": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.3
+    },
+    "H0.right": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.12
+    },
+    "G1.left": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.3
+    },
+    "H1.right": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.12
+    },
+    "G2.right": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.3
+    },
+    "H2.left": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.12
+    },
+    "G3.right": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.3
+    },
+    "H3.left": {
+      "reserved_mm_including_gaps": 4.0,
+      "available_mm": 6.12
+    },
+    "G0.top": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.9
+    },
+    "H3.bottom": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.3
+    },
+    "G1.right": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.3
+    },
+    "H0.left": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.12
+    },
+    "G2.bottom": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.9
+    },
+    "H1.top": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.3
+    },
+    "G3.left": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.3
+    },
+    "H2.right": {
+      "reserved_mm_including_gaps": 2.0,
+      "available_mm": 6.12
+    }
+  },
+  "links": {
+    "P0": {
+      "route_length_mm": 2.0,
+      "max_route_mm": 5.0,
+      "required_port_each_end_mm": 4.0,
+      "from_port_mm": [
+        39.0,
+        14.75
+      ],
+      "to_port_mm": [
+        38.0,
+        14.75
+      ],
+      "route_grid": [
+        [
+          76,
+          29
+        ],
+        [
+          77,
+          29
+        ]
+      ]
+    },
+    "P1": {
+      "route_length_mm": 2.0,
+      "max_route_mm": 5.0,
+      "required_port_each_end_mm": 4.0,
+      "from_port_mm": [
+        15.0,
+        14.75
+      ],
+      "to_port_mm": [
+        14.0,
+        14.75
+      ],
+      "route_grid": [
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          29
+        ]
+      ]
+    },
+    "P2": {
+      "route_length_mm": 2.0,
+      "max_route_mm": 5.0,
+      "required_port_each_end_mm": 4.0,
+      "from_port_mm": [
+        14.5,
+        27.25
+      ],
+      "to_port_mm": [
+        15.5,
+        27.249999999999996
+      ],
+      "route_grid": [
+        [
+          30,
+          54
+        ],
+        [
+          29,
+          54
+        ]
+      ]
+    },
+    "P3": {
+      "route_length_mm": 2.0,
+      "max_route_mm": 5.0,
+      "required_port_each_end_mm": 4.0,
+      "from_port_mm": [
+        38.5,
+        27.25
+      ],
+      "to_port_mm": [
+        39.5,
+        27.249999999999996
+      ],
+      "route_grid": [
+        [
+          78,
+          54
+        ],
+        [
+          77,
+          54
+        ]
+      ]
+    },
+    "S0": {
+      "route_length_mm": 2.15,
+      "max_route_mm": 6.0,
+      "required_port_each_end_mm": 2.0,
+      "from_port_mm": [
+        44.75,
+        20.0
+      ],
+      "to_port_mm": [
+        44.75,
+        22.15
+      ],
+      "route_grid": [
+        [
+          89,
+          41
+        ],
+        [
+          89,
+          42
+        ]
+      ]
+    },
+    "S1": {
+      "route_length_mm": 2.0,
+      "max_route_mm": 6.0,
+      "required_port_each_end_mm": 2.0,
+      "from_port_mm": [
+        26.5,
+        14.75
+      ],
+      "to_port_mm": [
+        27.5,
+        14.75
+      ],
+      "route_grid": [
+        [
+          54,
+          29
+        ],
+        [
+          53,
+          29
+        ]
+      ]
+    },
+    "S2": {
+      "route_length_mm": 2.15,
+      "max_route_mm": 6.0,
+      "required_port_each_end_mm": 2.0,
+      "from_port_mm": [
+        8.75,
+        22.0
+      ],
+      "to_port_mm": [
+        8.75,
+        19.85
+      ],
+      "route_grid": [
+        [
+          17,
+          42
+        ],
+        [
+          17,
+          41
+        ]
+      ]
+    },
+    "S3": {
+      "route_length_mm": 2.0,
+      "max_route_mm": 6.0,
+      "required_port_each_end_mm": 2.0,
+      "from_port_mm": [
+        27.0,
+        27.25
+      ],
+      "to_port_mm": [
+        26.0,
+        27.249999999999996
+      ],
+      "route_grid": [
+        [
+          52,
+          54
+        ],
+        [
+          53,
+          54
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "solver": "/opt/hotspot/hotspot",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "script_sha256": "7f6b668d6ac39dbc08eee3e44eedbd6d1136459e4c4145010e04375b0ac62c03",
+  "grid": 64,
+  "workloads": "all five",
+  "purpose": "native screening; not pinned certification"
+}

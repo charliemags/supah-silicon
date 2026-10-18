@@ -1,0 +1,105 @@
+{
+  "preserved_files": {
+    "simulation/layouts/supah-v2/verification-64.json": "38b70bfa221812b7ecadddf6031f7b5b0eceb2f76b3a645e83516ad9900718d9",
+    "simulation/layouts/supah-v2/selection.json": "c84e00c8ae3a0b867330a1c60a1341fc7606c0334ed8de5f8c43c96a7d4c9488",
+    "simulation/layouts/supah-v2/submission.json": "09b3c673fd8a8a6b940abd8219cf9a85f88d70efcd98667e55604bb394845724",
+    "simulation/layouts/supah-v2/verification-128.json": "6674b493edfd41f4ea620ab276030bf8936ba7dfc6f18a57a40f0af000b76654",
+    "simulation/layouts/supah-v2/official-report-64.json": "6f0e70abc332bd1a5201eba5dd46e063ad6c9cbdc862cd13fe98d11a83a7f4be",
+    ".cache/challenge/run_simulations.py": "86fce0bad7262111aad272d3ebb484d89252b2974495f9d87be7db6ab10c4899",
+    ".cache/challenge/generate_workloads.py": "dd7df34835e8af9ee2942bbee1b6a846069753dd9c9533f4ebddca0ce473643a",
+    ".cache/challenge/interconnect.py": "a11f105588890c765981fe18f0e560c63c1c5d1c7272a10528636f7572f547ff",
+    ".cache/challenge/geometry.py": "62fa0dcada07cda67aff889ce1770f63c8acc16c0aadffeb3315be205d957565",
+    ".cache/challenge/verify_submission.py": "3e6f5ea139b4fa656d8f81d55c6f1a94e9ca970927294a850fbb506be15e5952",
+    ".cache/challenge/generate_agent_workloads.py": "96035f7a7545bc10213cd0ca2730ad7c06cd73caf180d1d272493d90bf6aeac2",
+    ".cache/challenge/verify_high_accuracy.py": "c0bc63e60f378907b1406985d2dd12b0da65140f31c094999334dbc3c44d27dc",
+    ".cache/challenge/eval.py": "6f952d28575c2919fbd191072ea34b0b626c2af74145b8d58c54960faddcc2b5",
+    ".cache/challenge/random_layout.json": "884c335f1d6a14778e22e38c26386fd9bb355c3de92d58f6509b493abeb512d7",
+    ".cache/challenge/agent_workloads.json": "49d554846e6451d855e3fdd6ada35aa251aee155e229e971d8fb55fffed05073",
+    ".cache/challenge/baseline_hill_final_128.json": "702ccf3178f21b16d1db74545894eeb2ac3e94ad75ffc28feda101b28bb853e0",
+    ".cache/challenge/challenge_spec.json": "05370b536d05646f7657870821237d69bcad4dddf0cc65d492bbf11aa13b4524",
+    ".cache/challenge/reference_128.json": "863d9feb203d887658b39405bdde2f44834d4f9322b897d7d50b4c94c1143f47",
+    ".cache/challenge/reference_64.json": "e8216d5195f413f8eabc9a22ed452dfb1cd2fdd66728e6f5d8e552a1c72bf9bd",
+    ".cache/challenge/workloads.json": "fe63947421fed83ccaebb79e49307d16ca369a2f419a84ce0830a57ed1479cf9",
+    ".cache/challenge/vendor/HotSpot/hotspot": "5c3fcad8ae63144b218d2fc1de28ea862f5c6d3751e7ab381d576e5c00cab4bb"
+  },
+  "all_preserved_hashes_match": true,
+  "submission_sha256": "87f67547b68a27c63679ca4fd90147430400a1d5303859c2a0c7413f12c8afe4",
+  "selected_candidate": "simulation/research-v4/finalists/precision-best",
+  "verified_grids": [
+    64,
+    128
+  ],
+  "verified_workloads": [
+    "attention_decode",
+    "memory_stream",
+    "mixed_serving",
+    "skewed_compute",
+    "tensor_training"
+  ],
+  "counts": {
+    "directed": {
+      "candidate_evaluations": 10,
+      "workload_simulations": 50,
+      "stopped_early": false
+    },
+    "g0-polish": {
+      "candidate_evaluations": 267,
+      "workload_simulations": 267,
+      "stopped_early": false
+    },
+    "memory-polish": {
+      "candidate_evaluations": 107,
+      "workload_simulations": 321,
+      "stopped_early": false
+    },
+    "pattern": {
+      "candidate_evaluations": 355,
+      "workload_simulations": 1065,
+      "stopped_early": true
+    },
+    "placement": {
+      "candidate_evaluations": 859,
+      "workload_simulations": 2577,
+      "stopped_early": true
+    },
+    "placement-from-quadratic": {
+      "candidate_evaluations": 551,
+      "workload_simulations": 1653,
+      "stopped_early": true
+    },
+    "precise": {
+      "candidate_evaluations": 593,
+      "workload_simulations": 1779,
+      "stopped_early": true
+    },
+    "precise-coarse-gradient": {
+      "candidate_evaluations": 377,
+      "workload_simulations": 1131,
+      "stopped_early": true
+    },
+    "precision-rescreen": {
+      "candidate_evaluations": 261,
+      "workload_simulations": 261,
+      "stopped_early": false
+    },
+    "quadratic": {
+      "candidate_evaluations": 256,
+      "workload_simulations": 768,
+      "stopped_early": false
+    },
+    "routes": {
+      "candidate_evaluations": 131,
+      "workload_simulations": 135,
+      "stopped_early": false
+    },
+    "routes-finalist": {
+      "candidate_evaluations": 131,
+      "workload_simulations": 135,
+      "stopped_early": false
+    }
+  },
+  "logged_candidate_evaluations": 3898,
+  "count_note": "Includes repeated controls and precision rescreens; excludes inherited history, unlogged original-native precision calibration controls, and pinned final verification runs.",
+  "challenge_revision": "8948d9bc5e3aa041dcd1ff8a5a63ed6200d04d81",
+  "execution": "Local CPU Docker, network disabled; no AutoLab Docker socket access or rented compute."
+}

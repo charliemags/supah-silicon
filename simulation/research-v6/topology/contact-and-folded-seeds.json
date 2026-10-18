@@ -1,0 +1,569 @@
+[
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0000.json",
+    "trial": 0,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 8907.6,
+    "signature": "EENWNWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0001.json",
+    "trial": 38,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 10318.5,
+    "signature": "ENNWWSSE",
+    "directions": [
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0002.json",
+    "trial": 203,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 8345.1,
+    "signature": "WNWNEESS",
+    "directions": [
+      2,
+      1,
+      2,
+      1,
+      0,
+      0,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0003.json",
+    "trial": 215,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12277.5,
+    "signature": "SWNWNEES",
+    "directions": [
+      3,
+      2,
+      1,
+      2,
+      1,
+      0,
+      0,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0004.json",
+    "trial": 288,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 9918.3,
+    "signature": "ESSWNWNE",
+    "directions": [
+      0,
+      3,
+      3,
+      2,
+      1,
+      2,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0005.json",
+    "trial": 327,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 10164.0,
+    "signature": "NWNWSSEE",
+    "directions": [
+      1,
+      2,
+      1,
+      2,
+      3,
+      3,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0006.json",
+    "trial": 403,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 8706.0,
+    "signature": "WWNNESES",
+    "directions": [
+      2,
+      2,
+      1,
+      1,
+      0,
+      3,
+      0,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0007.json",
+    "trial": 697,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 11111.7,
+    "signature": "ESWSWNNE",
+    "directions": [
+      0,
+      3,
+      2,
+      3,
+      2,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0008.json",
+    "trial": 731,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12599.1,
+    "signature": "WNNESESW",
+    "directions": [
+      2,
+      1,
+      1,
+      0,
+      3,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0009.json",
+    "trial": 778,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 11901.6,
+    "signature": "SSEENNWW",
+    "directions": [
+      3,
+      3,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0010.json",
+    "trial": 780,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12545.1,
+    "signature": "EENWNWSS",
+    "directions": [
+      0,
+      0,
+      1,
+      2,
+      1,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0011.json",
+    "trial": 792,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 12373.8,
+    "signature": "NWWSSEEN",
+    "directions": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "path": "simulation/research-v6/model/full-contact/seed-0012.json",
+    "trial": 834,
+    "valid": true,
+    "reason": null,
+    "status": 0,
+    "weighted": 13242.9,
+    "signature": "ENENWWSE",
+    "directions": [
+      0,
+      1,
+      0,
+      1,
+      2,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "submission": {
+      "placements_mm": {
+        "G0": [
+          3.5,
+          6.79999
+        ],
+        "G1": [
+          7.24999,
+          30.0
+        ],
+        "G2": [
+          35.85,
+          30.2
+        ],
+        "G3": [
+          27.701,
+          14.6
+        ],
+        "H0": [
+          4.1,
+          18.588627
+        ],
+        "H1": [
+          19.75099,
+          30.15
+        ],
+        "H2": [
+          40.202,
+          18.89999
+        ],
+        "H3": [
+          16.2,
+          11.65
+        ]
+      }
+    },
+    "kind": "folded-low-g0",
+    "origin_evaluation": 44
+  },
+  {
+    "submission": {
+      "placements_mm": {
+        "G0": [
+          3.79799,
+          6.75
+        ],
+        "G1": [
+          7.24999,
+          29.75
+        ],
+        "G2": [
+          36.25,
+          30.0
+        ],
+        "G3": [
+          27.79999,
+          15.0
+        ],
+        "H0": [
+          4.5,
+          18.251
+        ],
+        "H1": [
+          19.76,
+          30.15
+        ],
+        "H2": [
+          40.46001,
+          18.59999
+        ],
+        "H3": [
+          16.29899,
+          11.669536
+        ]
+      }
+    },
+    "kind": "folded-low-g0",
+    "origin_evaluation": 27
+  },
+  {
+    "submission": {
+      "placements_mm": {
+        "G0": [
+          3.79799,
+          6.79999
+        ],
+        "G1": [
+          7.24999,
+          29.83
+        ],
+        "G2": [
+          36.25,
+          29.99911
+        ],
+        "G3": [
+          27.79999,
+          15.0
+        ],
+        "H0": [
+          4.5,
+          18.30099
+        ],
+        "H1": [
+          19.75099,
+          30.15
+        ],
+        "H2": [
+          40.480131,
+          18.59999
+        ],
+        "H3": [
+          16.29899,
+          11.749536
+        ]
+      }
+    },
+    "kind": "folded-low-g0",
+    "origin_evaluation": 42
+  },
+  {
+    "submission": {
+      "placements_mm": {
+        "G0": [
+          3.752158,
+          6.79999
+        ],
+        "G1": [
+          7.24999,
+          29.75
+        ],
+        "G2": [
+          36.2599,
+          29.8
+        ],
+        "G3": [
+          27.79999,
+          15.0
+        ],
+        "H0": [
+          4.5,
+          18.30099
+        ],
+        "H1": [
+          19.96,
+          30.15
+        ],
+        "H2": [
+          40.499,
+          18.39999
+        ],
+        "H3": [
+          16.29899,
+          11.65
+        ]
+      }
+    },
+    "kind": "folded-low-g0",
+    "origin_evaluation": 43
+  },
+  {
+    "submission": {
+      "placements_mm": {
+        "G0": [
+          2.79999,
+          7.29999
+        ],
+        "G1": [
+          6.5,
+          30.2
+        ],
+        "G2": [
+          36.5,
+          29.4
+        ],
+        "G3": [
+          27.2,
+          14.0
+        ],
+        "H0": [
+          3.436014,
+          18.80099
+        ],
+        "H1": [
+          20.55099,
+          29.65
+        ],
+        "H2": [
+          39.701,
+          18.09999
+        ],
+        "H3": [
+          15.4,
+          12.34988
+        ]
+      }
+    },
+    "kind": "folded-low-g0",
+    "origin_evaluation": 45
+  },
+  {
+    "submission": {
+      "placements_mm": {
+        "G0": [
+          4.625004,
+          6.946367
+        ],
+        "G1": [
+          32.25,
+          4.79999
+        ],
+        "G2": [
+          39.30099,
+          27.7
+        ],
+        "G3": [
+          15.29899,
+          23.0
+        ],
+        "H0": [
+          17.46001,
+          6.65
+        ],
+        "H1": [
+          36.5,
+          16.414711
+        ],
+        "H2": [
+          27.79999,
+          27.65
+        ],
+        "H3": [
+          3.79799,
+          19.4
+        ]
+      }
+    },
+    "kind": "folded-low-g0",
+    "origin_evaluation": 25
+  },
+  {
+    "submission": {
+      "placements_mm": {
+        "G0": [
+          6.125004,
+          5.446367
+        ],
+        "G1": [
+          33.74999,
+          3.29999
+        ],
+        "G2": [
+          39.24999,
+          26.2
+        ],
+        "G3": [
+          15.24799,
+          21.5
+        ],
+        "H0": [
+          18.9501,
+          5.15
+        ],
+        "H1": [
+          35.0,
+          14.914711
+        ],
+        "H2": [
+          27.74899,
+          26.39999
+        ],
+        "H3": [
+          3.74699,
+          17.9
+        ]
+      }
+    },
+    "kind": "folded-low-g0",
+    "origin_evaluation": 46
+  },
+  {
+    "submission": {
+      "placements_mm": {
+        "G0": [
+          3.74699,
+          9.998722
+        ],
+        "G1": [
+          27.74899,
+          10.74899
+        ],
+        "G2": [
+          39.24999,
+          22.24999
+        ],
+        "G3": [
+          15.24799,
+          21.499722
+        ],
+        "H0": [
+          16.24799,
+          10.298722
+        ],
+        "H1": [
+          40.24999,
+          10.89999
+        ],
+        "H2": [
+          27.74899,
+          22.4
+        ],
+        "H3": [
+          3.74699,
+          25.19999
+        ]
+      }
+    },
+    "kind": "folded-low-g0",
+    "origin_evaluation": 2
+  }
+]

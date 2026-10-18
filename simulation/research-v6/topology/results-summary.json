@@ -1,0 +1,493 @@
+{
+  "kind": "native64 screening only; all original rules unchanged; not pinned certification",
+  "completed_observations": 950,
+  "unique_submissions": 941,
+  "distinct_facing_patterns": 73,
+  "runs": [
+    {
+      "run": "simulation/research-v6/topology/concave-global",
+      "completed_observations": 551,
+      "best_screen_score": 0.9997487121497675,
+      "best_evaluation": 478,
+      "lowest_g0_skewed_c": 103.36177754000005,
+      "g0_evaluation": 207,
+      "manifest_sha256": "89e03790e56418c287cda5da6e44671b649ac6ebcee77a01900e5887b27b51c3"
+    },
+    {
+      "run": "simulation/research-v6/topology/contact-g0",
+      "completed_observations": 154,
+      "best_screen_score": 1.007538635506973,
+      "best_evaluation": 72,
+      "lowest_g0_skewed_c": 101.98837362,
+      "g0_evaluation": 153,
+      "manifest_sha256": "f2cb7ed95ba4ea0f99ba4735834baaa4646b9929c865f381b1d213b27b851264"
+    },
+    {
+      "run": "simulation/research-v6/topology/folded-g0",
+      "completed_observations": 48,
+      "best_screen_score": 1.0084181429827868,
+      "best_evaluation": 46,
+      "lowest_g0_skewed_c": 102.69501753000003,
+      "g0_evaluation": 44,
+      "manifest_sha256": "59a3855866ab291d594fb6edf5eb2649e535ded9923b1b9c8ed7f877e53caf76"
+    },
+    {
+      "run": "simulation/research-v6/topology/offset-ring-balance",
+      "completed_observations": 74,
+      "best_screen_score": 1.0469908279934665,
+      "best_evaluation": 55,
+      "lowest_g0_skewed_c": 101.19229247000004,
+      "g0_evaluation": 0,
+      "manifest_sha256": "66f984e340dabc7ec5fa8ee6982fcbb407a59b61b34e5e2852ba273adb8d21bb"
+    },
+    {
+      "run": "simulation/research-v6/topology/offset-ring-coupling",
+      "completed_observations": 123,
+      "best_screen_score": 1.077019726096243,
+      "best_evaluation": 57,
+      "lowest_g0_skewed_c": 101.34364144,
+      "g0_evaluation": 95,
+      "manifest_sha256": "da8034e209705c77a1a1a265282816bc1ae8e2a762efb32733db0affc05dd168"
+    }
+  ],
+  "topologies": [
+    {
+      "signature": "1001010-101-101010",
+      "observations": 25,
+      "best_screen_score": 1.0305314738032416,
+      "lowest_g0_skewed_c": 104.41201783000002
+    },
+    {
+      "signature": "0-11001011001-1010",
+      "observations": 8,
+      "best_screen_score": 1.0684759391883403,
+      "lowest_g0_skewed_c": 105.2502336
+    },
+    {
+      "signature": "010-11001101001-10",
+      "observations": 8,
+      "best_screen_score": 1.1297901746450558,
+      "lowest_g0_skewed_c": 114.92191831000002
+    },
+    {
+      "signature": "01010-110-10101001",
+      "observations": 13,
+      "best_screen_score": 1.0991330569166982,
+      "lowest_g0_skewed_c": 105.75395919000005
+    },
+    {
+      "signature": "0-11010-1010010-10-1",
+      "observations": 8,
+      "best_screen_score": 1.0593039326548561,
+      "lowest_g0_skewed_c": 107.49159324000004
+    },
+    {
+      "signature": "-100-110100-110010-1",
+      "observations": 8,
+      "best_screen_score": 1.092850860660887,
+      "lowest_g0_skewed_c": 108.09395486
+    },
+    {
+      "signature": "10-100-1100-10-11001",
+      "observations": 8,
+      "best_screen_score": 1.0961176027139086,
+      "lowest_g0_skewed_c": 112.24230128000005
+    },
+    {
+      "signature": "1010-100-1010-10-110",
+      "observations": 8,
+      "best_screen_score": 1.0755119989948485,
+      "lowest_g0_skewed_c": 103.61687343
+    },
+    {
+      "signature": "-100-10-1010-110-10-10",
+      "observations": 8,
+      "best_screen_score": 1.0874481718808895,
+      "lowest_g0_skewed_c": 111.55386333000001
+    },
+    {
+      "signature": "01-100-10-1-100-110-10",
+      "observations": 8,
+      "best_screen_score": 1.078024877497173,
+      "lowest_g0_skewed_c": 104.69971773000003
+    },
+    {
+      "signature": "0-101-100-1-10-100-110",
+      "observations": 8,
+      "best_screen_score": 1.0794069606734513,
+      "lowest_g0_skewed_c": 110.90935658000001
+    },
+    {
+      "signature": "0-10-101-1010-10-100-1",
+      "observations": 8,
+      "best_screen_score": 1.0840557859027515,
+      "lowest_g0_skewed_c": 104.87854549000002
+    },
+    {
+      "signature": "01-10-1010-100-10101",
+      "observations": 8,
+      "best_screen_score": 1.0537755999497425,
+      "lowest_g0_skewed_c": 107.34715258
+    },
+    {
+      "signature": "1001-10-1001-100-101",
+      "observations": 17,
+      "best_screen_score": 1.0419650709888177,
+      "lowest_g0_skewed_c": 103.48239829000005
+    },
+    {
+      "signature": "-101001-100101-100-1",
+      "observations": 8,
+      "best_screen_score": 1.1135821083050634,
+      "lowest_g0_skewed_c": 113.37445280000003
+    },
+    {
+      "signature": "-10-1010010-10101-10",
+      "observations": 8,
+      "best_screen_score": 1.1114461615780875,
+      "lowest_g0_skewed_c": 107.38957314000004
+    },
+    {
+      "signature": "-1001010-10110-10-10",
+      "observations": 17,
+      "best_screen_score": 1.0435984420153286,
+      "lowest_g0_skewed_c": 107.35116336000004
+    },
+    {
+      "signature": "0-1-100101-100110-10",
+      "observations": 8,
+      "best_screen_score": 1.0582987812539264,
+      "lowest_g0_skewed_c": 106.96463788
+    },
+    {
+      "signature": "010-1-1001-10-100110",
+      "observations": 8,
+      "best_screen_score": 1.1046613896218118,
+      "lowest_g0_skewed_c": 112.91844291000001
+    },
+    {
+      "signature": "01010-1-1010-10-1001",
+      "observations": 131,
+      "best_screen_score": 1.077019726096243,
+      "lowest_g0_skewed_c": 101.34364144
+    },
+    {
+      "signature": "011010-10100-10101",
+      "observations": 17,
+      "best_screen_score": 1.0412112074381203,
+      "lowest_g0_skewed_c": 104.89114005000005
+    },
+    {
+      "signature": "-1001101001100-101",
+      "observations": 13,
+      "best_screen_score": 1.0655861289106672,
+      "lowest_g0_skewed_c": 106.03760801000004
+    },
+    {
+      "signature": "10-1001100101100-1",
+      "observations": 8,
+      "best_screen_score": 1.1262721447418016,
+      "lowest_g0_skewed_c": 114.64198762000001
+    },
+    {
+      "signature": "1010-10010-1010110",
+      "observations": 8,
+      "best_screen_score": 1.098504837291117,
+      "lowest_g0_skewed_c": 105.20555764
+    },
+    {
+      "signature": "100-10-1010-1-101010",
+      "observations": 8,
+      "best_screen_score": 1.0594295765799722,
+      "lowest_g0_skewed_c": 107.44095318000001
+    },
+    {
+      "signature": "01100-10-1100-1-1010",
+      "observations": 8,
+      "best_screen_score": 1.0927252167357708,
+      "lowest_g0_skewed_c": 103.36177754000005
+    },
+    {
+      "signature": "0-101100-110100-1-10",
+      "observations": 8,
+      "best_screen_score": 1.0959919587887925,
+      "lowest_g0_skewed_c": 112.22539854000001
+    },
+    {
+      "signature": "0-10-10110-1010100-1",
+      "observations": 8,
+      "best_screen_score": 1.0756376429199648,
+      "lowest_g0_skewed_c": 107.74825290000001
+    },
+    {
+      "signature": "0-1-10-1010-10010-10-1",
+      "observations": 8,
+      "best_screen_score": 1.0814172634753108,
+      "lowest_g0_skewed_c": 111.07413872000001
+    },
+    {
+      "signature": "100-1-10-100-1-10010-1",
+      "observations": 8,
+      "best_screen_score": 1.0775223017967082,
+      "lowest_g0_skewed_c": 104.90840611000004
+    },
+    {
+      "signature": "-10100-1-100-10-1-1001",
+      "observations": 8,
+      "best_screen_score": 1.0893328307576329,
+      "lowest_g0_skewed_c": 111.69859275000005
+    },
+    {
+      "signature": "-10-10100-1010-10-1-10",
+      "observations": 13,
+      "best_screen_score": 1.088202035431587,
+      "lowest_g0_skewed_c": 105.48703274000002
+    },
+    {
+      "signature": "0-11001-1001-100-110",
+      "observations": 229,
+      "best_screen_score": 0.9997487121497675,
+      "lowest_g0_skewed_c": 104.28436785000002
+    },
+    {
+      "signature": "01100-1-100-1-100110",
+      "observations": 9,
+      "best_screen_score": 1.0459856765925366,
+      "lowest_g0_skewed_c": 104.84891967000004
+    },
+    {
+      "signature": "0-1-10011001100-1-10",
+      "observations": 10,
+      "best_screen_score": 1.0481216233195125,
+      "lowest_g0_skewed_c": 108.42204615000003
+    },
+    {
+      "signature": "01-100-1100-11001-10",
+      "observations": 12,
+      "best_screen_score": 1.052393516773464,
+      "lowest_g0_skewed_c": 108.63058398000004
+    },
+    {
+      "signature": "1001-100-1-100-11001",
+      "observations": 5,
+      "best_screen_score": 1.096871466264606,
+      "lowest_g0_skewed_c": 107.07774658
+    },
+    {
+      "signature": "0-1010110011010-10",
+      "observations": 2,
+      "best_screen_score": 1.1262721447418016,
+      "lowest_g0_skewed_c": 113.66071544000005
+    },
+    {
+      "signature": "100-10101-10011010",
+      "observations": 4,
+      "best_screen_score": 1.1386901485965877,
+      "lowest_g0_skewed_c": 113.68185961
+    },
+    {
+      "signature": "10-10-1001-1001010-1",
+      "observations": 2,
+      "best_screen_score": 1.1422674738580076,
+      "lowest_g0_skewed_c": 113.95970012000004
+    },
+    {
+      "signature": "-10010-10-1100-1-10-10",
+      "observations": 5,
+      "best_screen_score": 1.1353185073501695,
+      "lowest_g0_skewed_c": 109.08915451000001
+    },
+    {
+      "signature": "0-11001-101001-100-1",
+      "observations": 5,
+      "best_screen_score": 1.046780407264722,
+      "lowest_g0_skewed_c": 106.97440678000004
+    },
+    {
+      "signature": "1010-100-1-100-10-110",
+      "observations": 5,
+      "best_screen_score": 1.1507727101394647,
+      "lowest_g0_skewed_c": 107.52938041000004
+    },
+    {
+      "signature": "01100-1-10100-1-1010",
+      "observations": 113,
+      "best_screen_score": 1.0700330214639515,
+      "lowest_g0_skewed_c": 101.98837362
+    },
+    {
+      "signature": "1001-10-1001-100-110",
+      "observations": 6,
+      "best_screen_score": 1.007538635506973,
+      "lowest_g0_skewed_c": 102.76539001000003
+    },
+    {
+      "signature": "1010-10-1001-100-110",
+      "observations": 5,
+      "best_screen_score": 1.0806274078150797,
+      "lowest_g0_skewed_c": 104.35681531
+    },
+    {
+      "signature": "1001-100-101-100-110",
+      "observations": 1,
+      "best_screen_score": 1.10126582278481,
+      "lowest_g0_skewed_c": 105.40512800000005
+    },
+    {
+      "signature": "-101010-10100-1-1001",
+      "observations": 1,
+      "best_screen_score": 1.1249312052834342,
+      "lowest_g0_skewed_c": 112.43369782000002
+    },
+    {
+      "signature": "010-1-1001-10-10010-1",
+      "observations": 1,
+      "best_screen_score": 1.174770699836663,
+      "lowest_g0_skewed_c": 117.05402554
+    },
+    {
+      "signature": "-10010110010110-10",
+      "observations": 1,
+      "best_screen_score": 1.1710013820831762,
+      "lowest_g0_skewed_c": 109.53543939000002
+    },
+    {
+      "signature": "100-1-1001-10011010",
+      "observations": 1,
+      "best_screen_score": 1.1629601708757382,
+      "lowest_g0_skewed_c": 114.70762169
+    },
+    {
+      "signature": "011010-10100-1-1001",
+      "observations": 1,
+      "best_screen_score": 1.1927377811282824,
+      "lowest_g0_skewed_c": 119.92885294000001
+    },
+    {
+      "signature": "-10-100110010110-10",
+      "observations": 1,
+      "best_screen_score": 1.193114712903631,
+      "lowest_g0_skewed_c": 114.00547749000003
+    },
+    {
+      "signature": "-100-11001101001-10",
+      "observations": 1,
+      "best_screen_score": 1.108179419525066,
+      "lowest_g0_skewed_c": 113.19803303000003
+    },
+    {
+      "signature": "100-1-1001-10-101010",
+      "observations": 1,
+      "best_screen_score": 1.165096117602714,
+      "lowest_g0_skewed_c": 117.73163586000004
+    },
+    {
+      "signature": "-100-11001100-101-10",
+      "observations": 1,
+      "best_screen_score": 1.150395778364116,
+      "lowest_g0_skewed_c": 116.55828794000001
+    },
+    {
+      "signature": "-100110-10100-1-1001",
+      "observations": 1,
+      "best_screen_score": 1.1488880512627213,
+      "lowest_g0_skewed_c": 110.16847714000005
+    },
+    {
+      "signature": "01-100-110-101001-10",
+      "observations": 1,
+      "best_screen_score": 1.1718808895589896,
+      "lowest_g0_skewed_c": 107.73381355000004
+    },
+    {
+      "signature": "-10100-101100-1-1001",
+      "observations": 1,
+      "best_screen_score": 1.161117226197028,
+      "lowest_g0_skewed_c": 112.15404126000004
+    },
+    {
+      "signature": "-100-10-1010-101-10-10",
+      "observations": 1,
+      "best_screen_score": 1.172006533484106,
+      "lowest_g0_skewed_c": 111.37059413000003
+    },
+    {
+      "signature": "010-110011010010-1",
+      "observations": 1,
+      "best_screen_score": 1.1780374418896846,
+      "lowest_g0_skewed_c": 118.53776469000002
+    },
+    {
+      "signature": "0-101100-110100-101",
+      "observations": 1,
+      "best_screen_score": 1.1666038447041085,
+      "lowest_g0_skewed_c": 116.91150677000002
+    },
+    {
+      "signature": "100-1-10010-1-101001",
+      "observations": 1,
+      "best_screen_score": 1.1289212988442485,
+      "lowest_g0_skewed_c": 107.74805492000002
+    },
+    {
+      "signature": "01-100-1100-11010-10",
+      "observations": 1,
+      "best_screen_score": 1.1831888428194497,
+      "lowest_g0_skewed_c": 111.85392476000004
+    },
+    {
+      "signature": "01-10-1010-100-11001",
+      "observations": 1,
+      "best_screen_score": 1.1029168959823885,
+      "lowest_g0_skewed_c": 107.35823784000002
+    },
+    {
+      "signature": "-100-110010-110-10-10",
+      "observations": 1,
+      "best_screen_score": 1.0745068475939188,
+      "lowest_g0_skewed_c": 110.51655306000004
+    },
+    {
+      "signature": "0-11001-1010-10-100-1",
+      "observations": 1,
+      "best_screen_score": 1.0451061691167232,
+      "lowest_g0_skewed_c": 107.5894179
+    },
+    {
+      "signature": "-100-101011001-10-10",
+      "observations": 1,
+      "best_screen_score": 1.1850735016961929,
+      "lowest_g0_skewed_c": 114.04793309000001
+    },
+    {
+      "signature": "0-11010-101001-100-1",
+      "observations": 1,
+      "best_screen_score": 1.0675964317125266,
+      "lowest_g0_skewed_c": 106.37832571000001
+    },
+    {
+      "signature": "-10-1010100-11001-10",
+      "observations": 1,
+      "best_screen_score": 1.1517778615403944,
+      "lowest_g0_skewed_c": 111.81565465
+    },
+    {
+      "signature": "0-10-101-1001-10-100-1",
+      "observations": 1,
+      "best_screen_score": 1.1674833521799222,
+      "lowest_g0_skewed_c": 110.30869037000002
+    },
+    {
+      "signature": "-101001-100101-1010",
+      "observations": 1,
+      "best_screen_score": 1.2017841437366503,
+      "lowest_g0_skewed_c": 117.31103670000005
+    },
+    {
+      "signature": "01100-1-1010-10-1001",
+      "observations": 74,
+      "best_screen_score": 1.0469908279934665,
+      "lowest_g0_skewed_c": 101.19229247000004
+    }
+  ]
+}

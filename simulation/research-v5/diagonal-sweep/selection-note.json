@@ -1,0 +1,6 @@
+{
+  "decision": "Retain frozen relocated candidate for final pinned verification.",
+  "reason": "Exhaustive final diagonal sweep tied its rounded native primary score. The best unrounded screening temperature changed by only 0.00009165 C, which is not the scoring objective.",
+  "frozen_native_gpu_c": 101.26,
+  "best_diagonal_native_gpu_c": 101.26
+}

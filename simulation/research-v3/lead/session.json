@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-18T21:55:26.200315+00:00",
+  "incumbent_files": {
+    "simulation/layouts/supah-v2/submission.json": "09b3c673fd8a8a6b940abd8219cf9a85f88d70efcd98667e55604bb394845724",
+    "simulation/layouts/supah-v2/official-report-64.json": "6f0e70abc332bd1a5201eba5dd46e063ad6c9cbdc862cd13fe98d11a83a7f4be",
+    "simulation/layouts/supah-v2/verification-64.json": "38b70bfa221812b7ecadddf6031f7b5b0eceb2f76b3a645e83516ad9900718d9",
+    "simulation/layouts/supah-v2/verification-128.json": "6674b493edfd41f4ea620ab276030bf8936ba7dfc6f18a57a40f0af000b76654"
+  },
+  "challenge_revision": "8948d9bc5e3aa041dcd1ff8a5a63ed6200d04d81",
+  "paid_compute_authorized": false,
+  "local_compute": "Network-disabled local CPU Docker; no AutoLab access to Docker socket",
+  "targets": [
+    0.95,
+    0.94
+  ]
+}

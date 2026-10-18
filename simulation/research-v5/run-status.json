@@ -1,0 +1,85 @@
+{
+  "smoke": {
+    "actual_logged_evaluations": 0,
+    "status": "completed",
+    "proposals": 0
+  },
+  "local-polish": {
+    "actual_logged_evaluations": 1,
+    "status": "stopped",
+    "details": {
+      "reason": "Stopped after calibration: inherited proposal helper rounded the exact legal placement to three decimals. Corrected only the search helper in v5 and restarted; challenge validator and evaluator unchanged."
+    }
+  },
+  "isolation-relocated": {
+    "actual_logged_evaluations": 179,
+    "status": "completed",
+    "proposals": 1600,
+    "note": "Completed its 1600-proposal cap; 179 distinct legal candidates were measured, below the 320 evaluation ceiling."
+  },
+  "cross-cell-256": {
+    "actual_logged_evaluations": 256,
+    "status": "completed",
+    "proposals": 709
+  },
+  "diagonal-sweep": {
+    "actual_logged_evaluations": 250,
+    "status": "completed",
+    "proposals": 0
+  },
+  "relocated-routes": {
+    "actual_logged_evaluations": 85,
+    "status": "completed"
+  },
+  "relocated-hotspot-sweep": {
+    "actual_logged_evaluations": 11,
+    "status": "completed",
+    "proposals": 0
+  },
+  "local-polish-exact": {
+    "actual_logged_evaluations": 254,
+    "status": "stopped",
+    "details": {
+      "reason": "Stopped after plateau; relocated candidate is better.",
+      "completed_evaluations": 254
+    }
+  },
+  "isolation-cool-memory": {
+    "actual_logged_evaluations": 320,
+    "status": "completed",
+    "proposals": 637
+  },
+  "relocated-polish": {
+    "actual_logged_evaluations": 338,
+    "status": "stopped",
+    "details": {
+      "reason": "Stopped after plateau above the newer verified relocated candidate.",
+      "completed_evaluations": 338
+    }
+  },
+  "relocated-balance": {
+    "actual_logged_evaluations": 12,
+    "status": "completed",
+    "proposals": 0
+  },
+  "relocate-g0": {
+    "actual_logged_evaluations": 113,
+    "status": "completed",
+    "proposals": 147
+  },
+  "ring-symmetries": {
+    "actual_logged_evaluations": 120,
+    "status": "completed",
+    "proposals": 0
+  },
+  "isolation-checkpoint": {
+    "actual_logged_evaluations": 320,
+    "status": "completed",
+    "proposals": 784
+  },
+  "relocate-fine": {
+    "actual_logged_evaluations": 213,
+    "status": "completed",
+    "proposals": 242
+  }
+}

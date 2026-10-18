@@ -1,0 +1,31 @@
+{
+  "kind": "fresh native screening, not pinned verification",
+  "source_sha256": "e1af4ba2e7cdd5f97fb765ea5caea61b0e7ad31c497241c48f321a72e25abb27",
+  "solver_sha256": "f3ecdf4c8196c4a8a1726b02c7adf35ce6c681af62c751fad971c108983732b2",
+  "inputs_sha256": {
+    "simulation/research-v6/model/g0-preserved/seed-0000.json": "bd83f387b1ac580c2cd43223ceba9f5a15c6a073cd9938759c1bb0ead0ecdfcd",
+    "simulation/research-v6/model/g0-preserved/seed-0001.json": "bbd42484d79cb8134031ffc262e07b1d29728744535afe5d15aa26006ea4e1c5",
+    "simulation/research-v6/model/g0-preserved/seed-0002.json": "0be67d4d4dc6c955d3a373f89d0e9e8e42307b328c94da578c1c3bc2327d57e8",
+    "simulation/research-v6/model/g0-preserved/seed-0003.json": "9e66b4ec9eb8654d7213680d7a886bc2a7843f9cdf0343dbc9c6b0e0d467f110",
+    "simulation/research-v6/model/g0-preserved/seed-0004.json": "55916f383228114e30df311638881857afab59053547f551a589d7885e788d28",
+    "simulation/research-v6/model/g0-preserved/seed-0005.json": "54dc0ab48a9645c05bc3061cde716744f0d97d51800b93f8f0e1c7d1e49221b7",
+    "simulation/research-v6/model/g0-preserved/seed-0006.json": "0b3ce728e5400c08e8af329c7567ce6be60ee44f9981e42e1adcefb9b5524778",
+    "simulation/research-v6/model/g0-preserved/seed-0007.json": "4e778a964640b1acee31d19f09db5c4bddc75adc3f684c3c7ab5c9497c79d5ed",
+    "simulation/research-v6/model/g0-preserved/seed-0008.json": "32538093c9e18daaa9797ae79bc3b87d0e77c3ef4bc1e1fae5f733970a314637",
+    "simulation/research-v6/model/g0-preserved/seed-0009.json": "4da22a670ae24680622390dc3ffcbb721245783254c0f8bc45cd1e1ce44c2ff1",
+    "simulation/research-v6/model/g0-preserved/seed-0010.json": "b5ecb635a5eb40048c775ee1373dc8a1a936c4a7c498aa024f10e5dab15029ba",
+    "simulation/research-v6/model/g0-preserved/seed-0011.json": "0a3772887ab43bb5d2f01e56d7d9691af3c84ff222130019a4f2a3f73ad477ba",
+    "simulation/research-v6/model/g0-preserved/seed-0012.json": "ec3290963d55a2f9a4fb60da530abf61f35e08a56f5b2a2170a2d906d5b72cbd",
+    "simulation/research-v6/model/g0-preserved/seed-0013.json": "69444ab61ee42962767b295f5ac156d1408677ad78f996c9879f64261c12aaa6"
+  },
+  "grids": [
+    64
+  ],
+  "workloads": [
+    "tensor_training",
+    "skewed_compute",
+    "attention_decode",
+    "memory_stream",
+    "mixed_serving"
+  ]
+}
