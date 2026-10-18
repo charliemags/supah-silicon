@@ -2,6 +2,24 @@
 
 Sundai @ MIT hackathon, Track 2: design the coolest chiplet layout.
 
+## Profile the real Supah/Muni workload
+
+[Measured Muni results](profiling/RESULTS.md) cover public-record ingestion,
+SQLite queries, empirical prediction and inference-context preparation at two
+dataset sizes. [Supah Edge v0](architecture/README.md) translates those
+measurements into a CPU/shared-memory architecture hypothesis with an optional
+inference accelerator. Generative model execution and power remain unmeasured.
+
+```sh
+export SUPAH_MUNI_ROOT=/absolute/path/to/muni
+./profiling/run --cache .cache/muni-corpus --output profiling/results/local-5000.json --fetch --rows 5000
+python3 profiling/design.py profiling/results/local-5000.json --output architecture/local-design.json
+```
+
+See the [profiling workflow](profiling/README.md) for replay, measurement limits
+and team iteration. Raw data stays local; aggregate profiles and source hashes
+are checked in.
+
 ## Build and evaluate a Supah layout
 
 The first Supah Silicon artifact is a simulated 2.5D GPU/HBM package. The

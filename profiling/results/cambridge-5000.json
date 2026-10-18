@@ -1,0 +1,1681 @@
+{
+  "schema_version": 1,
+  "profiler_sha256": "91bc682a3c13fc43268b6bc3c5d5f3dad7f7073f22ee978f783f597293576949",
+  "run_at": "2026-10-18T17:51:40Z",
+  "measurement_kind": "Native Muni code on a bounded public-source replay; single process, warm OS caches",
+  "muni": {
+    "commit": "acaa9cf1f892f2e0b57292e7b3017617c0ea530e",
+    "working_tree_dirty": true,
+    "loaded_source_sha256": {
+      "core/lib/muni.rb": "c5bda3e8c763ba1e14be0f9cd1232621135ea8cb71751531c43ea8d5bf0c6b34",
+      "core/lib/muni/analytics.rb": "e24c3563099c486c12af62ae2be44bdf022924c0bc1d67ac698d8964d8a28212",
+      "core/lib/muni/analytics/civic_digest.rb": "d4fa7ea43b212738b3e98817de6c1d767ea4a37978d8a706fcdcce80f80979ce",
+      "core/lib/muni/analytics/crash_exposure_risk.rb": "1fb2e79280926aa4cb319c7ecf5450faf3c4f3bb6cf1e1be316f5e64f912072a",
+      "core/lib/muni/analytics/crash_risk.rb": "8cd6c9074a4934cc920d5c5fb4aeb91c4a1088af15681dfa30bde237a2e77204",
+      "core/lib/muni/analytics/permit_processing.rb": "7ef87a227fa083c6d358cac0b37c29314ae1d40c3cae3d2bad09087b85504bb6",
+      "core/lib/muni/analytics/police_log_anomalies.rb": "dfbec5066c7c5f442d283352f4e6d512e22205bf377fcc658ae7ac86cfda670c",
+      "core/lib/muni/analytics/safety_anomalies.rb": "0f7c9aa9ecdb9709cebb4bd3d639806be82ddc25c93b756556009c4b3bc5a537",
+      "core/lib/muni/analytics/safety_hotspots.rb": "1b9c1050bddd2ace0b8931f85101cb5865ca4d36675dda8de54169517996acc4",
+      "core/lib/muni/analytics/service_request_anomalies.rb": "b57d3f8fa6976a3668b9d4905a644058367fe89f32daf46d4176246243e65d91",
+      "core/lib/muni/analytics/service_request_resolution.rb": "faa02f91bf289288c14c6528d732c0322cebed3a90e46366cdf61c3ced80fe9b",
+      "core/lib/muni/analytics/support.rb": "203a0fdb8ab6e5f3c180fe550ba1867b4d28dbe39b920e27f489cbaf845eb436",
+      "core/lib/muni/anthropic_client.rb": "83904607b8baae0e4c347595ee18fe19377d7354e89cf79d05f7a5d29b712d17",
+      "core/lib/muni/apps.rb": "721983f645bdbec23a3151b0c9176a41cf4051578a6630c56b8d0839fd335325",
+      "core/lib/muni/beat.rb": "acc526d6ba8e2f41e7f1ae418a37a4417bf3111ff93a23781009a07344919b14",
+      "core/lib/muni/beats/cambridge.rb": "1cd946998077d76043431492aa7a3d17c91858ba048852222ee1251faf65ccf9",
+      "core/lib/muni/beats/hall_computation.rb": "6f389fa0f7b9a5371b071bc5c9fcfcd3405ed28e46a194ada5a903fe1be92dd5",
+      "core/lib/muni/beats_runner.rb": "d917e066818b455f9aa237749e39fe21f7cd09f95a34802e78a08f396c34c6b4",
+      "core/lib/muni/clients/arcgis.rb": "422e4e5852bcfcfad8257ddd7b6ad4cbd6ec7267e7d0f76ec8267d636652a430",
+      "core/lib/muni/clients/ckan.rb": "235d1b9dd5d98e0bd7bd3faf6ef82b3acf6f32fa138b6bd7e2edd564d855606c",
+      "core/lib/muni/clients/socrata.rb": "baf59476ab3610795371cc2e6edf130958aa7414040724326baa122594179237",
+      "core/lib/muni/command.rb": "1b785ee61d19260585d656ff784a707ff83d96ec34b85e13e1474604a51a4865",
+      "core/lib/muni/config.rb": "9d253625b7f2e004b9d5b1e4b54aa4272a29172ca87e8f7b1ce079e19c603d7d",
+      "core/lib/muni/dashboard.rb": "814bdf64ff0628cf1d50c2fd7a9243b06f2e3e75e0547631bc01fd7fd12ecc3c",
+      "core/lib/muni/dashboard/signals.rb": "1b11d37aa2a5d848f5f2b91e7403204a58e366ba915d181301dcc7c2887e842e",
+      "core/lib/muni/dashboard/source_status.rb": "fc4aabf0bcc75ccaa097027e7f5a706d1249642b430a9fa85b89d47a1a8c83e8",
+      "core/lib/muni/dashboard/trends.rb": "8204e4e8778e37a1d9043449e844c9268b1affb390369a0824b043718e636035",
+      "core/lib/muni/data.rb": "b52089d52adfb41d1b104163060986ee7318845e1a00cd4a19ce2121b9232e31",
+      "core/lib/muni/data/meetings.rb": "e4ee491cf401e6a36a5c9f2192df0fe4fa4c52290a1714a3c88ee08e7a92371a",
+      "core/lib/muni/data/parking_check.rb": "a00ff696700319a9c633f42097843a81184da033d6a0119c81c8caea626d122b",
+      "core/lib/muni/display.rb": "b7e1b7a562a0ef9207a8da934e94e7e4d666e926d915c9801c70e0130dce87fb",
+      "core/lib/muni/get/domain.rb": "7e2ab4fa296f1b995b9b8c926f0edd9213fddbecdec5c395f12197ed9a2b36b4",
+      "core/lib/muni/get/provider.rb": "fc23914472f2fda347b797289d77cf2812d5d5575a3248aa7b6734da83922a3f",
+      "core/lib/muni/get/registry.rb": "f0d4f9d4dd7cf319f66c3dec8ca824a2285ba9e8b80255538f1b2e4157ef76be",
+      "core/lib/muni/get/runner.rb": "e2ed91e73893b001d8f47d184a0a6524ce17cbeb0fdb28f37fac3a023b1e4719",
+      "core/lib/muni/hall.rb": "babd0071a9ca1905eeafd4dc7bb5db25eb9ca82ae202ede57c4efc982aa3c1cb",
+      "core/lib/muni/helpers/geo.rb": "35e85aff7df7d2b476d3193856c0220e205976ab0883a50084af5e9132ef3467",
+      "core/lib/muni/helpers/http.rb": "fc8c73a62a6919411ec8efdc2109c6bbb87aad9ad8d5aa12960a5d2c43622ee6",
+      "core/lib/muni/helpers/normalize.rb": "b8640c6245b3abab11c8ec890a6bfb478df39fa74f1978ba2b4a3c5544352e45",
+      "core/lib/muni/local_time.rb": "c91b1defee2cb5bddac810c262f147ed98a6a0cb8ec996ccda23d7e7c3fae7ca",
+      "core/lib/muni/logger.rb": "3ccfb41c338da71ac6252348a1122a013773ebe5b636441a5aed2ce39f4b82ff",
+      "core/lib/muni/meetings/primegov_materializer.rb": "5d452d7b68fee22b1f8c2b517dd0b7d8088a3969216df06d50e8a7fe646d1649",
+      "core/lib/muni/meetings/summarizer.rb": "bb6e42374bbcee0fab1df4a3dddf9559ce1d77e68502a90f6732b0fcce0f91d6",
+      "core/lib/muni/parking.rb": "0922d96457a449760739191befaf6c1557f55b6ee90d3f452c96f9663aa0c58e",
+      "core/lib/muni/plat.rb": "243285c2aa70d695777ddf2374870467ed1957cfaa1d54ae3feaa5a475f4095e",
+      "core/lib/muni/record.rb": "025ec781f76065d572d4ee66c624a421f2b728c6758f2e9e7446e311b59a13be",
+      "core/lib/muni/records/bicycle_count.rb": "bcdccf9f457a782e8e35d1eef804832a41d013ba6372ce7e45ae61c72b687342",
+      "core/lib/muni/records/building_permit.rb": "728ec2c296f6e1346175c9e06bdbb77d3abd2fe66fd7b952663868a28b6fabf1",
+      "core/lib/muni/records/cpd_crash.rb": "7640cb6f0c565c824d6b972c1ded75c7907b175dfc9ce67722981582d48fd787",
+      "core/lib/muni/records/crash.rb": "c55fec80d2477560a73cd5b53955b61bc4144032746b1188951cc69cdc6701ff",
+      "core/lib/muni/records/crime_report.rb": "1b369d96711c6efa72b421efaf422aff46c743b693f18975e9a475bcd300976f",
+      "core/lib/muni/records/development_project.rb": "5985bf9a7a361c0dccf9d2ba9656e1bea909c6dd54194c5f95fb105994e12187",
+      "core/lib/muni/records/digest_item.rb": "c34ac1d17451769d795089c8e5f68f7d1aaf094d17852201b061fb5dd5cea508",
+      "core/lib/muni/records/dispatch_call.rb": "657ec7975ee8db8c16e7fd411e6d0736d14a73dd8c709b8942137d4fb5789b32",
+      "core/lib/muni/records/food_truck.rb": "2cc7b18d01628c32bc29ea1ec12d5520ae7a5f81a966d41f3c65aef7c658f2e8",
+      "core/lib/muni/records/meeting.rb": "59392d493d665eed77bf6ec2157d0cd72af1c33aa7aecf350b393cdf97a86b3c",
+      "core/lib/muni/records/metered_parking_space.rb": "b9ad405856ad036231a31ac5b78e36d38202c7bb5c4c6dd4ea90d3ba7934b0ea",
+      "core/lib/muni/records/new_construction_permit.rb": "d799ceac7ab1ff7719bc10c7580c59c187e0d35369670d264be4d97cf276fa2d",
+      "core/lib/muni/records/park.rb": "e6adc3b86b904cbe9877417fc8bea7f9f8288bda88ea837844f0cbbb05fdff06",
+      "core/lib/muni/records/pedestrian_count_daily.rb": "de6277377964823724d920194fb9ab388365348e1909524e9cefd5cf5630bb08",
+      "core/lib/muni/records/police_log_entry.rb": "e940d4124b834e1275cbfacac919a95a202d44107a7e6999f0585384f15e092c",
+      "core/lib/muni/records/service_request.rb": "66efc44d7c756ad04d28651df677ec3856eda553e32e4ca9d391043540dc5b46",
+      "core/lib/muni/records/traffic_volume_daily.rb": "a668bb45cec73111b12639e45b75d5221e1f5e79ea78675e105161e24b522956",
+      "core/lib/muni/records/tree.rb": "595ebe9441d0220521abbefb6f76f048f059504122762044f6acf4681d9feaf0",
+      "core/lib/muni/records/zoning_appeal.rb": "69559badd0dd63ef2978b1504784334301d556d8a5f8d017dbe1cac6a93abf2f",
+      "core/lib/muni/registry.rb": "f122b74f6ab7f9baa215dcd563bdc447068310a1151b72f3b8f421254c54d535",
+      "core/lib/muni/scheduler.rb": "69647a37988830f21400ee73afab85840ef8713c3a9c6f9ea380fb108e63a945",
+      "core/lib/muni/service_request_policy.rb": "05a7ef4d09175c695972177ebbea9dfa86689ac4004a0f5d65c23222a8614bdc",
+      "core/lib/muni/source.rb": "e18b6d37d769fc8058c19db6439be4075569149584639f1b86363d66d22706be",
+      "core/lib/muni/status.rb": "2f1dbdeef354cc08a5e95d6d0e86b4e2b179a50554068689c4015012d02af664",
+      "core/lib/muni/status/backup.rb": "2654dda341556da3f3526a7a2d1fceaacc45206d94d39023309c7782f16f3413",
+      "core/lib/muni/store.rb": "ec35880b1b0684fae6b9cf872811cd04ecff9f6d356c2ed3fe87a920596b79b9",
+      "core/lib/muni/store/online_backup.rb": "a6628251fdbbf3512d1dd07ef87336e620887ebb5a3b47cd3ca9292db0a69014",
+      "core/lib/muni/store/read.rb": "ddd13cb22b01532c6294006ed8d652592d4717b1de2a379ba983af696e73ff3c",
+      "core/lib/muni/version.rb": "2950c3def152ba023b61446f2841a1ed7e019a224fb5740e989705a393e608dc",
+      "core/lib/muni/view.rb": "c998611c03b1faf5cd71ff842fb243c471171adc014e494ae9a72ba7be774bdb",
+      "core/lib/muni/view/food_truck_status.rb": "dab241ae273e1ff5228a84a39f352c5a5c4a35d9503ecf0b70ff8c1c64d4d531",
+      "core/lib/muni/water.rb": "ba0684306d868cbaf1b657155d3b9eb3ee46af623bcc44b9335ae14e7f98de47",
+      "core/lib/muni/water/adapters/base.rb": "d9f72acc3b317870386690a04db03e4092e80aee46c7ed1c60023240212a9ed3",
+      "core/lib/muni/water/adapters/buoy.rb": "90ff4473a908a5d1c65202461a97bd5ed6a80f5ed6644193edf3305fca4a75d2",
+      "core/lib/muni/water/adapters/crwa.rb": "1607cfde86a6355f97f68834b9c5815d578fc013ec33c608bbf1218d0e3a4de9",
+      "core/lib/muni/water/adapters/discharges.rb": "cc00b3fea319ad0a7424721f67e08faa74754df950d0b4d12a2462b48526fd6d",
+      "core/lib/muni/water/adapters/laboratory.rb": "24c7360e0b0ed765ef65835918e7c16a8a4418622ef9083016954e31e3b8efe9",
+      "core/lib/muni/water/adapters/usgs.rb": "4f90016c325dac95b04190c8d4af1a2fb83d1737ada3767bb6057893c2b65ebf",
+      "core/lib/muni/water/aggregated_series.rb": "5507e250deb7c38eb04f584ff2647cb3f40f09e9bb9a87db835ce66b9e4deeff",
+      "core/lib/muni/water/beat.rb": "519a767fdc651ec0e8f35b652286b393ebb1cefa59b005266c79b74cc3185d98",
+      "core/lib/muni/water/calculation_fence.rb": "b6b1d9c06ec683729adcf8dd6ee08b955abc49ce6ae800296956d62656fb1426",
+      "core/lib/muni/water/calculation_invalidation.rb": "4260bd3fdb9fd8642892f443369290dcd4d019a727b4f8a906a039866508601d",
+      "core/lib/muni/water/calculations.rb": "80173bd1dc5869e9c82d9bdfe095faec28d064c282f3e33473b7397e1a0af202",
+      "core/lib/muni/water/catalog.rb": "fad310959f314078cbce56ec24be62ff419504148bfe26b87378f3700c3dd1f7",
+      "core/lib/muni/water/client.rb": "3de624619006e6562d16be32badba1b480cc29ac8505c16a8b9691eda371b188",
+      "core/lib/muni/water/clock.rb": "795adba62c0ca51bbd153c0921adedcf731450569ae47f2228cd06d8d8b6dff1",
+      "core/lib/muni/water/coverage.rb": "d99a3b19ad7417c92dc9a96513da8746ba29f1e9b07b46f0c09da7134d3619f3",
+      "core/lib/muni/water/daily_series.rb": "b4867030aaa554eec55351cc080c017fe623e0e3103e3c8705b28c31741366a9",
+      "core/lib/muni/water/daily_summaries.rb": "0853c1ec7293d1a4e0290ebf7e6e2a3601f28a728da09a43cc8864f6523b083d",
+      "core/lib/muni/water/eligibility.rb": "8424d01666c0b62eb46a45958f58eaf96f94701f2b2881bb71e8ddb40d942a41",
+      "core/lib/muni/water/evidence.rb": "1fdd3dab8b830d0c8c0ee38ba2b9f02813dcc56ef56757cd582fa55bfdbcd2a2",
+      "core/lib/muni/water/evidence_detail.rb": "9e6244e0fcb8af3ce17b84e88861784219baae274eb64681fd82716737f465ff",
+      "core/lib/muni/water/evidence_writer.rb": "8d4ccdf12cb4b010c06da720b8260e7010cf3122a7f7f791a1dcf6dc5c2309de",
+      "core/lib/muni/water/gaps.rb": "ef70cceff2e09ddf6c14fec7c8f3a745a192e12d57af8b1ea1d9527e8d732e83",
+      "core/lib/muni/water/ingestor.rb": "8c003942d98280e3d6f1319b836f4fd6768d603f3708af7f49134692f7dc9470",
+      "core/lib/muni/water/metric_presentation.rb": "9608b08c6f0139f5273227e2c3d4737d59f52108f7c5fb0dc9e0517c43730c30",
+      "core/lib/muni/water/metric_snapshots.rb": "8c751f3759cf781e1f29a8e201877411e910dba769d258237f329d8c895e3c18",
+      "core/lib/muni/water/normalization.rb": "0e07142e97d3f546983eb0ac595e34cbe6d1de0b435bc51c25326a2ca0ef04f4",
+      "core/lib/muni/water/prepared_publication.rb": "6488dd54860ebc4dd95b96cfc170d8159e6740b04a775664bc9adab22f2bb60e",
+      "core/lib/muni/water/query.rb": "e3f9cf1d08a8c02f6f73830f6f8223464cf655b854560513924bc409d55dc451",
+      "core/lib/muni/water/reconciler.rb": "3d64fd1d6efd11c1ccc81800e3dff9f41cc1771907a878ee6f3cda7688969193",
+      "core/lib/muni/water/record_page.rb": "5911f2b41342334463dfa301df64d8cac866d4790cf0c701b8b4367a496bd28f",
+      "core/lib/muni/water/record_projection.rb": "79f78a1c350681df0ccc82563bff28be2b15d9e4dcfbac62900670ae8f915bf9",
+      "core/lib/muni/water/response_archive.rb": "78c63f7049ad179ef8b1473bcd4f89f28cae24ffabfe469337dbf7b93e790910",
+      "core/lib/muni/water/run_timing.rb": "4e5085547aa40e108f175e3ebb3ed0adeba343f359a6987747d476a46f19919e",
+      "core/lib/muni/water/schedule.rb": "0ea5e050bd66c4c2be99fe011d9b889b272ffbb15b9d6a3a9c4ca6a927b066c5",
+      "core/lib/muni/water/sensor_shifts.rb": "650eaef2800bcbfaee468e7b2ef2ec1e8482012ee23bb9fa405aec7b8699b6de",
+      "core/lib/muni/water/signals.rb": "72007ccd78c0bc11c02a0621cdcb86e89c9dd112f9cfd6196385e835b946568b",
+      "core/lib/muni/water/source_editions.rb": "91ba51186ab63097cd950145f39ffbacf24e5a805d624fb7419996e7a7610592",
+      "core/lib/muni/water/spill_buffer.rb": "8a4e06714a9820056a514c506e1b6d21e1c170fb0c6705d01e0daeb065151c83",
+      "core/lib/muni/water/storage.rb": "8409c28b5903f77578dc30bc6f20032a29340f6aec294849f9def02aa4677a63",
+      "core/lib/muni/water/trends.rb": "d7f321535ca4efc7ef362e668919ea829e77dc2240820675879aaab601ccb445",
+      "core/lib/muni/zone.rb": "ed00a746e59cf94feb44b3e4388118a5bedfd35d0672228e191a1c8298d29d4f",
+      "sources/boston/_shared.rb": "89da727ae7caee0e68dfe17559a4096ef732654fefc8ddd0c936dfb0e2bd4db4",
+      "sources/boston/development.rb": "c96fc958427a6ff454371566cda1bbb03c3b9318f4bf3d152dd836426e305b36",
+      "sources/boston/digest.rb": "637ba18fa749b39b4ddf9bee1525edff404541f9b1dc5927919fdfe2491553eb",
+      "sources/boston/places.rb": "32a20fb1ec7e1b8f44bb6486a74249e82bb030cd73b9fbb752471aee9cb957cd",
+      "sources/boston/safety.rb": "75e4dd83aa9ea4f0046dc4deb64244a94ceb7dc16935d29775a775d393a21130",
+      "sources/boston/service_requests.rb": "bca4ba78862fe000bd2fce343a44bb396b726b364c21c06b2042c7c912495f89",
+      "sources/cambridge/_civic_page.rb": "1b055bc80c6dcd28e1391ce67c1bf01f17ec92e9e592c0e06f413ecb0784e430",
+      "sources/cambridge/_official_events.rb": "f2ce80b710fb41ba88d540dc4bdcb74815b0380c1d7aedf3925492e34ad4b20f",
+      "sources/cambridge/_shared.rb": "af887b6b9bb7f3d18fc7702e1d10f5d0366f979aa9bfee09f9f41ab7dd44f2a4",
+      "sources/cambridge/bicycle_counts.rb": "3bde5d93ffc6eff8bd58716de2256fee9ffc2faa995ed1bafcd1e2c7b9fc6202",
+      "sources/cambridge/building_permits.rb": "d74aefd64049042ba1a1ba30695c6f3d9ee70a031213b8bb820810230a47bcb2",
+      "sources/cambridge/cambridge_day.rb": "6e4e2b26e5590cf827608cb54624aa66545af471610b34b18e464cf379c67748",
+      "sources/cambridge/cambridge_life.rb": "2391f2ff01bb7eac1af0acbda7af047bf7c16c833269fc663749f32fc92f7e3a",
+      "sources/cambridge/city_calendar.rb": "04e13778f6541431384cb6a9e4c211707c3b1f158223cc35e06303fc2ddb4585",
+      "sources/cambridge/city_construction_projects.rb": "804b7337025dd1614d5faca58e56382c906bb3b72c897bacd82c745f9a7e26d7",
+      "sources/cambridge/city_news.rb": "bbac34935e9a37875a15ed4e3e24f6e8b07b50f681f6b808f3a5f72340c15a1c",
+      "sources/cambridge/construction_highlights.rb": "f440e7c59ecc75ce919cb9f3ddfe73c827b2354ad1f965ee91905f738305b77b",
+      "sources/cambridge/cpd_crash_log.rb": "94cbdfe9ed1e128f934f4673db64179a0f0060c66d4a18715fb18fab3b9e5aca",
+      "sources/cambridge/crime_reports.rb": "16429b7fcc4c0af2a3f6c895924f0f3890e7cbf1df845eda958ad1544b9e2483",
+      "sources/cambridge/development_log.rb": "69ddce1bce0e73fc0bb61f7c329e9aead9f6e7c0c562c264ea97762481727264",
+      "sources/cambridge/dispatch_calls.rb": "b1e97598f3c6d9f125d5f22e89b1df0761269ee92d2af64ac010a169ce13b73a",
+      "sources/cambridge/food_trucks.rb": "77b4ae07a388983dfcf2df897ce50338b5fae8f448f419c44b4e511d30304672",
+      "sources/cambridge/location_resolver.rb": "d9c29ace1f4cfe245dcb9d881a18826835692239ac33e045d8bbe83ad0b8bae4",
+      "sources/cambridge/meetings.rb": "d250aac28d8ba0302d64ff1d5e6df2f8cea74b94be8e373b35c10bf64e04f040",
+      "sources/cambridge/metered_parking_spaces.rb": "9dd206ef593ac0223b94b4cec06106d7fd9f2ea2daa0969ad8a8e9c88a9bf370",
+      "sources/cambridge/new_construction_permits.rb": "63677152728241698774447d152d510131091085840b0598dd2c96677e75bcfe",
+      "sources/cambridge/parks.rb": "34dff4ea0ac7655e4d25dff310456165b839745560dac75cd5bbc8343c6d009b",
+      "sources/cambridge/pedestrian_counts.rb": "55303869df9ac579df7676e0fbb7257cc7d8a35acd8df9efa01591db9ff9d215",
+      "sources/cambridge/police_log.rb": "5ad29a3ede092391e491f9d0281e12d4a5a057a6d0bd6d2aab0e7afbfa0ac49a",
+      "sources/cambridge/practical_services.rb": "ef68cf020caffaaf7a268f8c49f6bfc84ba785ec21e98eecd78f66dd62d898c8",
+      "sources/cambridge/primegov_meetings.rb": "5022c438a67a5ba308c23411468aa5d18081695d46ed2bc5f654774adb8c1884",
+      "sources/cambridge/service_requests.rb": "66e0a18f6a32596026393ca2c1d941f0300dcd6fb86898ced0b1e2ec23edbde8",
+      "sources/cambridge/tourism_events.rb": "6c1eccb8ed122fc33dd153f78386b3ae318c91b75fc1904f6caa75007205fd5e",
+      "sources/cambridge/traffic_volume_daily.rb": "9f21e7cce373d51a1f547013be06f58aa00dc9132ed226f21cc60f54d2be0c68",
+      "sources/cambridge/tree_inventory.rb": "76cc7b0b439672a8d64a4018f83031497adc0784dd0becdafa8350b87db52329",
+      "sources/cambridge/vision_zero_crashes.rb": "cd0039c77051a18a1aaeda4f0e90b4f78d2dade69c9a21c7c35eb5037ea5f7fb",
+      "sources/cambridge/zoning_appeals.rb": "bcb41571013b8801b4bbb0d81492f8adf05df9188317d91d9e3f4d352a3cc627"
+    },
+    "gemfile_lock_sha256": "739eb1e28343f6ba82ee6a9593d00994ee14c650d00b4e813f2b1823274dc70e"
+  },
+  "host": {
+    "ruby": "ruby 3.3.6 (2024-11-05 revision 75015d4c1f) [arm64-darwin25]",
+    "os": "darwin25",
+    "arch": "arm64",
+    "cpu_model": "Apple M5 Pro"
+  },
+  "protocol": {
+    "warmups": 2,
+    "repeats": 7,
+    "gc": "GC.start before each iteration; natural GC within the timed work is included",
+    "tail_latency_warning": "p95 is an interpolation over this small sample, not a production tail-latency guarantee",
+    "query_loops_per_iteration": 100,
+    "prediction_loops_per_iteration": 1000,
+    "raw_data_published": false
+  },
+  "corpus": {
+    "captured_at": "2026-10-18T17:51:07Z",
+    "scope": "Bounded Cambridge public-source sample, not a production database snapshot",
+    "datasets": {
+      "service_requests": {
+        "file": "service_requests.json",
+        "sha256": "ed73a26aa224abdcb3d33714b2e6042392f19af4c6942e2f7cfeaecedf8f2336",
+        "rows": 5000,
+        "serialized_bytes": 5599487,
+        "url": "https://data.cambridgema.gov/resource/2z9k-mv9g.json",
+        "query": {
+          "order": "ticket_last_updated_date_time DESC, ticket_id DESC",
+          "limit": 5000
+        },
+        "fetch_decode_wall_s": 4.075135999999475
+      },
+      "building_permits": {
+        "file": "building_permits.json",
+        "sha256": "7a84548016c5fd3440b061cce1cc5d2641c7493e17b66788f9d108f85556f25e",
+        "rows": 5000,
+        "serialized_bytes": 11903308,
+        "url": "https://data.cambridgema.gov/resource/qu2z-8suj.json",
+        "query": {
+          "order": "issue_date DESC, id DESC",
+          "limit": 5000
+        },
+        "fetch_decode_wall_s": 5.4130820000427775
+      },
+      "city_news": {
+        "file": "city_news.json",
+        "sha256": "fff6cd87b5640030d4ecb8f2b1b7f085e6e449b1afa6a5697c672ec354029a9b",
+        "rows": 1,
+        "serialized_bytes": 1151,
+        "url": "https://www.cambridgema.gov/news",
+        "normalization": "CityNews.pull; cached normalized records",
+        "fetch_decode_wall_s": 0.11005800002021715
+      },
+      "city_calendar": {
+        "file": "city_calendar.json",
+        "sha256": "78b37fa99deace21a910ee32d13ec90aa48f7c239302eb79478fc69e47d9a5dc",
+        "rows": 60,
+        "serialized_bytes": 89084,
+        "url": "https://www.cambridgema.gov/citycalendar.ics",
+        "normalization": "CityCalendar.pull; cached normalized records",
+        "fetch_decode_wall_s": 6.757617999974173
+      }
+    }
+  },
+  "stages": [
+    {
+      "name": "service_requests.json_decode",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.004680000012740493,
+          "cpu_s": 0.0046759999999999025,
+          "allocated_objects": 100919,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.004440999997314066,
+          "cpu_s": 0.004437999999999942,
+          "allocated_objects": 100919,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.004529000027105212,
+          "cpu_s": 0.004526999999999948,
+          "allocated_objects": 100919,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.004422999976668507,
+          "cpu_s": 0.0044079999999999675,
+          "allocated_objects": 100919,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.004516999993938953,
+          "cpu_s": 0.004515000000000047,
+          "allocated_objects": 100919,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.004483999975491315,
+          "cpu_s": 0.004480999999999957,
+          "allocated_objects": 100919,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.004409999994095415,
+          "cpu_s": 0.00440700000000005,
+          "allocated_objects": 100919,
+          "gc_s": 0.0
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.004483999975491315,
+          "p95": 0.004634700017049909,
+          "min": 0.004409999994095415,
+          "max": 0.004680000012740493
+        },
+        "cpu_s": {
+          "median": 0.004480999999999957,
+          "p95": 0.0046312999999999155,
+          "min": 0.00440700000000005,
+          "max": 0.0046759999999999025
+        },
+        "allocated_objects": {
+          "median": 100919.0,
+          "p95": 100919.0,
+          "min": 100919,
+          "max": 100919
+        },
+        "gc_s": {
+          "median": 0.0,
+          "p95": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "units_per_second_median": 1115075.8312509016,
+      "cpu_to_wall_ratio": 0.9993309599670483,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "service_requests.normalize",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.1312169999582693,
+          "cpu_s": 0.13109700000000002,
+          "allocated_objects": 810093,
+          "gc_s": 0.015
+        },
+        {
+          "wall_s": 0.13148899999214336,
+          "cpu_s": 0.131386,
+          "allocated_objects": 810093,
+          "gc_s": 0.015
+        },
+        {
+          "wall_s": 0.13168099999893457,
+          "cpu_s": 0.13157700000000006,
+          "allocated_objects": 810093,
+          "gc_s": 0.015
+        },
+        {
+          "wall_s": 0.1311469999491237,
+          "cpu_s": 0.13103200000000004,
+          "allocated_objects": 810093,
+          "gc_s": 0.015
+        },
+        {
+          "wall_s": 0.13141900004120544,
+          "cpu_s": 0.131313,
+          "allocated_objects": 810093,
+          "gc_s": 0.015
+        },
+        {
+          "wall_s": 0.13079699996160343,
+          "cpu_s": 0.13068599999999986,
+          "allocated_objects": 810093,
+          "gc_s": 0.015
+        },
+        {
+          "wall_s": 0.1315160000231117,
+          "cpu_s": 0.13139900000000004,
+          "allocated_objects": 810093,
+          "gc_s": 0.015
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.13141900004120544,
+          "p95": 0.1316315000061877,
+          "min": 0.13079699996160343,
+          "max": 0.13168099999893457
+        },
+        "cpu_s": {
+          "median": 0.131313,
+          "p95": 0.13152360000000005,
+          "min": 0.13068599999999986,
+          "max": 0.13157700000000006
+        },
+        "allocated_objects": {
+          "median": 810093.0,
+          "p95": 810093.0,
+          "min": 810093,
+          "max": 810093
+        },
+        "gc_s": {
+          "median": 0.015,
+          "p95": 0.015,
+          "min": 0.015,
+          "max": 0.015
+        }
+      },
+      "units_per_second_median": 38046.24900837997,
+      "cpu_to_wall_ratio": 0.99919341920748,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "service_requests.insert_individual",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.5581610000226647,
+          "cpu_s": 0.5180009999999995,
+          "allocated_objects": 999642,
+          "gc_s": 0.011
+        },
+        {
+          "wall_s": 0.5586679999832995,
+          "cpu_s": 0.5201950000000002,
+          "allocated_objects": 999639,
+          "gc_s": 0.012
+        },
+        {
+          "wall_s": 0.5620430000126362,
+          "cpu_s": 0.5198030000000005,
+          "allocated_objects": 999639,
+          "gc_s": 0.011
+        },
+        {
+          "wall_s": 0.5663560000248253,
+          "cpu_s": 0.5251429999999999,
+          "allocated_objects": 999639,
+          "gc_s": 0.011
+        },
+        {
+          "wall_s": 0.5663509999867529,
+          "cpu_s": 0.5257399999999999,
+          "allocated_objects": 999639,
+          "gc_s": 0.011
+        },
+        {
+          "wall_s": 0.562991000013426,
+          "cpu_s": 0.5214359999999996,
+          "allocated_objects": 999639,
+          "gc_s": 0.011
+        },
+        {
+          "wall_s": 0.5653419999871403,
+          "cpu_s": 0.5229790000000003,
+          "allocated_objects": 999639,
+          "gc_s": 0.011
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.562991000013426,
+          "p95": 0.5663545000134036,
+          "min": 0.5581610000226647,
+          "max": 0.5663560000248253
+        },
+        "cpu_s": {
+          "median": 0.5214359999999996,
+          "p95": 0.5255608999999999,
+          "min": 0.5180009999999995,
+          "max": 0.5257399999999999
+        },
+        "allocated_objects": {
+          "median": 999639.0,
+          "p95": 999641.1,
+          "min": 999639,
+          "max": 999642
+        },
+        "gc_s": {
+          "median": 0.011,
+          "p95": 0.011699999999999999,
+          "min": 0.011,
+          "max": 0.012
+        }
+      },
+      "units_per_second_median": 8881.136643180374,
+      "cpu_to_wall_ratio": 0.9261888733346796,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "service_requests.insert_bulk",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.2603240000316873,
+          "cpu_s": 0.2571519999999996,
+          "allocated_objects": 820100,
+          "gc_s": 0.01
+        },
+        {
+          "wall_s": 0.25627200002782047,
+          "cpu_s": 0.253366999999999,
+          "allocated_objects": 820100,
+          "gc_s": 0.01
+        },
+        {
+          "wall_s": 0.24965899996459484,
+          "cpu_s": 0.2471629999999987,
+          "allocated_objects": 820100,
+          "gc_s": 0.009
+        },
+        {
+          "wall_s": 0.2532179999980144,
+          "cpu_s": 0.2500359999999997,
+          "allocated_objects": 820100,
+          "gc_s": 0.009
+        },
+        {
+          "wall_s": 0.2541930000297725,
+          "cpu_s": 0.25147299999999895,
+          "allocated_objects": 820100,
+          "gc_s": 0.009
+        },
+        {
+          "wall_s": 0.2513279999839142,
+          "cpu_s": 0.24820100000000167,
+          "allocated_objects": 820100,
+          "gc_s": 0.01
+        },
+        {
+          "wall_s": 0.24963900004513562,
+          "cpu_s": 0.24680900000000072,
+          "allocated_objects": 820100,
+          "gc_s": 0.01
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.2532179999980144,
+          "p95": 0.25910840003052726,
+          "min": 0.24963900004513562,
+          "max": 0.2603240000316873
+        },
+        "cpu_s": {
+          "median": 0.2500359999999997,
+          "p95": 0.2560164999999994,
+          "min": 0.24680900000000072,
+          "max": 0.2571519999999996
+        },
+        "allocated_objects": {
+          "median": 820100.0,
+          "p95": 820100.0,
+          "min": 820100,
+          "max": 820100
+        },
+        "gc_s": {
+          "median": 0.01,
+          "p95": 0.01,
+          "min": 0.009,
+          "max": 0.01
+        }
+      },
+      "units_per_second_median": 19745.831655092476,
+      "cpu_to_wall_ratio": 0.9874337527425393,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "service_requests.update_bulk",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.3125719999661669,
+          "cpu_s": 0.3123189999999987,
+          "allocated_objects": 1140108,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.31339899997692555,
+          "cpu_s": 0.31106699999999954,
+          "allocated_objects": 1140108,
+          "gc_s": 0.013
+        },
+        {
+          "wall_s": 0.3107060000183992,
+          "cpu_s": 0.31044799999999917,
+          "allocated_objects": 1140108,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.31425499997567385,
+          "cpu_s": 0.31192000000000064,
+          "allocated_objects": 1140108,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.3119520000182092,
+          "cpu_s": 0.31171400000000027,
+          "allocated_objects": 1140108,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.3143220000201836,
+          "cpu_s": 0.3120400000000014,
+          "allocated_objects": 1140108,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.31432799994945526,
+          "cpu_s": 0.3140900000000002,
+          "allocated_objects": 1140108,
+          "gc_s": 0.013
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.31339899997692555,
+          "p95": 0.3143261999706738,
+          "min": 0.3107060000183992,
+          "max": 0.31432799994945526
+        },
+        "cpu_s": {
+          "median": 0.31192000000000064,
+          "p95": 0.31355869999999975,
+          "min": 0.31044799999999917,
+          "max": 0.3140900000000002
+        },
+        "allocated_objects": {
+          "median": 1140108.0,
+          "p95": 1140108.0,
+          "min": 1140108,
+          "max": 1140108
+        },
+        "gc_s": {
+          "median": 0.014,
+          "p95": 0.014,
+          "min": 0.013,
+          "max": 0.014
+        }
+      },
+      "units_per_second_median": 15954.103236985862,
+      "cpu_to_wall_ratio": 0.9952807763361281,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "building_permits.json_decode",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.012304999982006848,
+          "cpu_s": 0.012294000000000693,
+          "allocated_objects": 218322,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.012044999981299043,
+          "cpu_s": 0.012029000000000067,
+          "allocated_objects": 218322,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.011695999943185598,
+          "cpu_s": 0.011684999999999945,
+          "allocated_objects": 218322,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.012019000016152859,
+          "cpu_s": 0.012003999999999238,
+          "allocated_objects": 218322,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.012133999960497022,
+          "cpu_s": 0.012121000000000492,
+          "allocated_objects": 218322,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.01200700004119426,
+          "cpu_s": 0.011995000000000644,
+          "allocated_objects": 218322,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.011743000010028481,
+          "cpu_s": 0.011732000000000298,
+          "allocated_objects": 218322,
+          "gc_s": 0.0
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.012019000016152859,
+          "p95": 0.0122536999755539,
+          "min": 0.011695999943185598,
+          "max": 0.012304999982006848
+        },
+        "cpu_s": {
+          "median": 0.012003999999999238,
+          "p95": 0.012242100000000634,
+          "min": 0.011684999999999945,
+          "max": 0.012294000000000693
+        },
+        "allocated_objects": {
+          "median": 218322.0,
+          "p95": 218322.0,
+          "min": 218322,
+          "max": 218322
+        },
+        "gc_s": {
+          "median": 0.0,
+          "p95": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "units_per_second_median": 416007.9867942659,
+      "cpu_to_wall_ratio": 0.9987519746956102,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "building_permits.normalize",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.11738399998284876,
+          "cpu_s": 0.1173099999999998,
+          "allocated_objects": 795504,
+          "gc_s": 0.02
+        },
+        {
+          "wall_s": 0.11368800001218915,
+          "cpu_s": 0.11358099999999993,
+          "allocated_objects": 795504,
+          "gc_s": 0.019
+        },
+        {
+          "wall_s": 0.11409799999091774,
+          "cpu_s": 0.11401799999999973,
+          "allocated_objects": 795504,
+          "gc_s": 0.019
+        },
+        {
+          "wall_s": 0.11298899998655543,
+          "cpu_s": 0.11290200000000006,
+          "allocated_objects": 795504,
+          "gc_s": 0.018
+        },
+        {
+          "wall_s": 0.1137810000218451,
+          "cpu_s": 0.11367899999999942,
+          "allocated_objects": 795504,
+          "gc_s": 0.018
+        },
+        {
+          "wall_s": 0.11420800001360476,
+          "cpu_s": 0.1141040000000011,
+          "allocated_objects": 795504,
+          "gc_s": 0.019
+        },
+        {
+          "wall_s": 0.11360000004060566,
+          "cpu_s": 0.11351099999999903,
+          "allocated_objects": 795504,
+          "gc_s": 0.018
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.1137810000218451,
+          "p95": 0.11643119999207556,
+          "min": 0.11298899998655543,
+          "max": 0.11738399998284876
+        },
+        "cpu_s": {
+          "median": 0.11367899999999942,
+          "p95": 0.1163482000000002,
+          "min": 0.11290200000000006,
+          "max": 0.1173099999999998
+        },
+        "allocated_objects": {
+          "median": 795504.0,
+          "p95": 795504.0,
+          "min": 795504,
+          "max": 795504
+        },
+        "gc_s": {
+          "median": 0.019,
+          "p95": 0.0197,
+          "min": 0.018,
+          "max": 0.02
+        }
+      },
+      "units_per_second_median": 43944.067981825065,
+      "cpu_to_wall_ratio": 0.9991035408211731,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "building_permits.insert_individual",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.3896229999954812,
+          "cpu_s": 0.3637159999999984,
+          "allocated_objects": 614325,
+          "gc_s": 0.006
+        },
+        {
+          "wall_s": 0.38802100002067164,
+          "cpu_s": 0.3612540000000024,
+          "allocated_objects": 614325,
+          "gc_s": 0.005
+        },
+        {
+          "wall_s": 0.3852910000132397,
+          "cpu_s": 0.35850099999999685,
+          "allocated_objects": 614325,
+          "gc_s": 0.005
+        },
+        {
+          "wall_s": 0.3871519999811426,
+          "cpu_s": 0.36011799999999994,
+          "allocated_objects": 614325,
+          "gc_s": 0.005
+        },
+        {
+          "wall_s": 0.39033199998084456,
+          "cpu_s": 0.36453300000000155,
+          "allocated_objects": 614325,
+          "gc_s": 0.005
+        },
+        {
+          "wall_s": 0.3861390000092797,
+          "cpu_s": 0.3593130000000002,
+          "allocated_objects": 614325,
+          "gc_s": 0.005
+        },
+        {
+          "wall_s": 0.3875209999969229,
+          "cpu_s": 0.36101500000000186,
+          "allocated_objects": 614325,
+          "gc_s": 0.005
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.3875209999969229,
+          "p95": 0.39011929998523553,
+          "min": 0.3852910000132397,
+          "max": 0.39033199998084456
+        },
+        "cpu_s": {
+          "median": 0.36101500000000186,
+          "p95": 0.3642879000000006,
+          "min": 0.35850099999999685,
+          "max": 0.36453300000000155
+        },
+        "allocated_objects": {
+          "median": 614325.0,
+          "p95": 614325.0,
+          "min": 614325,
+          "max": 614325
+        },
+        "gc_s": {
+          "median": 0.005,
+          "p95": 0.005699999999999999,
+          "min": 0.005,
+          "max": 0.006
+        }
+      },
+      "units_per_second_median": 12902.526572855928,
+      "cpu_to_wall_ratio": 0.9316011261399214,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "building_permits.insert_bulk",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.14869599998928607,
+          "cpu_s": 0.1469389999999997,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.14935500000137836,
+          "cpu_s": 0.1472850000000001,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.1495469999499619,
+          "cpu_s": 0.14732099999999804,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.15370799996890128,
+          "cpu_s": 0.15186200000000127,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.1579729999648407,
+          "cpu_s": 0.15632300000000043,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.1577570000081323,
+          "cpu_s": 0.1563479999999977,
+          "allocated_objects": 434786,
+          "gc_s": 0.002
+        },
+        {
+          "wall_s": 0.15016999997897074,
+          "cpu_s": 0.1477940000000011,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.15016999997897074,
+          "p95": 0.15790819997782818,
+          "min": 0.14869599998928607,
+          "max": 0.1579729999648407
+        },
+        "cpu_s": {
+          "median": 0.1477940000000011,
+          "p95": 0.15634049999999852,
+          "min": 0.1469389999999997,
+          "max": 0.1563479999999977
+        },
+        "allocated_objects": {
+          "median": 434786.0,
+          "p95": 434786.0,
+          "min": 434786,
+          "max": 434786
+        },
+        "gc_s": {
+          "median": 0.003,
+          "p95": 0.003,
+          "min": 0.002,
+          "max": 0.003
+        }
+      },
+      "units_per_second_median": 33295.59832656444,
+      "cpu_to_wall_ratio": 0.9841779318152603,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "building_permits.update_bulk",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.1455019999993965,
+          "cpu_s": 0.145347000000001,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.14875599998049438,
+          "cpu_s": 0.14590200000000308,
+          "allocated_objects": 434786,
+          "gc_s": 0.002
+        },
+        {
+          "wall_s": 0.14487000001827255,
+          "cpu_s": 0.1447649999999996,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.14602699998067692,
+          "cpu_s": 0.1459190000000028,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.14518300001509488,
+          "cpu_s": 0.14507000000000048,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.14913499995600432,
+          "cpu_s": 0.14665000000000106,
+          "allocated_objects": 434786,
+          "gc_s": 0.003
+        },
+        {
+          "wall_s": 0.14613200002349913,
+          "cpu_s": 0.1458730000000017,
+          "allocated_objects": 434786,
+          "gc_s": 0.002
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.14602699998067692,
+          "p95": 0.14902129996335134,
+          "min": 0.14487000001827255,
+          "max": 0.14913499995600432
+        },
+        "cpu_s": {
+          "median": 0.1458730000000017,
+          "p95": 0.14643070000000158,
+          "min": 0.1447649999999996,
+          "max": 0.14665000000000106
+        },
+        "allocated_objects": {
+          "median": 434786.0,
+          "p95": 434786.0,
+          "min": 434786,
+          "max": 434786
+        },
+        "gc_s": {
+          "median": 0.003,
+          "p95": 0.003,
+          "min": 0.002,
+          "max": 0.003
+        }
+      },
+      "units_per_second_median": 34240.24324721885,
+      "cpu_to_wall_ratio": 0.9989454006403227,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "records.indexed_query",
+      "units_per_iteration": 100,
+      "samples": [
+        {
+          "wall_s": 0.3368999999947846,
+          "cpu_s": 0.3366730000000011,
+          "allocated_objects": 2561309,
+          "gc_s": 0.031
+        },
+        {
+          "wall_s": 0.3571090000332333,
+          "cpu_s": 0.35681200000000146,
+          "allocated_objects": 2561316,
+          "gc_s": 0.05
+        },
+        {
+          "wall_s": 0.3360639999737032,
+          "cpu_s": 0.33577100000000115,
+          "allocated_objects": 2561311,
+          "gc_s": 0.031
+        },
+        {
+          "wall_s": 0.3360880000400357,
+          "cpu_s": 0.33578800000000086,
+          "allocated_objects": 2561309,
+          "gc_s": 0.031
+        },
+        {
+          "wall_s": 0.33659500000067055,
+          "cpu_s": 0.3363240000000012,
+          "allocated_objects": 2561309,
+          "gc_s": 0.031
+        },
+        {
+          "wall_s": 0.33673099998850375,
+          "cpu_s": 0.3364280000000015,
+          "allocated_objects": 2561309,
+          "gc_s": 0.032
+        },
+        {
+          "wall_s": 0.33784900000318885,
+          "cpu_s": 0.33754300000000015,
+          "allocated_objects": 2561320,
+          "gc_s": 0.032
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.33673099998850375,
+          "p95": 0.35133100002421996,
+          "min": 0.3360639999737032,
+          "max": 0.3571090000332333
+        },
+        "cpu_s": {
+          "median": 0.3364280000000015,
+          "p95": 0.35103130000000105,
+          "min": 0.33577100000000115,
+          "max": 0.35681200000000146
+        },
+        "allocated_objects": {
+          "median": 2561309.0,
+          "p95": 2561318.8,
+          "min": 2561309,
+          "max": 2561320
+        },
+        "gc_s": {
+          "median": 0.031,
+          "p95": 0.04459999999999999,
+          "min": 0.031,
+          "max": 0.05
+        }
+      },
+      "units_per_second_median": 296.9729546831568,
+      "cpu_to_wall_ratio": 0.9991001719814553,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "records.json_encode",
+      "units_per_iteration": 100,
+      "samples": [
+        {
+          "wall_s": 0.00012600002810359,
+          "cpu_s": 0.0001239999999995689,
+          "allocated_objects": 2,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00012400001287460327,
+          "cpu_s": 0.0001220000000010657,
+          "allocated_objects": 2,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00010900001507252455,
+          "cpu_s": 0.00010899999999836041,
+          "allocated_objects": 2,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00013800000306218863,
+          "cpu_s": 0.0001370000000022742,
+          "allocated_objects": 2,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00011900003300979733,
+          "cpu_s": 0.00011699999999947863,
+          "allocated_objects": 2,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00010300002759322524,
+          "cpu_s": 0.00009899999999873899,
+          "allocated_objects": 2,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.0001230000052601099,
+          "cpu_s": 0.0001220000000010657,
+          "allocated_objects": 2,
+          "gc_s": 0.0
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.0001230000052601099,
+          "p95": 0.00013440001057460902,
+          "min": 0.00010300002759322524,
+          "max": 0.00013800000306218863
+        },
+        "cpu_s": {
+          "median": 0.0001220000000010657,
+          "p95": 0.0001331000000014626,
+          "min": 0.00009899999999873899,
+          "max": 0.0001370000000022742
+        },
+        "allocated_objects": {
+          "median": 2.0,
+          "p95": 2.0,
+          "min": 2,
+          "max": 2
+        },
+        "gc_s": {
+          "median": 0.0,
+          "p95": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "units_per_second_median": 813008.0953129111,
+      "cpu_to_wall_ratio": 0.9918698762904158,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "analytics.service_request_train",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.16875800001434982,
+          "cpu_s": 0.16861199999999954,
+          "allocated_objects": 1354622,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.16777100000763312,
+          "cpu_s": 0.16761100000000084,
+          "allocated_objects": 1354536,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.16747899999609217,
+          "cpu_s": 0.16733699999999985,
+          "allocated_objects": 1354535,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.1671339999884367,
+          "cpu_s": 0.16699600000000103,
+          "allocated_objects": 1354535,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.1687779999920167,
+          "cpu_s": 0.16863499999999831,
+          "allocated_objects": 1354535,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.16741799999726936,
+          "cpu_s": 0.16726099999999988,
+          "allocated_objects": 1354535,
+          "gc_s": 0.014
+        },
+        {
+          "wall_s": 0.16788500000257045,
+          "cpu_s": 0.16773399999999938,
+          "allocated_objects": 1354535,
+          "gc_s": 0.014
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.16777100000763312,
+          "p95": 0.16877199999871664,
+          "min": 0.1671339999884367,
+          "max": 0.1687779999920167
+        },
+        "cpu_s": {
+          "median": 0.16761100000000084,
+          "p95": 0.16862809999999867,
+          "min": 0.16699600000000103,
+          "max": 0.16863499999999831
+        },
+        "allocated_objects": {
+          "median": 1354535.0,
+          "p95": 1354596.2,
+          "min": 1354535,
+          "max": 1354622
+        },
+        "gc_s": {
+          "median": 0.014,
+          "p95": 0.014,
+          "min": 0.014,
+          "max": 0.014
+        }
+      },
+      "units_per_second_median": 29802.52844515747,
+      "cpu_to_wall_ratio": 0.9990463190442628,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "analytics.permit_train",
+      "units_per_iteration": 5000,
+      "samples": [
+        {
+          "wall_s": 0.1308759999810718,
+          "cpu_s": 0.13076599999999772,
+          "allocated_objects": 1229674,
+          "gc_s": 0.012
+        },
+        {
+          "wall_s": 0.13137199997436255,
+          "cpu_s": 0.13126100000000207,
+          "allocated_objects": 1229631,
+          "gc_s": 0.012
+        },
+        {
+          "wall_s": 0.13075599999865517,
+          "cpu_s": 0.13063999999999965,
+          "allocated_objects": 1229631,
+          "gc_s": 0.012
+        },
+        {
+          "wall_s": 0.13169499998912215,
+          "cpu_s": 0.13158100000000061,
+          "allocated_objects": 1229631,
+          "gc_s": 0.012
+        },
+        {
+          "wall_s": 0.13137600000482053,
+          "cpu_s": 0.13126300000000057,
+          "allocated_objects": 1229631,
+          "gc_s": 0.012
+        },
+        {
+          "wall_s": 0.1302070000092499,
+          "cpu_s": 0.13008899999999812,
+          "allocated_objects": 1229631,
+          "gc_s": 0.013
+        },
+        {
+          "wall_s": 0.13073600002098829,
+          "cpu_s": 0.1306219999999989,
+          "allocated_objects": 1229631,
+          "gc_s": 0.012
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.1308759999810718,
+          "p95": 0.13159929999383166,
+          "min": 0.1302070000092499,
+          "max": 0.13169499998912215
+        },
+        "cpu_s": {
+          "median": 0.13076599999999772,
+          "p95": 0.1314856000000006,
+          "min": 0.13008899999999812,
+          "max": 0.13158100000000061
+        },
+        "allocated_objects": {
+          "median": 1229631.0,
+          "p95": 1229661.1,
+          "min": 1229631,
+          "max": 1229674
+        },
+        "gc_s": {
+          "median": 0.012,
+          "p95": 0.0127,
+          "min": 0.012,
+          "max": 0.013
+        }
+      },
+      "units_per_second_median": 38204.1015978723,
+      "cpu_to_wall_ratio": 0.9991595099094563,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "inference.empirical_311",
+      "units_per_iteration": 1000,
+      "samples": [
+        {
+          "wall_s": 0.42203200003132224,
+          "cpu_s": 0.42168700000000214,
+          "allocated_objects": 1763591,
+          "gc_s": 0.042
+        },
+        {
+          "wall_s": 0.4217579999822192,
+          "cpu_s": 0.4214190000000002,
+          "allocated_objects": 1763591,
+          "gc_s": 0.042
+        },
+        {
+          "wall_s": 0.4202710000099614,
+          "cpu_s": 0.4199230000000007,
+          "allocated_objects": 1763591,
+          "gc_s": 0.04
+        },
+        {
+          "wall_s": 0.42018800001824275,
+          "cpu_s": 0.4198120000000003,
+          "allocated_objects": 1763591,
+          "gc_s": 0.041
+        },
+        {
+          "wall_s": 0.4202110000187531,
+          "cpu_s": 0.4198430000000002,
+          "allocated_objects": 1763591,
+          "gc_s": 0.041
+        },
+        {
+          "wall_s": 0.4204030000255443,
+          "cpu_s": 0.4200330000000001,
+          "allocated_objects": 1763591,
+          "gc_s": 0.041
+        },
+        {
+          "wall_s": 0.42046100000152364,
+          "cpu_s": 0.4201039999999985,
+          "allocated_objects": 1763591,
+          "gc_s": 0.041
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.4204030000255443,
+          "p95": 0.4219498000165913,
+          "min": 0.42018800001824275,
+          "max": 0.42203200003132224
+        },
+        "cpu_s": {
+          "median": 0.4200330000000001,
+          "p95": 0.42160660000000155,
+          "min": 0.4198120000000003,
+          "max": 0.42168700000000214
+        },
+        "allocated_objects": {
+          "median": 1763591.0,
+          "p95": 1763591.0,
+          "min": 1763591,
+          "max": 1763591
+        },
+        "gc_s": {
+          "median": 0.041,
+          "p95": 0.042,
+          "min": 0.04,
+          "max": 0.042
+        }
+      },
+      "units_per_second_median": 2378.669990317002,
+      "cpu_to_wall_ratio": 0.9991198920428215,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "digest.context_and_rank",
+      "units_per_iteration": 1,
+      "samples": [
+        {
+          "wall_s": 0.19654600002104416,
+          "cpu_s": 0.1963829999999973,
+          "allocated_objects": 1444034,
+          "gc_s": 0.019
+        },
+        {
+          "wall_s": 0.1991060000145808,
+          "cpu_s": 0.19886100000000084,
+          "allocated_objects": 1444033,
+          "gc_s": 0.019
+        },
+        {
+          "wall_s": 0.19835800002329051,
+          "cpu_s": 0.19819600000000293,
+          "allocated_objects": 1444033,
+          "gc_s": 0.019
+        },
+        {
+          "wall_s": 0.1983279999694787,
+          "cpu_s": 0.19817399999999452,
+          "allocated_objects": 1444033,
+          "gc_s": 0.019
+        },
+        {
+          "wall_s": 0.1989779999712482,
+          "cpu_s": 0.19882500000000647,
+          "allocated_objects": 1444034,
+          "gc_s": 0.019
+        },
+        {
+          "wall_s": 0.19783899997128174,
+          "cpu_s": 0.1976709999999997,
+          "allocated_objects": 1444034,
+          "gc_s": 0.019
+        },
+        {
+          "wall_s": 0.19724399998085573,
+          "cpu_s": 0.19706500000000204,
+          "allocated_objects": 1444033,
+          "gc_s": 0.018
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.1983279999694787,
+          "p95": 0.19906760000158102,
+          "min": 0.19654600002104416,
+          "max": 0.1991060000145808
+        },
+        "cpu_s": {
+          "median": 0.19817399999999452,
+          "p95": 0.19885020000000253,
+          "min": 0.1963829999999973,
+          "max": 0.19886100000000084
+        },
+        "allocated_objects": {
+          "median": 1444033.0,
+          "p95": 1444034.0,
+          "min": 1444033,
+          "max": 1444034
+        },
+        "gc_s": {
+          "median": 0.019,
+          "p95": 0.019,
+          "min": 0.018,
+          "max": 0.019
+        }
+      },
+      "units_per_second_median": 5.042152394789909,
+      "cpu_to_wall_ratio": 0.9992235086850678,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "digest.select_cards",
+      "units_per_iteration": 1,
+      "samples": [
+        {
+          "wall_s": 0.00035200000274926424,
+          "cpu_s": 0.00035000000000451337,
+          "allocated_objects": 1928,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00032900000223889947,
+          "cpu_s": 0.0003260000000011587,
+          "allocated_objects": 1928,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00030999997397884727,
+          "cpu_s": 0.0003070000000064965,
+          "allocated_objects": 1928,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.0003219999489374459,
+          "cpu_s": 0.0003200000000020964,
+          "allocated_objects": 1928,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.0003079999587498605,
+          "cpu_s": 0.00030600000000191585,
+          "allocated_objects": 1928,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.000354000017978251,
+          "cpu_s": 0.0003510000000019886,
+          "allocated_objects": 1928,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00031099998159334064,
+          "cpu_s": 0.00030800000000397176,
+          "allocated_objects": 1928,
+          "gc_s": 0.0
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.0003219999489374459,
+          "p95": 0.00035340001340955496,
+          "min": 0.0003079999587498605,
+          "max": 0.000354000017978251
+        },
+        "cpu_s": {
+          "median": 0.0003200000000020964,
+          "p95": 0.000350700000002746,
+          "min": 0.00030600000000191585,
+          "max": 0.0003510000000019886
+        },
+        "allocated_objects": {
+          "median": 1928.0,
+          "p95": 1928.0,
+          "min": 1928,
+          "max": 1928
+        },
+        "gc_s": {
+          "median": 0.0,
+          "p95": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "units_per_second_median": 3105.5905545943656,
+      "cpu_to_wall_ratio": 0.9937889774767076,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    },
+    {
+      "name": "inference.request_prepare",
+      "units_per_iteration": 1,
+      "samples": [
+        {
+          "wall_s": 0.0000659999786876142,
+          "cpu_s": 0.0000649999999993156,
+          "allocated_objects": 129,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.000060999998822808266,
+          "cpu_s": 0.00005999999999772854,
+          "allocated_objects": 129,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00006399996345862746,
+          "cpu_s": 0.00006299999999725969,
+          "allocated_objects": 129,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00006200000643730164,
+          "cpu_s": 0.00005999999999772854,
+          "allocated_objects": 129,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.00005600001895800233,
+          "cpu_s": 0.000053999999998666226,
+          "allocated_objects": 129,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.000057999975979328156,
+          "cpu_s": 0.00005600000000072214,
+          "allocated_objects": 129,
+          "gc_s": 0.0
+        },
+        {
+          "wall_s": 0.0000570000265724957,
+          "cpu_s": 0.000053999999998666226,
+          "allocated_objects": 129,
+          "gc_s": 0.0
+        }
+      ],
+      "summary": {
+        "wall_s": {
+          "median": 0.000060999998822808266,
+          "p95": 0.00006539997411891818,
+          "min": 0.00005600001895800233,
+          "max": 0.0000659999786876142
+        },
+        "cpu_s": {
+          "median": 0.00005999999999772854,
+          "p95": 0.00006439999999869883,
+          "min": 0.000053999999998666226,
+          "max": 0.0000649999999993156
+        },
+        "allocated_objects": {
+          "median": 129.0,
+          "p95": 129.0,
+          "min": 129,
+          "max": 129
+        },
+        "gc_s": {
+          "median": 0.0,
+          "p95": 0.0,
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "units_per_second_median": 16393.442939315173,
+      "cpu_to_wall_ratio": 0.9836065763216733,
+      "memory_traffic_bytes": null,
+      "energy_j": null
+    }
+  ],
+  "observations": {
+    "normalized_record_count": 10061,
+    "sample_rows_per_table": {
+      "service_requests": 5000,
+      "building_permits": 5000
+    },
+    "sample_input_sha256": {
+      "service_requests": "ed73a26aa224abdcb3d33714b2e6042392f19af4c6942e2f7cfeaecedf8f2336",
+      "building_permits": "7a84548016c5fd3440b061cce1cc5d2641c7493e17b66788f9d108f85556f25e"
+    },
+    "database_and_wal_bytes_before_queries": 16399104,
+    "query_result_rows": 100,
+    "query_result_json_bytes": 110400,
+    "query_plan": [
+      "SEARCH service_requests USING INDEX service_requests_hall_opened_at_index (hall=?)"
+    ],
+    "model_training_samples": {
+      "service_requests": 4079,
+      "building_permits": 4863
+    },
+    "empirical_predictions_ready": 1000,
+    "digest_candidates": 61,
+    "digest_cards": 8,
+    "inference_request_json_bytes": 8214,
+    "digest_coverage_warning": "Only news and calendar sources are loaded; no claim of a complete municipal digest"
+  },
+  "unmeasured": {
+    "llm_execution": "Skipped by user; request preparation is not model inference",
+    "llm_input_tokens": null,
+    "llm_output_tokens": null,
+    "llm_tokens_per_second": null,
+    "dram_traffic_bytes": null,
+    "hardware_counters": null,
+    "wall_energy_j": null,
+    "peak_working_set_bytes": null
+  },
+  "limitations": [
+    "Single-host microbenchmark; no concurrency, cold-cache or full-city scale guarantee",
+    "Serialized JSON bytes are payload size, not measured DRAM traffic",
+    "Local empirical bucket prediction is separate from generative model inference",
+    "Fresh inserts and same-value updates are separate workloads; bulk batching is an existing Muni API",
+    "No claim of inference energy, custom-chip speedup, power, area or thermal behavior follows from these timings"
+  ]
+}
