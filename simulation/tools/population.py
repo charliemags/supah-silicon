@@ -12,7 +12,7 @@ import time
 
 import numpy as np
 import fast
-from bayes import DIES, SCREEN, cheap_legal, placement, vector
+from surrogate import DIES, SCREEN, cheap_legal, placement, vector
 from optimize import compact, key, score, write_json
 
 RING = [DIES.index(d) for d in ("G0", "H0", "G1", "H1", "G2", "H2", "G3", "H3")]

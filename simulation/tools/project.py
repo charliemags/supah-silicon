@@ -14,7 +14,7 @@ import numpy as np
 from scipy.optimize import minimize
 import fast
 from geometry import _route_grid, die_box
-from bayes import DIES, SCREEN, placement, vector
+from surrogate import DIES, SCREEN, placement, vector
 from optimize import compact, key, score, write_json
 
 

@@ -62,7 +62,7 @@ From the repository root, with Docker running:
 ./simulation/run setup
 ./simulation/run setup-search
 ./simulation/run test
-./simulation/run bayes-native simulation/layouts/supah-v1/submission.json \
+./simulation/run surrogate-native simulation/layouts/supah-v1/submission.json \
   --output simulation/experiments/my-search --kernel additive \
   --evals 240 --pool 3000 --seed 53
 ./simulation/run score simulation/experiments/my-search/submission.json \
@@ -84,7 +84,10 @@ compatible, checked inputs and a calibrated solver.
 `--grid 128` supports finer-resolution exploration with its own reference and
 training observations. A 64-grid history does not train a 128-grid model.
 `search-native` retains the original annealing optimizer as a control or a
-local polishing step. `bayes` runs the GP with the slower pinned binary.
+local polishing step. `surrogate` runs this GP with the slower pinned binary.
+The original `bayes` command and its expected-improvement optimizer are retained
+for the Bayes v1 workflow; `bayes-native` aliases `surrogate-native` for existing
+v2 search commands. Archived search source files keep their original names.
 `score` always uses the pinned binary, irrespective of which search produced
 the submission.
 
@@ -136,7 +139,8 @@ SciPy for projection; the pinned judge image and benchmark remain unchanged.
 A 0.95 score requires **both** GPU ≤100.6105 °C and HBM ≤94.046 °C at 64,
 or GPU ≤100.753 °C and HBM ≤94.065 °C at 128. Rounded judge temperatures can
 make equality at those exact thresholds unattainable. Beat the displayed
-leader only after the pinned 64-grid score is strictly below 0.96230682.
+leader only after the pinned 64-grid score is strictly below the latest observed leader (0.96180425 at the
+recorded recheck).
 Always report the separate 128-grid result as well. Local verification does
 not create a signed AutoLab run or change the public leaderboard.
 

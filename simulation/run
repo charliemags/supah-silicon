@@ -28,8 +28,9 @@ Run from the repository root; all argument paths are relative to that root.
   ./simulation/run setup-search  # optional native SuperLU exploration image
   ./simulation/run validate simulation/layouts/p2/submission.json
   ./simulation/run search simulation/layouts/p2/submission.json --output simulation/experiments/run1 --evals 80
-  ./simulation/run bayes simulation/layouts/supah-v1/submission.json --output simulation/experiments/bayes1 --evals 80
-  ./simulation/run bayes-native simulation/layouts/supah-v1/submission.json --output simulation/experiments/bayes-fast --evals 160
+  ./simulation/run bayes simulation/layouts/supah-v1/submission.json --output simulation/experiments/bayes1 --evals 70
+  ./simulation/run surrogate simulation/layouts/supah-v1/submission.json --output simulation/experiments/surrogate1 --evals 80
+  ./simulation/run surrogate-native simulation/layouts/supah-v1/submission.json --output simulation/experiments/bayes-fast --evals 160
   ./simulation/run search-native simulation/layouts/supah-v1/submission.json --output simulation/experiments/anneal-fast --evals 160
   ./simulation/run population-native simulation/layouts/supah-v2/submission.json --output simulation/experiments/population --evals 1200
   ./simulation/run project-native simulation/layouts/supah-v2/submission.json --output simulation/experiments/projection --die G0
@@ -61,8 +62,9 @@ case "$COMMAND" in
   validate) PROGRAM=(/challenge/verify_submission.py) ;;
   search) PROGRAM=(simulation/tools/optimize.py) ;;
   bayes) PROGRAM=(simulation/tools/bayes.py) ;;
+  surrogate) PROGRAM=(simulation/tools/surrogate.py) ;;
   search-native) PROGRAM=(simulation/tools/optimize.py); IMAGE=$SEARCH_IMAGE ;;
-  bayes-native) PROGRAM=(simulation/tools/bayes.py); IMAGE=$SEARCH_IMAGE ;;
+  surrogate-native|bayes-native) PROGRAM=(simulation/tools/surrogate.py); IMAGE=$SEARCH_IMAGE ;;
   population-native) PROGRAM=(simulation/tools/population.py); IMAGE=$SEARCH_IMAGE ;;
   project-native) PROGRAM=(simulation/tools/project.py); IMAGE=$SEARCH_IMAGE ;;
   estimate-native) PROGRAM=(simulation/tools/fast.py); IMAGE=$SEARCH_IMAGE ;;

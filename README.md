@@ -57,6 +57,13 @@ The wrapper supports Apple Silicon by running the pinned Linux scorer in a
 container. Search results are estimates until checked by the judge. Local
 verification does not submit a result to AutoLab.
 
+## Models
+
+The signed design archive is in [`Models/`](Models/README.md), including
+[`Supah_0.9719`](Models/Supah_0.9719/). The newer
+[Supah v2](simulation/layouts/supah-v2/README.md) result is locally verified
+and awaits an AutoLab submission.
+
 ## Simulation
 
 **Start here: [the Supah-Silicon story](simulation/STORY.md)**, how we found a cooler layout, in plain English with the official test outputs.
